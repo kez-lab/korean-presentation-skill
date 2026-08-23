@@ -275,7 +275,7 @@ style: |
 <p class="lead" style="margin-bottom: 0;">리드 발굴부터 유료 전환, 계정 확장까지 체계화된 B2B 파이프라인을 가동합니다.</p>
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+<div class="grid-3">
 <div class="biz-card border-top-gold">
 <div class="circle-badge badge-gold">01</div>
 <div style="font-size: 1.02rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">STAGE 1: Inbound Lead</div>
@@ -302,7 +302,7 @@ style: |
 <ul class="clean-points">
 <li>전사 부서 단위 라이선스 확장</li>
 <li>연간 계약 전환 시 다년 할인 제공</li>
-<li>평균 계정당 계약 금액(ACV) 2.4배 증대</li>
+<li>평균 계약 규모(ACV) 2.4배 증대</li>
 </ul>
 </div>
 </div>
@@ -321,22 +321,22 @@ style: |
 </div>
 
 <div class="grid-2">
-<div class="biz-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 8px;">✓ 고객 획득 및 회수 기간 (Payback)</div>
-<div style="font-size: 0.82rem; color: var(--text-light); line-height: 1.6;">
-• 고객 획득 비용(CAC): <strong>$14,500 ➔ $7,900 (45% 절감)</strong><br>
-• CAC 회수 기간: <strong>14개월 ➔ 6.5개월로 단축</strong><br>
-• 세일즈 리드 타임: <strong>평균 45일 내 본 계약 체결</strong>
-</div>
+<div class="biz-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 6px;">✓ 고객 획득 및 회수 기간 (Payback)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>고객 획득 비용(CAC): <strong>$14.5K ➔ $7.9K (45% 절감)</strong></li>
+<li>CAC 투자금 회수 기간: <strong>14개월 ➔ 6.5개월 단축</strong></li>
+<li>세일즈 리드 타임: <strong>평균 45일 내 본 계약 체결</strong></li>
+</ul>
 </div>
 
-<div class="biz-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-emerald); margin-bottom: 8px;">✓ 고객 생애 가치 (LTV / CAC Ratio)</div>
-<div style="font-size: 0.82rem; color: var(--text-light); line-height: 1.6;">
-• 고객 생애 가치(LTV): <strong>평균 $38,000 달성</strong><br>
-• LTV / CAC 비율: <strong>4.8x (SaaS 벤치마크 3.0x 상회)</strong><br>
-• 연간 로고 이탈률(Churn): <strong>1.8% 미만 극저치 유지</strong>
-</div>
+<div class="biz-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-emerald); margin-bottom: 6px;">✓ 고객 생애 가치 (LTV / CAC Ratio)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>고객 생애 가치(LTV): <strong>평균 $38,000 달성</strong></li>
+<li>LTV / CAC 비율: <strong>4.8x (SaaS 벤치마크 3.0x 상회)</strong></li>
+<li>연간 로고 이탈률(Churn): <strong>1.8% 미만 극저치 유지</strong></li>
+</ul>
 </div>
 </div>
 </div>

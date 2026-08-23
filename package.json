@@ -10,7 +10,9 @@
     "build": "node skills/korean-presentation-skill/scripts/marp_compiler.js",
     "build:templates": "node scripts/compile_all_templates.js",
     "build:example": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
-    "test": "echo \"Korean Presentation Skill: All checks passed!\" && exit 0"
+    "create": "node scripts/create_presentation.js",
+    "verify": "node scripts/verify_all.js",
+    "test": "node scripts/verify_all.js"
   },
   "keywords": [
     "ai-agent",

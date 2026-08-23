@@ -247,17 +247,17 @@ Afsm 실전 적용까지의 4단계
 </p>
 </div>
 
-<div>
-<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px;">
-<div style="width: 10px; height: 10px; border-radius: 50%; background: #6366F1;"></div>
+<div style="margin-top: 24px;">
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+<div style="width: 8px; height: 8px; border-radius: 50%; background: #6366F1;"></div>
 <div style="height: 2px; width: 60px; background: rgba(99, 102, 241, 0.5);"></div>
 </div>
-<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px;">
-<div style="width: 10px; height: 10px; border-radius: 50%; background: var(--accent-blue);"></div>
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+<div style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent-blue);"></div>
 <div style="height: 2px; width: 100px; background: rgba(56, 189, 248, 0.6);"></div>
 </div>
-<div style="display: flex; align-items: center; gap: 12px;">
-<div style="width: 10px; height: 10px; border-radius: 50%; background: #6366F1;"></div>
+<div style="display: flex; align-items: center; gap: 10px;">
+<div style="width: 8px; height: 8px; border-radius: 50%; background: #6366F1;"></div>
 <div style="height: 2px; width: 45px; background: rgba(99, 102, 241, 0.5);"></div>
 </div>
 </div>
@@ -333,7 +333,7 @@ Afsm 실전 적용까지의 4단계
 <div class="card-title">비동기 분기 파편화</div>
 <div class="card-desc">
 중복 클릭 방지, 재시도, 늦게 도착한 응답 처리가 여러 함수로 분산.<br>
-<span style="font-size: 0.76rem; color: var(--text-slate); margin-top: 4px; display: inline-block;">코드 한 줄씩은 맞는데 전체 흐름 파악 곤란</span>
+<span style="font-size: 0.76rem; color: var(--text-slate); margin-top: 4px; display: inline-block;">코드 한 줄씩은 맞는데 전체 흐름 파악 난항</span>
 </div>
 </div>
 
@@ -342,7 +342,7 @@ Afsm 실전 적용까지의 4단계
 <div class="card-title">높은 테스트 비용</div>
 <div class="card-desc">
 단순 비즈니스 분기 하나 검증하려 해도 Repository Mock 필수.<br>
-<span style="font-size: 0.76rem; color: var(--text-slate); margin-top: 4px; display: inline-block;">TestDispatcher 및 코루틴 타이밍 의존</span>
+<span style="font-size: 0.76rem; color: var(--text-slate); margin-top: 4px; display: inline-block;">TestDispatcher 및 코루틴 타이밍 의존성 증대</span>
 </div>
 </div>
 </div>
@@ -412,7 +412,7 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 
 <div class="glass-card border-top-green">
 <div class="circle-badge badge-green">03</div>
-<div class="card-title" style="color: var(--accent-green);">COMMAND (요청할 외부 작업)</div>
+<div class="card-title" style="color: var(--accent-green);">COMMAND (외부 작업 요청)</div>
 <ul class="clean-points">
 <li>Repository 호출 등 부작용 작업 명세서</li>
 <li>머신 내부에서 suspend 호출 금지</li>

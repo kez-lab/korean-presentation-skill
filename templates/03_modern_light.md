@@ -329,22 +329,22 @@ style: |
 </div>
 
 <div class="grid-2">
-<div class="light-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 8px;">✓ 추론 속도 및 반응성 (Latency & Throughput)</div>
-<div style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">
-• 첫 토큰 생성(TTFT): <strong>140ms ➔ 42ms (68% 개선)</strong><br>
-• 초당 생성 토큰 수: <strong>11.2 tokens/s ➔ 38.5 tokens/s</strong><br>
-• 최대 컨텍스트 길이: <strong>8K 토큰 무손실 지원</strong>
-</div>
+<div class="light-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 6px;">✓ 추론 속도 및 반응성 (Latency & Throughput)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>첫 토큰 생성(TTFT): <strong>140ms ➔ 42ms (68% 단축)</strong></li>
+<li>초당 생성 토큰 수: <strong>11.2 ➔ 38.5 tokens/s</strong></li>
+<li>최대 컨텍스트 길이: <strong>8K 토큰 무손실 지원</strong></li>
+</ul>
 </div>
 
-<div class="light-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-emerald); margin-bottom: 8px;">✓ 자원 효율성 및 정확도 (Efficiency & Quality)</div>
-<div style="font-size: 0.82rem; color: var(--text-sub); line-height: 1.6;">
-• 피크 메모리 사용량: <strong>5.4GB ➔ 1.8GB (66% 절감)</strong><br>
-• Ko-Harness 벤치마크: <strong>88.4점 ➔ 94.2점 달성</strong><br>
-• 시간당 배터리 소모율: <strong>4.2% 수준으로 극저치 기록</strong>
-</div>
+<div class="light-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-emerald); margin-bottom: 6px;">✓ 자원 효율성 및 정확도 (Efficiency & Quality)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>피크 메모리 사용량: <strong>5.4GB ➔ 1.8GB (66% 절감)</strong></li>
+<li>Ko-Harness 벤치마크: <strong>88.4점 ➔ 94.2점 달성</strong></li>
+<li>시간당 배터리 소모율: <strong>4.2% 수준 극저치 유지</strong></li>
+</ul>
 </div>
 </div>
 </div>

@@ -314,7 +314,7 @@ korean-presentation-skill/
 
 ---
 
-## 빠른 시작 및 CLI 사용법
+## 빠른 시작 및 CLI 도구 사용법
 
 ### 1. 저장소 클론 및 패키지 설치
 ```bash
@@ -323,16 +323,30 @@ cd korean-presentation-skill
 npm install
 ```
 
-### 2. 프레젠테이션 일괄 컴파일 (PPTX + PDF + PNG)
+### 2. 새 프레젠테이션 덱 생성 (Scaffolder CLI)
+```bash
+# 4종 템플릿 기반 새 발표 자료 생성 및 즉시 컴파일
+node scripts/create_presentation.js --theme business --title "2026 AI 신사업 전략" --author "홍길동 전략기획실장" --out business_deck.md --compile
+
+# 또는 대화형 옵션 확인
+npm run create -- --help
+```
+
+### 3. 프레젠테이션 일괄 컴파일 (PPTX + PDF + PNG)
 ```bash
 # 임의의 마크다운 파일 직접 컴파일 (입력 파일, 출력 디렉토리, 산출물 파일명)
 node skills/korean-presentation-skill/scripts/marp_compiler.js <input.md> [output_dir] [output_name]
 
-# 4종 템플릿 일괄 컴파일
+# 4종 도메인 템플릿(24 Slides) 일괄 컴파일
 npm run build:templates
 
-# 실전 예제(AFSM) 덱 컴파일
+# 실전 레퍼런스(AFSM 8 Slides) 덱 컴파일
 npm run build:example
+```
+
+### 4. 전체 42개 빌드 자산 무결성 자동 검증 (Verification Suite)
+```bash
+npm test
 ```
 
 ### 컴파일 산출물:

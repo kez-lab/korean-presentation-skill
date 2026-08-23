@@ -313,22 +313,22 @@ AI 에이전트 워크플로우를 자동화하는<br>
 </div>
 
 <div class="grid-2">
-<div class="pitch-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 8px;">✓ B2B 엔터프라이즈 구독 (SaaS)</div>
-<div style="font-size: 0.82rem; color: #E2E8F0; line-height: 1.6;">
-• 시트당 구독료: <strong>$49/월 (연간 계약 기준)</strong><br>
-• 온프레미스 보안 격리 에디션: <strong>계정당 $120K/년</strong><br>
-• 계약 유지율(Gross Retention): <strong>98.5%</strong>
-</div>
+<div class="pitch-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-gold); margin-bottom: 6px;">✓ B2B 엔터프라이즈 구독 (SaaS)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>시트당 월간 구독료: <strong>$49/월 (연간 계약 기준)</strong></li>
+<li>온프레미스 격리 에디션: <strong>계정당 연 $120K</strong></li>
+<li>계약 유지율(Gross Retention): <strong>98.5% 달성</strong></li>
+</ul>
 </div>
 
-<div class="pitch-card" style="padding: 22px 24px;">
-<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-green); margin-bottom: 8px;">✓ 사용량 기반 토큰 과금 (Usage-Based)</div>
-<div style="font-size: 0.82rem; color: #E2E8F0; line-height: 1.6;">
-• 고난도 리팩토링 및 CI 자동 빌드 토큰 종량제<br>
-• 엔터프라이즈 월평균 추가 과금: <strong>기본료의 1.8배</strong><br>
-• 순매출 유지율(NRR): <strong>155% (최상위 SaaS 지표)</strong>
-</div>
+<div class="pitch-card" style="padding: 20px 22px;">
+<div style="font-size: 0.95rem; font-weight: 800; color: var(--accent-green); margin-bottom: 6px;">✓ 사용량 기반 토큰 과금 (Usage-Based)</div>
+<ul class="clean-points" style="font-size: 0.78rem;">
+<li>고난도 리팩토링 및 CI 빌드 토큰 종량제</li>
+<li>엔터프라이즈 월평균 추가 과금: <strong>기본료의 1.8배</strong></li>
+<li>순매출 유지율(NRR): <strong>155% (최상위 SaaS 지표)</strong></li>
+</ul>
 </div>
 </div>
 </div>
