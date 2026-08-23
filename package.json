@@ -1,20 +1,20 @@
 {
-  "name": "korean-presentation-master",
-  "version": "2.1.0",
-  "description": "Autonomous AI Agent Skill for generating Korean typography-optimized, consulting-grade presentations, PDFs, and slide renders",
-  "main": "skills/korean-presentation-master/scripts/marp_compiler.js",
+  "name": "korean-presentation-skill",
+  "version": "2.2.0",
+  "description": "Autonomous AI Agent Skill for generating Korean typography-optimized, consulting-grade presentations (.pptx), PDFs, and slide renders",
+  "main": "skills/korean-presentation-skill/scripts/marp_compiler.js",
   "scripts": {
-    "build:afsm": "node skills/korean-presentation-master/scripts/marp_compiler.js afsm_presentation.md . Afsm_Presentation",
-    "build:example": "node skills/korean-presentation-master/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
-    "test": "echo \"Korean Presentation Master Skill: All checks passed!\" && exit 0"
+    "build:afsm": "node skills/korean-presentation-skill/scripts/marp_compiler.js afsm_presentation.md . Afsm_Presentation",
+    "build:example": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
+    "test": "echo \"Korean Presentation Skill: All checks passed!\" && exit 0"
   },
   "keywords": [
     "ai-agent",
     "ai-skill",
     "antigravity-skill",
+    "korean-presentation-skill",
     "korean-typography",
     "korean-presentation",
-    "presentation-master",
     "pptx-generator",
     "marp-cli",
     "ui-ux"

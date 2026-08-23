@@ -1,5 +1,5 @@
 ---
-name: korean-presentation-master
+name: korean-presentation-skill
 description: >-
   Creates high-quality, beautifully designed Korean and global PowerPoint presentations (.pptx), print-ready PDFs (.pdf),
   and verified slide images (.png) tailored to any topic.
@@ -10,9 +10,9 @@ description: >-
   and complete professional speaker notes.
 ---
 
-# Korean Presentation Master: Pro UI/UX Slide Deck Engine for AI Agents
+# Korean Presentation Skill: Pro UI/UX Slide Deck Engine for AI Agents
 
-`korean-presentation-master`는 **한국어 타이포그래피 최적화(Pretendard 폰트, -0.025em 음수 자간, word-break: keep-all, 외톨이 조사 고립 방지)**, **글로벌 UI/UX 디자인 방법론(게슈탈트 인지 심리학, 8pt 그리드, 60-30-10 컬러 룰)**, **수직 중앙 밸런스(Visual Center Equilibrium - 상단 쏠림 방지)**, **조화로운 컴포넌트 간 여백 및 비중 분배(Harmonious Modular Spacing)**를 철저히 준수하여 프로 디자이너 수준의 극상 프레젠테이션을 제작하는 Antigravity 전용 AI 에이전트 스킬입니다.
+`korean-presentation-skill`은 **한국어 타이포그래피 최적화(Pretendard 폰트, -0.025em 음수 자간, word-break: keep-all, 외톨이 조사 고립 방지)**, **글로벌 UI/UX 디자인 방법론(게슈탈트 인지 심리학, 8pt 그리드, 60-30-10 컬러 룰)**, **수직 중앙 밸런스(Visual Center Equilibrium - 상단 쏠림 방지)**, **조화로운 컴포넌트 간 여백 및 비중 분배(Harmonious Modular Spacing)**를 철저히 준수하여 프로 디자이너 수준의 극상 프레젠테이션을 제작하는 Antigravity 전용 AI 에이전트 스킬입니다.
 
 ---
 
@@ -46,7 +46,7 @@ description: >-
 
 ```bash
 # Marp Compiler 실행 (PPTX + PDF + 1920x1080 PNG 이미지 일괄 동시 생성)
-node skills/korean-presentation-master/scripts/marp_compiler.js <input.md> <output_dir> [base_name]
+node skills/korean-presentation-skill/scripts/marp_compiler.js <input.md> <output_dir> [base_name]
 ```
 
 ### 📚 참조 레퍼런스 문서
