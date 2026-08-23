@@ -36,24 +36,36 @@
 
 ---
 
-## 1. 4종 완성형 프레젠테이션 템플릿 갤러리
+## 1. 4종 완성형 6-Slide 풀 프레젠테이션 템플릿
 
-발표 목적과 도메인에 따라 즉시 사용할 수 있도록 설계된 4가지 테마별 완성형 템플릿의 실제 렌더링 결과입니다.
+각 도메인별로 **표지, 목차, 문제 정의, 파이프라인/전략, 벤치마크/비교, 결론 및 Q&A 허브**까지 완벽히 갖춘 6슬라이드 실전 프로덕션 템플릿입니다.
 
-### 템플릿 01. Tech Dark Glass (테크 & 엔지니어링 아키텍처)
-- **추천 용도**: 개발자 세션, 시스템 설계, 클라우드 아키텍처, 엔지니어링 딥다이브
-- **디자인 특징**: 다크 글래스모피즘 표면, 24px 네온 서클 뱃지(시안/퍼플/블루/그린), 48px 안전 여백 비대칭 2단 분할
+---
+
+### 템플릿 01. Tech Dark Glass (테크 & 분산 시스템 아키텍처)
+- **추천 용도**: 개발자 기술 세션, 분산 시스템 설계, 클라우드 아키텍처, 엔지니어링 딥다이브
+- **디자인 특징**: 다크 글래스모피즘 표면, 24px 네온 서클 뱃지(시안/퍼플/블루/그린), 수평 4단계 스트리밍 파이프라인, Q&A 허브
 - **템플릿 소스**: [`templates/01_tech_dark_glass.md`](templates/01_tech_dark_glass.md)
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="templates/preview_01_tech_dark_glass/slide.001.png" alt="Tech Dark Glass Cover" width="100%"/><br/>
-<b>표지 슬라이드 (Hero Cover)</b>
+<b>Slide 01. 표지 (3-Chip Meta Hero Cover)</b>
 </td>
 <td width="50%" align="center">
 <img src="templates/preview_01_tech_dark_glass/slide.002.png" alt="Tech Dark Glass Agenda" width="100%"/><br/>
-<b>목차 슬라이드 (Asymmetric Split Agenda)</b>
+<b>Slide 02. 목차 (32:68 Asymmetric Split Agenda)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_01_tech_dark_glass/slide.004.png" alt="Tech Dark Glass Pipeline" width="100%"/><br/>
+<b>Slide 04. 아키텍처 (Horizontal Pipeline & 2-Col Roles)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_01_tech_dark_glass/slide.006.png" alt="Tech Dark Glass Closing" width="100%"/><br/>
+<b>Slide 06. 결론 (Takeaways & Q&A / Docs Hub)</b>
 </td>
 </tr>
 </table>
@@ -61,19 +73,29 @@
 ---
 
 ### 템플릿 02. Business Clean Navy (기업 전략 & IR 경영 보고서)
-- **추천 용도**: C-Level 경영진 보고, 신규 사업 제안서, 분기 실적 발표, 기업 IR
-- **디자인 특징**: 딥 미드나잇 네이비 캔버스, 샴페인 골드 포인트, 재무 KPI 3대 대형 지표 카드
+- **추천 용도**: C-Level 경영진 보고, 신규 사업 전략, 분기 실적 발표, 엔터프라이즈 GTM
+- **디자인 특징**: 딥 미드나잇 네이비 캔버스, 샴페인 골드 포인트, 3대 재무 Big Stats, 세일즈 퍼널 분석
 - **템플릿 소스**: [`templates/02_business_clean_navy.md`](templates/02_business_clean_navy.md)
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="templates/preview_02_business_clean_navy/slide.001.png" alt="Business Navy Cover" width="100%"/><br/>
-<b>표지 슬라이드 (Strategic Initiative Cover)</b>
+<b>Slide 01. 표지 (Strategic Initiative 3-Chip Cover)</b>
 </td>
 <td width="50%" align="center">
-<img src="templates/preview_02_business_clean_navy/slide.002.png" alt="Business Navy KPI" width="100%"/><br/>
-<b>핵심 성과 지표 슬라이드 (Financial Big Stats)</b>
+<img src="templates/preview_02_business_clean_navy/slide.003.png" alt="Business Navy KPI" width="100%"/><br/>
+<b>Slide 03. 핵심 성과 지표 (Financial Big Stats)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_02_business_clean_navy/slide.004.png" alt="Business Navy Funnel" width="100%"/><br/>
+<b>Slide 04. GTM 전략 (3-Stage B2B Sales Funnel)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_02_business_clean_navy/slide.006.png" alt="Business Navy Closing" width="100%"/><br/>
+<b>Slide 06. 결론 (Executive Summary & Q&A)</b>
 </td>
 </tr>
 </table>
@@ -82,18 +104,28 @@
 
 ### 템플릿 03. Modern Light (학술 대회 & 논문 연구 & 백서)
 - **추천 용도**: 학회 논문 발표, 연구 성과 보고, 인쇄용 백서(Whitepaper) 배포
-- **디자인 특징**: 오프화이트 캔버스, 딥 인디고 & 마린 블루, 잉크 절약형 고대비 화이트 카드
+- **디자인 특징**: 오프화이트 캔버스, 딥 인디고 & 마린 블루, 3단계 모델 경량화 파이프라인, 비교 벤치마크 매트릭스
 - **템플릿 소스**: [`templates/03_modern_light.md`](templates/03_modern_light.md)
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="templates/preview_03_modern_light/slide.001.png" alt="Modern Light Cover" width="100%"/><br/>
-<b>표지 슬라이드 (Research Paper Cover)</b>
+<b>Slide 01. 표지 (Research Paper 3-Chip Cover)</b>
 </td>
 <td width="50%" align="center">
-<img src="templates/preview_03_modern_light/slide.002.png" alt="Modern Light Findings" width="100%"/><br/>
-<b>연구 성과 슬라이드 (3-Card Benchmark Findings)</b>
+<img src="templates/preview_03_modern_light/slide.003.png" alt="Modern Light Findings" width="100%"/><br/>
+<b>Slide 03. 연구 성과 (3-Card Benchmark Findings)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_03_modern_light/slide.004.png" alt="Modern Light Pipeline" width="100%"/><br/>
+<b>Slide 04. 경량화 파이프라인 (3-Step Optimization)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_03_modern_light/slide.006.png" alt="Modern Light Closing" width="100%"/><br/>
+<b>Slide 06. 결론 (Academic Conclusion & Research Repo)</b>
 </td>
 </tr>
 </table>
@@ -102,18 +134,28 @@
 
 ### 템플릿 04. Pitch Keynote Bold (스타트업 피치 덱 & 프로덕트 런칭)
 - **추천 용도**: Series A/B 투자 유치 피치, 데모데이 발표, 신제품 런칭 키노트
-- **디자인 특징**: 매트 옵시디언 블랙, 일렉트릭 골드, 대형 수치 타이포그래피(TAM/SAM/SOM 및 트랙션)
+- **디자인 특징**: 매트 옵시디언 블랙, 일렉트릭 골드, 대형 트랙션 지표, 패러다임 전환 쿼트, 투자 유치 Q&A 허브
 - **템플릿 소스**: [`templates/04_pitch_keynote_bold.md`](templates/04_pitch_keynote_bold.md)
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="templates/preview_04_pitch_keynote_bold/slide.001.png" alt="Pitch Keynote Cover" width="100%"/><br/>
-<b>표지 슬라이드 (Investment Pitch Cover)</b>
+<b>Slide 01. 표지 (Investment Pitch 3-Chip Cover)</b>
 </td>
 <td width="50%" align="center">
-<img src="templates/preview_04_pitch_keynote_bold/slide.002.png" alt="Pitch Keynote Traction" width="100%"/><br/>
-<b>트랙션 & 시장 규모 슬라이드 (Giant Traction Metrics)</b>
+<img src="templates/preview_04_pitch_keynote_bold/slide.003.png" alt="Pitch Keynote Traction" width="100%"/><br/>
+<b>Slide 03. 트랙션 & 시장 규모 (Giant Traction Metrics)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_04_pitch_keynote_bold/slide.004.png" alt="Pitch Keynote Vision" width="100%"/><br/>
+<b>Slide 04. 제품 비전 (Paradigm Shift & 3 Pillars)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_04_pitch_keynote_bold/slide.006.png" alt="Pitch Keynote Closing" width="100%"/><br/>
+<b>Slide 06. 결론 (Series A Ask & Investor Q&A Hub)</b>
 </td>
 </tr>
 </table>
