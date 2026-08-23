@@ -197,7 +197,7 @@ korean-presentation-master/
 
 ### 1. Installation
 ```bash
-git clone https://github.com/kez-lab/presentation-master.git
+git clone https://github.com/kez-lab/korean-presentation-master.git
 cd presentation-master
 npm install
 ```
