@@ -1,233 +1,250 @@
 <div align="center">
 
-# 🪄 Korean Presentation Skill (AI Agent Skill)
+# Korean Presentation Skill
 
-### Autonomous AI Agent Skill for Generating Korean Typography-Optimized, Consulting-Grade Presentations (.pptx), Print-Ready PDFs (.pdf), and Verified Slide Renders (.png)
+### 한국어 타이포그래피 최적화 및 프로 UI/UX 디자인 거버넌스 기반 AI 에이전트 프레젠테이션 엔진
 
 [![Antigravity Skill](https://img.shields.io/badge/Antigravity-AI_Agent_Skill-6366F1?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/antigravity)
-[![Korean Typography](https://img.shields.io/badge/Korean_Typography-Pretendard_%7C_-0.025em-EC4899?style=for-the-badge)](references/korean_typography_spacing_guide.md)
+[![Korean Typography](https://img.shields.io/badge/Korean_Typography-Pretendard_%7C_-0.025em-EC4899?style=for-the-badge)](skills/korean-presentation-skill/references/korean_typography_spacing_guide.md)
 [![Marp CLI](https://img.shields.io/badge/Marp-Core_Compiler-0284C7?style=for-the-badge&logo=markdown&logoColor=white)](https://marp.app/)
 [![WCAG AAA](https://img.shields.io/badge/Accessibility-WCAG_AAA_7:1+-34D399?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FACC15?style=for-the-badge)](LICENSE)
 
 <br/>
 
-[**Live Slide Gallery**](#-verified-output-showcase) •
-[**Korean Typography Engine**](#-korean-typography-governance) •
-[**AI Agent Workflow**](#-how-ai-agents-use-this-skill) •
-[**Design System**](#-5-pillars-of-pro-design-governance) •
-[**Quick Start**](#-quick-start--cli-usage)
+[**슬라이드 쇼케이스**](#슬라이드-쇼케이스-afsm-세션) •
+[**4종 완성형 템플릿**](#완성형-프레젠테이션-템플릿-카탈로그) •
+[**한국어 타이포그래피**](#한국어-타이포그래피-최적화-표준) •
+[**디자인 거버넌스**](#5대-핵심-디자인-거버넌스) •
+[**빠른 시작**](#빠른-시작-및-cli-사용법)
 
 </div>
 
 ---
 
-## 🌟 What is Korean Presentation Skill?
+## 개요 (Overview)
 
-**`korean-presentation-skill`** is a specialized **AI Agent Skill** built for autonomous AI coding assistants (Google Antigravity, Claude Code, Cursor, Windsurf, AutoGPT).
+`korean-presentation-skill`은 Google Antigravity, Claude Code, Cursor, Windsurf 등 최신 자율형 AI 코딩 에이전트를 위해 개발된 프레젠테이션 생성 전용 AI 스킬입니다.
 
-Most AI presentation generators fail when dealing with non-Latin scripts, resulting in **loose glyph tracking, awkward mid-word breaks, isolated trailing particles (orphans), top-heavy layout clutter, and corrupted PPTX recovery errors**. 
+기존 AI 슬라이드 생성 도구들이 비라틴 문자권에서 자주 일으키는 **헐거운 자간 분산, 어색한 음절 분절, 외톨이 조사 고립, 상단 쏠림 현상(Top-Heavy Clutter), 복구 오류가 발생하는 손상된 파워포인트 파일** 문제를 근본적으로 해결합니다.
 
-**Korean Presentation Skill** solves this by embedding **deep Korean typography engineering (`-0.025em` tracking, `word-break: keep-all;`, particle isolation protection)** and **executive UI/UX design methodologies (Gestalt, 8pt Grid, 60-30-10 Color Rule, Visual Center Equilibrium)** directly into the LLM agent's generative pipeline.
+순수 마크다운(Markdown) 문서 하나로부터 다음 3가지 핵심 산출물을 동시에 컴파일하여 생성합니다:
 
-### 📦 3 Production Deliverables per Run:
-1. 📊 **100% Native Editable PowerPoint (`.pptx`)**: Native vector text/shapes with **0% repair or corruption errors**.
-2. 📄 **Print-Ready Vector PDF (`.pdf`)**: Ultra-crisp typography for executive reporting and client distribution.
-3. 🖼️ **1920×1080 High-Res Screenshots (`.png`)**: Enables autonomous visual inspection and self-correction by the AI agent via multimodal vision tools.
-
----
-
-## 🇰🇷 Korean Typography Governance
-
-Korean fonts often suffer from visual dispersion due to square glyph metrics. `korean-presentation-skill` strictly enforces:
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              KOREAN TYPOGRAPHY MATRIX                                  │
-├──────────────────────────┬─────────────────────────────────────────────────────────────┤
-│ Negative Letter Spacing  │ letter-spacing: -0.025em for dense, cohesive text blocks    │
-│ Word-Break Preservation  │ word-break: keep-all; prevents awkward character-level cuts │
-│ Trailing Particle Guard  │ Semantic wrapping stops isolated particles (은/는/이/가/을/를)│
-│ Pro Font Hierarchy       │ Pretendard / Apple SD Gothic Neo font stack                 │
-│ Modular Line Heights     │ Title: 1.28 | Section: 1.32 | Body: 1.55                    │
-└──────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
+1. **파워포인트 원본 (`.pptx`)**: 네이티브 벡터 셰이프와 텍스트를 유지하며, 복구 오류 0%를 보장합니다.
+2. **벡터 PDF (`.pdf`)**: 고해상도 인쇄 및 고객사 공식 배포에 최적화된 인쇄용 문서입니다.
+3. **1920×1080 고화질 이미지 (`.png`)**: AI 에이전트가 자체 비전 도구(`view_file`)를 통해 시각적 레이아웃과 클리핑 여부를 자율 검증(Self-Correction)할 수 있는 렌더링 결과물입니다.
 
 ---
 
-## 🤖 How AI Agents Use This Skill
+## AI 에이전트 자율 워크플로우
 
 ```mermaid
 flowchart LR
-    A[User Prompt] --> B[AI Agent with korean-presentation-skill]
-    B --> C[Draft Markdown with Korean Typography & UI/UX]
-    C --> D[Compile via marp_compiler.js]
-    D --> E[Multi-Format Deliverables]
-    E --> E1[100% Native .pptx]
-    E --> E2[Vector .pdf]
+    A[사용자 프롬프트 요청] --> B[AI 에이전트 / korean-presentation-skill]
+    B --> C[한국어 타이포 & UI/UX 거버넌스 기반 마크다운 작성]
+    C --> D[Marp 컴파일러 일괄 빌드]
+    D --> E[3대 산출물 동시 생성]
+    E --> E1[네이티브 .pptx]
+    E --> E2[벡터 .pdf]
     E --> E3[1920x1080 .png]
-    E3 --> F[AI Vision Tool view_file]
-    F -->|Self-Correction & Quality Gate| G[Flawless Presentation Delivered]
+    E3 --> F[AI Vision Tool 시각적 검증]
+    F -->|레이아웃 자체 검증 및 보정| G[최종 프레젠테이션 완결]
 ```
 
-1. **Rule Enforcement**: The AI Agent references [`korean_typography_spacing_guide.md`](skills/korean-presentation-skill/references/korean_typography_spacing_guide.md) and [`layout_catalog.md`](skills/korean-presentation-skill/references/layout_catalog.md) to generate structured Marp markdown.
-2. **Autonomous Visual Inspection Loop**: After compilation, the AI Agent invokes its `view_file` vision tool on `slides_preview/slide.*.png` to inspect spacing, padding, text overlapping, and visual center balance.
+### 1. 검증된 레이아웃 참조 (Layout Catalog)
+AI 에이전트는 무작위로 HTML을 생성하지 않고, [layout_catalog.md](skills/korean-presentation-skill/references/layout_catalog.md)에 정의된 20개 이상의 검증된 레이아웃 패턴(비대칭 분할, 3대 모델 기둥, 4단계 파이프라인, 빅 스탯 지표 등)을 선택하여 슬라이드를 설계합니다.
+
+### 2. 자율 시각 검증 루프 (Self-Correction Loop)
+슬라이드 컴파일 직후, AI 에이전트는 생성된 고해상도 이미지(`slides_preview/slide.*.png`)를 확인하여 컴포넌트 간 겹침, 여백 불균형, 텍스트 클리핑이 없는지 시각적으로 검토한 후 최종 산출물을 인도합니다.
 
 ---
 
-## 🏛️ 5 Pillars of Pro Design Governance
+## 5대 핵심 디자인 거버넌스
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 DESIGN GOVERNANCE MATRIX                                │
-├──────────────────────────────┬──────────────────────────────────────────────────────────┤
-│ 1. Visual Center Equilibrium │ Eliminates top-heavy clutter; 1:1 vertical padding balance│
-│ 2. Korean Typography Core    │ -0.025em tracking, keep-all preservation, orphan guard    │
-│ 3. Dark Glassmorphism        │ 60-30-10 rule + 24px neon micro-badges for instant focus │
-│ 4. Harmonious 8pt Spacing    │ 20px 22px card padding, 26px tier-separation margin      │
-│ 5. Anti-Occlusion Layout     │ 0% overlap/clipping guaranteed via strict height budgets │
-└──────────────────────────────┴──────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                 디자인 거버넌스 표준 매트릭스                             │
+├──────────────────────────────┬─────────────────────────────────────────────────────────┤
+│ 1. Visual Center Equilibrium │ 상단 쏠림 방지, 슬라이드 수직 중심축 기준 1:1 대칭 여백    │
+│ 2. Korean Typography Core    │ -0.025em 음수 자간, word-break: keep-all, 외톨이 조사 방지│
+│ 3. Dark Glassmorphism        │ 60-30-10 컬러 룰 + 24px 네온 마이크로 뱃지 시스템        │
+│ 4. Harmonious 8pt Spacing    │ 20px 22px 카드 패딩, 24~28px 계층 분리 마진             │
+│ 5. Anti-Occlusion Layout     │ 640px 가용 뷰포트 높이 예산제 적용으로 겹침/클리핑 0% 보장│
+└──────────────────────────────┴─────────────────────────────────────────────────────────┘
 ```
 
-### 1. ⚖️ Visual Center Equilibrium (Balanced Vertical Gravity)
-- Replaces naive top-alignment (`flex-start`) with **`justify-content: center`**.
-- Content blocks float naturally along the **Visual Center Axis**, establishing balanced 1:1 top/bottom breathing zones.
+### 1. Visual Center Equilibrium (수직 중앙 밸런스)
+무비판적인 `justify-content: flex-start`로 인해 콘텐츠가 상단 천장에 다닥다닥 붙고 하단이 휑하게 비는 상단 쏠림(Top-Heavy Clutter)을 차단합니다. 기본 정렬을 `justify-content: center`로 유지하여 상하 호흡 여백(Breathing Zone)이 1:1 대칭을 이루도록 설계합니다.
 
-### 2. 🔮 Dark Glassmorphism & 24px Micro-Badges
-- **Surface**: `linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%)` with `1px rgba(255, 255, 255, 0.09)` border.
-- **Micro-Badges**: 24px circular translucent badges (`01`, `02`, `03`) with neon accents (Cyan `#00F0FF`, Purple `#A78BFA`, Blue `#38BDF8`, Green `#34D399`, Yellow `#FACC15`, Red `#F87171`).
-- **WCAG AAA Compliance**: High-contrast text palette (`#FFFFFF` to `#E2E8F0`) ensures flawless legibility.
+### 2. 한국어 타이포그래피 최적화 표준
+- **음수 자간 (`letter-spacing: -0.025em`)**: 정방형 한글 폰트의 헐거운 분산감을 제거하고 고밀도 텍스트 응집력을 제공합니다.
+- **어절 보존 (`word-break: keep-all;`)**: 한글 단어가 음절 중간에서 부자연스럽게 잘리지 않도록 강제합니다.
+- **외톨이 조사 고립 방지**: 문장 끝의 조사("은/는/이/가/을/를/의/에")가 다음 줄에 홀로 떨어지지 않도록 의미 단위 줄바꿈을 적용합니다.
+- **모듈러 행간 스케일**: 메인 타이틀 `1.28`, 섹션 제목 `1.32`, 본문 `1.55`.
 
-### 3. 📐 8pt Grid & Breathing Room
-- Generous card padding (`padding: 20px 22px`) and grid gutters (`gap: 16px ~ 20px`) prevent crowded text blocks.
+### 3. 다크 글래스모피즘 & 24px 네온 뱃지
+- **표면(Surface)**: `linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%)` 및 `1px solid rgba(255, 255, 255, 0.09)` 보더.
+- **마이크로 뱃지**: 24px 원형 반투명 네온 서클 뱃지(시안 `#00F0FF`, 퍼플 `#A78BFA`, 블루 `#38BDF8`, 그린 `#34D399`, 옐로우 `#FACC15`, 레드 `#F87171`).
+- **WCAG AAA 고대비**: 고휘도 빔프로젝터 및 고해상도 레티나 디스플레이 환경에서도 또렷한 가독성을 제공합니다.
 
-### 4. 🛡️ Zero-Collision Layout (Anti-Occlusion)
-- All slides strictly budget height within the **640px usable viewport** (1280×720 canvas), eliminating vertical clipping and overflow.
+### 4. 8pt 모듈러 스페이싱 (Breathing Room)
+카드 내부 `padding: 20px 22px` 및 그리드 `gap: 16px ~ 20px`를 준수하여 텍스트가 카드 경계선에 갇히지 않고 시원한 여백을 확보합니다.
+
+### 5. 높이 예산제 기반 안티 클리핑 (Anti-Occlusion)
+1280×720 슬라이드 캔버스 내에서 헤더와 본문 요소의 총 높이가 가용 뷰포트(640px)를 초과하지 않도록 컴포넌트 높이를 사전 계산하여 클리핑을 원천 방지합니다.
 
 ---
 
-## 🖼️ Verified Output Showcase
+## 완성형 프레젠테이션 템플릿 카탈로그
 
-*Live renders generated by `korean-presentation-skill` for the **AFSM (Android Finite State Machine)** technical session:*
+도메인과 발표 목적에 따라 즉시 활용할 수 있는 4종의 완성형 템플릿이 `templates/` 디렉토리에 포함되어 있습니다:
+
+| 템플릿 명칭 | 추천 용도 | 디자인 특징 | 소스 경로 |
+|:---|:---|:---|:---|
+| **01. Tech Dark Glass** | 개발자 세션, 시스템 아키텍처, 엔지니어링 발표 | 다크 글래스모피즘, 24px 네온 서클 뱃지, UDF 흐름도 | `templates/01_tech_dark_glass.md` |
+| **02. Business Clean Navy** | 기업 전략 보고서, 신규 사업 제안, 경영진 보고 | 딥 미드나잇 네이비, 샴페인 골드 포인트, 재무 KPI | `templates/02_business_clean_navy.md` |
+| **03. Modern Light** | 학술 대회, 연구 논문 발표, 인쇄용 백서 | 오프화이트 캔버스, 딥 인디고, 잉크 절약형 고대비 | `templates/03_modern_light.md` |
+| **04. Pitch Keynote Bold** | 스타트업 투자 유치(IR), 프로덕트 런칭 키노트 | 매트 옵시디언 블랙, 볼드 골드, 대형 수치 타이포 | `templates/04_pitch_keynote_bold.md` |
+
+---
+
+## 슬라이드 쇼케이스 (AFSM 세션)
+
+`korean-presentation-skill`을 적용하여 제작된 **AFSM (Android Finite State Machine) 기술 세션** 8개 슬라이드의 실제 렌더링 결과입니다:
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="slides_preview/slide.001.png" alt="Slide 01: Hero Cover" width="100%"/><br/>
-<b>Slide 01. Hero Cover</b><br/>
-<sub>Between Gravity • Bold Korean Title Hierarchy • Glassmorphic Metadata Pill</sub>
+<b>Slide 01. 표지 (Hero Cover)</b><br/>
+<sub>Space-Between Gravity • 대형 타이포그래피 • 메타데이터 배너</sub>
 </td>
 <td width="50%" align="center">
 <img src="slides_preview/slide.002.png" alt="Slide 02: Agenda Split" width="100%"/><br/>
-<b>Slide 02. Agenda (32:68 Asymmetric Split)</b><br/>
-<sub>Anti-Clipping 48px Gutter • 2x2 Glassmorphism Cards with Neon Badges</sub>
+<b>Slide 02. 목차 (32:68 비대칭 2단 분할)</b><br/>
+<sub>48px 안전 여백 • 2x2 글래스모피즘 카드 • 01~04 네온 뱃지</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <img src="slides_preview/slide.003.png" alt="Slide 03: Problem Statement" width="100%"/><br/>
-<b>Slide 03. Problem Statement</b><br/>
-<sub>Red/Yellow/Blue Top Accents • High-Contrast Numbering • 3-Card Grid</sub>
+<b>Slide 03. 문제점 진단 (Problem Statement)</b><br/>
+<sub>상단 3.5px 컬러 보더 • 3단 카드 그리드 • 고대비 텍스트</sub>
 </td>
 <td width="50%" align="center">
 <img src="slides_preview/slide.004.png" alt="Slide 04: Paradigm Shift Quote" width="100%"/><br/>
-<b>Slide 04. Paradigm Shift Quote</b><br/>
-<sub>Center Focus Gravity • Cyan & Gold Neon Highlights • Feature Checklist</sub>
+<b>Slide 04. 패러다임 전환 (Quote Focus)</b><br/>
+<sub>수직 중앙 집중 • 시안 & 옐로우 네온 하이라이트 • 체크리스트</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <img src="slides_preview/slide.005.png" alt="Slide 05: Core 3 Pillars" width="100%"/><br/>
-<b>Slide 05. Core Architecture 3 Pillars</b><br/>
-<sub>Purple/Blue/Green Signature Borders • Modular Bullet Points • 24px Badges</sub>
+<b>Slide 05. 3대 핵심 모델 (Core Architecture)</b><br/>
+<sub>퍼플/블루/그린 시그니처 보더 • 모듈러 불릿 • 정밀 마진</sub>
 </td>
 <td width="50%" align="center">
 <img src="slides_preview/slide.006.png" alt="Slide 06: UDF Flow Pipeline" width="100%"/><br/>
-<b>Slide 06. UDF Data Flow Pipeline</b><br/>
-<sub>Horizontal 4-Step Pipeline • Arrow Connectors • 2-Row Role Division</sub>
+<b>Slide 06. 단방향 데이터 흐름 (UDF Flow)</b><br/>
+<sub>수평 4단계 파이프라인 • 네온 커넥터 • 2단 역할 분담 카드</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 <img src="slides_preview/slide.007.png" alt="Slide 07: Key Engineering Stats" width="100%"/><br/>
-<b>Slide 07. Big Stats & Metrics</b><br/>
-<sub>0ms Yellow • 100% Cyan • 0 Error Purple • Giant KPI Typography</sub>
+<b>Slide 07. 3대 엔지니어링 가치 (Big Stats)</b><br/>
+<sub>0ms 옐로우 • 100% 시안 • 0 Error 퍼플 • 대형 KPI 수치</sub>
 </td>
 <td width="50%" align="center">
 <img src="slides_preview/slide.008.png" alt="Slide 08: Summary & CTA" width="100%"/><br/>
-<b>Slide 08. Summary & Call-To-Action</b><br/>
-<sub>3 Takeaway Cards • Interactive GitHub & Q&A Action Banner</sub>
+<b>Slide 08. 요약 및 액션 (Summary & CTA)</b><br/>
+<sub>3단 핵심 요약 카드 • 공식 저장소 링크 및 Q&A 배너</sub>
 </td>
 </tr>
 </table>
 
 ---
 
-## 📦 Project & Skill Structure
+## 프로젝트 및 스킬 구조
 
 ```
 korean-presentation-skill/
-├── 📁 skills/korean-presentation-skill/  # AI Agent Skill Package
-│   ├── 📜 SKILL.md                       # Agent System Prompt & Governance Rules
-│   ├── 📁 references/                    # Engineering Reference Guides
-│   │   ├── korean_typography_spacing_guide.md # Hangul Typography & Spacing Guide (-0.025em)
-│   │   ├── gravity_spacing_occlusion_guide.md # Visual Center & Spacing Standards
-│   │   ├── ui_ux_methodologies.md             # Gestalt & Cognitive Principles
-│   │   ├── layout_catalog.md                  # 20+ Verified Layout Recipes
-│   │   ├── design_systems.md                  # Color & Surface Tokens
-│   │   └── storytelling_framework.md          # 5-Stage Executive Narrative Framework
-│   └── 📁 scripts/
-│       ├── marp_compiler.js               # PPTX + PDF + 1920x1080 PNG Batch Compiler
-│       └── slide_engine.py                # Python Slide Orchestration Utility
+├── skills/korean-presentation-skill/  # Antigravity 전용 AI 스킬 패키지
+│   ├── SKILL.md                       # 에이전트 시스템 프롬프트 및 거버넌스 지침
+│   ├── references/                    # 6대 상세 디자인 레퍼런스
+│   │   ├── korean_typography_spacing_guide.md # 한국어 타이포 및 여백 표준 가이드
+│   │   ├── gravity_spacing_occlusion_guide.md # 수직 밸런스 및 상단 쏠림 방지 가이드
+│   │   ├── ui_ux_methodologies.md             # 게슈탈트 및 UI/UX 방법론
+│   │   ├── layout_catalog.md                  # 20+ 레이아웃 카탈로그
+│   │   ├── design_systems.md                  # 컬러 팔레트 및 글래스 토큰
+│   │   └── storytelling_framework.md          # 5단계 내러티브 프레임워크
+│   └── scripts/
+│       ├── marp_compiler.js               # PPTX + PDF + PNG 통합 컴파일러
+│       └── slide_engine.py                # 파이썬 슬라이드 보조 스크립트
 │
-├── 📁 examples/afsm/                      # Reference Production Deck
-│   ├── afsm_presentation.md               # Source Markdown
-│   ├── Afsm_Presentation.pptx             # Native PPTX (0% Corruption)
-│   ├── Afsm_Presentation.pdf              # Vector PDF
-│   └── slides_preview/                    # 1920x1080 PNG Images
+├── templates/                             # 4종 완성형 프레젠테이션 템플릿
+│   ├── 01_tech_dark_glass.md              # 테크 아키텍처 템플릿
+│   ├── 02_business_clean_navy.md          # 기업 전략 / IR 템플릿
+│   ├── 03_modern_light.md                 # 학술 / 연구 / 라이트 템플릿
+│   └── 04_pitch_keynote_bold.md           # 스타트업 피치 / 키노트 템플릿
 │
-├── 📄 package.json                       # CLI Build Scripts
-├── 📄 LICENSE                             # MIT License
-└── 📄 README.md                           # Documentation Hub
+├── examples/afsm/                         # 실전 프로덕션 레퍼런스 덱 (AFSM)
+│   ├── afsm_presentation.md               # 마크다운 원본 소스
+│   ├── Afsm_Presentation.pptx             # 네이티브 파워포인트 원본
+│   ├── Afsm_Presentation.pdf              # 벡터 PDF
+│   └── slides_preview/                    # 1920x1080 슬라이드 렌더링 이미지
+│
+├── scripts/
+│   └── compile_all_templates.js           # 4종 템플릿 일괄 컴파일 스크립트
+├── package.json
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-## 💻 Quick Start & CLI Usage
+## 빠른 시작 및 CLI 사용법
 
-### 1. Installation
+### 1. 저장소 클론 및 패키지 설치
 ```bash
 git clone https://github.com/kez-lab/korean-presentation-skill.git
 cd korean-presentation-skill
 npm install
 ```
 
-### 2. Build Presentation (PPTX + PDF + PNG)
+### 2. 프레젠테이션 일괄 컴파일 (PPTX + PDF + PNG)
 ```bash
-# Compile AFSM Example Deck
+# 기본 AFSM 예제 슬라이드 빌드
 npm run build:afsm
 
-# Or compile any custom markdown presentation
+# 4종 템플릿 일괄 빌드
+npm run build:templates
+
+# 임의의 마크다운 파일 직접 컴파일
 node skills/korean-presentation-skill/scripts/marp_compiler.js <input.md> <output_dir> [output_base_name]
 ```
 
+### 컴파일 산출물:
+- `<output_dir>/<name>.pptx` (파워포인트 원본)
+- `<output_dir>/<name>.pdf` (벡터 PDF)
+- `<output_dir>/slides_preview/slide.001.png ~ slide.NNN.png` (1920×1080 슬라이드 이미지)
+
 ---
 
-## 🧩 Install as an AI Agent Skill
+## Antigravity AI Agent Skill 설치 방법
 
-To install **Korean Presentation Skill** into your **Google Antigravity** environment:
+본 스킬을 **Google Antigravity** 환경에 설치하여 상시 사용하려면 다음 명령어를 실행합니다:
 
 ```bash
-# Copy skill into Antigravity user config
 mkdir -p ~/.gemini/config/skills/korean-presentation-skill
 cp -r skills/korean-presentation-skill/* ~/.gemini/config/skills/korean-presentation-skill/
 ```
 
-Now prompt your agent:
-> *"Create an 8-slide presentation in Korean explaining [Your Topic] using the korean-presentation-skill with pro UI/UX design governance."*
+### AI 에이전트 호출 프롬프트 예시:
+> "korean-presentation-skill을 활용해서 [발표 주제]에 관한 8슬라이드 발표 자료를 작성해줘. 한국어 타이포그래피와 다크 글래스모피즘 디자인 거버넌스를 준수하고 PPTX, PDF, PNG로 컴파일해줘."
 
 ---
 
-## 📄 License
+## 라이선스
 
-This project is licensed under the [MIT License](LICENSE).
+본 프로젝트는 [MIT License](LICENSE)에 따라 자유롭게 사용 및 수정할 수 있습니다.
