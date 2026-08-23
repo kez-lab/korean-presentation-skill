@@ -275,6 +275,19 @@ flowchart LR
 
 ---
 
+## 글로벌 AI 에이전트 지원 (Antigravity, Claude Code, Codex, Cursor)
+
+`korean-presentation-skill`은 특정 도구에 종속되지 않고 **글로벌 4대 AI 코딩 에이전트 생태계**에서 완벽하게 작동하도록 설계되었습니다:
+
+| 에이전트 환경 | 연동 설정 및 가이드 | 지원 방식 |
+| :--- | :--- | :--- |
+| **Google Antigravity** | [`skills/korean-presentation-skill/SKILL.md`](skills/korean-presentation-skill/SKILL.md) | 전용 AI 스킬 로드 및 비전 도구를 통한 자율 레이아웃 검증 |
+| **Anthropic Claude Code** | [`CLAUDE.md`](CLAUDE.md) / `.claude/skills/` | Claude Code CLI 전용 4단계 워크플로우 지침 완벽 지원 |
+| **OpenAI Codex / GPT** | [`AGENTS.md`](AGENTS.md) | 높이 예산제 및 글자 수 제약 가이드라인 준수 |
+| **Cursor / Windsurf** | [`references/agent_compatibility_guide.md`](skills/korean-presentation-skill/references/agent_compatibility_guide.md) | 규칙 주입 및 원클릭 CLI 빌드 연동 |
+
+---
+
 ## 프로젝트 및 스킬 구조
 
 ```
