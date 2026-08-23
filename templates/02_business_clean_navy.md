@@ -97,6 +97,12 @@ style: |
   .stat-blue { color: var(--accent-blue); }
   .stat-green { color: var(--accent-emerald); }
 
+  /* Cover Meta Grid */
+  .cover-meta-grid { display: grid; grid-template-columns: 1.2fr 1fr 1.2fr; gap: 14px; width: 100%; margin-top: 20px; }
+  .cover-meta-chip { background: linear-gradient(180deg, #131C31 0%, #0F172A 100%); border: 1px solid var(--card-border); border-radius: 12px; padding: 12px 18px; display: flex; flex-direction: column; justify-content: center; }
+  .meta-chip-label { font-size: 0.7rem; font-weight: 800; color: var(--accent-gold); letter-spacing: 0.05em; margin-bottom: 2px; }
+  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: #FFFFFF; }
+
   .meta-bar {
     background: linear-gradient(180deg, #131C31 0%, #0F172A 100%);
     border: 1px solid var(--card-border);
@@ -127,13 +133,19 @@ style: |
 </p>
 </div>
 
-<div class="meta-bar">
-<div class="meta-items">
-<span>전략기획실 / 경영전략본부</span>
-<span>보고일자: 2026.08</span>
-<span>보안등급: 대외비 (Confidential)</span>
+<div class="cover-meta-grid">
+<div class="cover-meta-chip">
+<div class="meta-chip-label">DIVISION & OWNER</div>
+<div class="meta-chip-val">경영전략본부 / 전략기획실</div>
 </div>
-<div class="meta-brand">Executive Strategy Deck</div>
+<div class="cover-meta-chip">
+<div class="meta-chip-label">REPORT DATE</div>
+<div class="meta-chip-val">2026.08 • Q3 Executive Review</div>
+</div>
+<div class="cover-meta-chip" style="border-color: rgba(245, 158, 11, 0.35);">
+<div class="meta-chip-label" style="color: var(--accent-gold);">CONFIDENTIALITY</div>
+<div class="meta-chip-val" style="color: var(--accent-gold);">대외비 (Confidential)</div>
+</div>
 </div>
 </div>
 

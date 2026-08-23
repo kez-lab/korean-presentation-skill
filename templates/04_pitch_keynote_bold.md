@@ -91,6 +91,12 @@ style: |
 
   .stat-giant { font-size: 3.0rem; font-weight: 900; line-height: 1; margin-bottom: 6px; }
 
+  /* Cover Meta Grid */
+  .cover-meta-grid { display: grid; grid-template-columns: 1.2fr 1fr 1.2fr; gap: 14px; width: 100%; margin-top: 20px; }
+  .cover-meta-chip { background: linear-gradient(180deg, #181C2C 0%, #111420 100%); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 12px 18px; display: flex; flex-direction: column; justify-content: center; }
+  .meta-chip-label { font-size: 0.7rem; font-weight: 800; color: var(--accent-gold); letter-spacing: 0.05em; margin-bottom: 2px; }
+  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: #FFFFFF; }
+
   .meta-bar {
     background: linear-gradient(180deg, #181C2C 0%, #111420 100%);
     border: 1px solid var(--card-border);
@@ -121,13 +127,19 @@ AI 에이전트 워크플로우를 자동화하는<br>
 </p>
 </div>
 
-<div class="meta-bar">
-<div class="meta-items">
-<span>대표이사 / 파운더: 홍길동</span>
-<span>투자 라운드: Series A ($5M Target)</span>
-<span>IR Deck v2.4</span>
+<div class="cover-meta-grid">
+<div class="cover-meta-chip">
+<div class="meta-chip-label">FOUNDER & CEO</div>
+<div class="meta-chip-val">홍길동 • Founder & CEO</div>
 </div>
-<div class="meta-brand">Confidential Pitch Deck</div>
+<div class="cover-meta-chip">
+<div class="meta-chip-label">INVESTMENT ROUND</div>
+<div class="meta-chip-val">Series A ($5M Target)</div>
+</div>
+<div class="cover-meta-chip" style="border-color: rgba(251, 191, 36, 0.35);">
+<div class="meta-chip-label" style="color: var(--accent-gold);">IR DECK VERSION</div>
+<div class="meta-chip-val" style="color: var(--accent-gold);">Confidential IR Deck v2.4</div>
+</div>
 </div>
 </div>
 

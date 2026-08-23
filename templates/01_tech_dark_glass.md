@@ -109,7 +109,24 @@ style: |
   .split-title { font-size: 1.5rem; font-weight: 900; letter-spacing: 0.08em; color: #FFF; margin: 6px 0 0 0; white-space: nowrap; }
   .split-right { flex-grow: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
-  /* One-line horizontal meta bar */
+  /* Cover Meta Grid */
+  .cover-meta-grid { display: grid; grid-template-columns: 1.2fr 1fr 1.2fr; gap: 14px; width: 100%; margin-top: 20px; }
+  .cover-meta-chip { background: linear-gradient(180deg, rgba(26, 35, 54, 0.75) 0%, rgba(18, 24, 38, 0.95) 100%); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 12px; padding: 12px 18px; display: flex; flex-direction: column; justify-content: center; }
+  .meta-chip-label { font-size: 0.7rem; font-weight: 800; color: var(--accent-blue); letter-spacing: 0.05em; margin-bottom: 2px; }
+  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: #FFFFFF; }
+
+  /* Closing Slide Specifics */
+  .closing-box { display: flex; gap: 20px; align-items: stretch; width: 100%; }
+  .closing-left { flex: 1.35; display: flex; flex-direction: column; gap: 10px; }
+  .qa-box { background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.95) 100%); border: 1.5px solid rgba(56, 189, 248, 0.4); border-radius: 14px; padding: 18px 20px; flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
+  .qa-kicker { font-size: 0.72rem; font-weight: 800; color: #00F0FF; letter-spacing: 0.08em; margin-bottom: 2px; }
+  .qa-title { font-size: 1.8rem; font-weight: 900; color: #FFFFFF; line-height: 1.1; margin-bottom: 6px; }
+  .qa-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.4; }
+  .qa-meta-border { border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 10px; margin-top: 10px; }
+  .qa-meta-label { font-size: 0.68rem; color: #94A3B8; margin-bottom: 2px; }
+  .qa-meta-val-blue { font-size: 0.84rem; font-weight: 700; color: #38BDF8; margin-bottom: 6px; }
+  .qa-meta-val-white { font-size: 0.84rem; color: #E2E8F0; }
+
   .meta-bar {
     background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%);
     border: 1px solid rgba(255, 255, 255, 0.09);
@@ -142,13 +159,19 @@ style: |
 </p>
 </div>
 
-<div class="meta-bar">
-<div class="meta-items">
-<span>작성자: Backend Platform Team</span>
-<span>일자: 2026.08</span>
-<span>분류: System Architecture</span>
+<div class="cover-meta-grid">
+<div class="cover-meta-chip">
+<div class="meta-chip-label">PRESENTER & TEAM</div>
+<div class="meta-chip-val">Backend Platform Team</div>
 </div>
-<div class="meta-brand">github.com/company/architecture</div>
+<div class="cover-meta-chip">
+<div class="meta-chip-label">SESSION & DATE</div>
+<div class="meta-chip-val">Tech Architecture • 2026.08</div>
+</div>
+<div class="cover-meta-chip" style="border-color: rgba(56, 189, 248, 0.3);">
+<div class="meta-chip-label" style="color: var(--accent-cyan);">REPOSITORY & DOCS</div>
+<div class="meta-chip-val" style="color: var(--accent-blue);">github.com/company/architecture</div>
+</div>
 </div>
 </div>
 

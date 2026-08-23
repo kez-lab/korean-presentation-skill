@@ -95,3 +95,86 @@ Marp 마크다운 파서가 `<div>` 내부 줄바꿈을 문단(`<p>`)으로 치�
   <div class="meta-brand">github.com/company/architecture</div>
 </div>
 ```
+
+---
+
+## 5. 첫장(Cover Hero) 및 마지막 장(Closing Q&A Hub) 프리미엄 UX 표준
+
+### 5.1 첫장 표지: 3-Chip 글래스모피즘 메타데이터 그리드 (`.cover-meta-grid`)
+단순 텍스트 나열이나 이모지 사용을 금지하고, 3개 분할 글래스 카드 그리드로 발표자, 세션, 자료 링크를 위계화합니다.
+
+```html
+<div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+  <div>
+    <span class="kicker">ENGINEERING TECH SESSION</span>
+    <h1>
+      대제목 1행 의미 단위 줄바꿈<br>
+      <span class="highlight-blue">핵심 키워드 강조 2행 완결</span>
+    </h1>
+    <p class="lead" style="font-size: 1.12rem; color: #94A3B8; margin-top: 12px;">
+      슬라이드의 핵심 가치와 비전을 요약하는 1~2줄 서브타이틀
+    </p>
+  </div>
+
+  <div class="cover-meta-grid">
+    <div class="cover-meta-chip">
+      <div class="meta-chip-label">PRESENTER & TEAM</div>
+      <div class="meta-chip-val">홍길동 • Backend Platform Lead</div>
+    </div>
+    <div class="cover-meta-chip">
+      <div class="meta-chip-label">SESSION & DATE</div>
+      <div class="meta-chip-val">Tech Architecture • 2026.08</div>
+    </div>
+    <div class="cover-meta-chip" style="border-color: rgba(56, 189, 248, 0.35);">
+      <div class="meta-chip-label" style="color: #00F0FF;">REPOSITORY & DOCS</div>
+      <div class="meta-chip-val" style="color: #38BDF8;">github.com/company/repo</div>
+    </div>
+  </div>
+</div>
+```
+
+### 5.2 마지막 장: Closing & Q&A Hub 비대칭 분할 (`.closing-box`)
+발표 요약 3대 테이크어웨이(좌측 60%)와 Q&A / 공식 링크 / 컨택트(우측 40%)를 한 화면에서 완벽하게 제공합니다.
+
+```html
+<div>
+  <div class="slide-header" style="margin-bottom: 16px;">
+    <span class="kicker">SUMMARY & NEXT STEPS</span>
+    <h2>핵심 요약 및 질의응답 (Q&A)</h2>
+    <p class="lead" style="margin-bottom: 0;">슬라이드 핵심 메시지를 마무리하고 다음 액션을 안내합니다.</p>
+  </div>
+
+  <div class="closing-box">
+    <!-- Left: 3 Key Takeaways -->
+    <div class="closing-left">
+      <div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-blue);">
+        <div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">01. 상호 배타적 Phase 정의</div>
+        <div class="card-desc">유효하지 않은 상태 조합을 컴파일 타임에 원천 차단</div>
+      </div>
+      <div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-yellow);">
+        <div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">02. 부작용(Side-Effect) Command 격리</div>
+        <div class="card-desc">전이 판단과 외부 작업을 분리하여 0ms 단위 테스트 달성</div>
+      </div>
+      <div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-purple);">
+        <div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">03. Mermaid 다이어그램 자동 동기화</div>
+        <div class="card-desc">코드 기반 상태 다이어그램으로 설계와 구현의 100% 일치 보장</div>
+      </div>
+    </div>
+
+    <!-- Right: Q&A and Contact Hub -->
+    <div class="qa-box">
+      <div>
+        <div class="qa-kicker">OPEN FOR DISCUSSION</div>
+        <div class="qa-title">Q & A</div>
+        <div class="qa-desc">궁금하신 점이나 아키텍처 도입 논의를 환영합니다.</div>
+      </div>
+      <div class="qa-meta-border">
+        <div class="qa-meta-label">GITHUB & DOCS HUB</div>
+        <div class="qa-meta-val-blue">github.com/company/repo</div>
+        <div class="qa-meta-label">CONTACT</div>
+        <div class="qa-meta-val-white">engineer@company.com</div>
+      </div>
+    </div>
+  </div>
+</div>
+```

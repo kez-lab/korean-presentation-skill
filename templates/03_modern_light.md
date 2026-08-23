@@ -90,6 +90,12 @@ style: |
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; width: 100%; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
 
+  /* Cover Meta Grid */
+  .cover-meta-grid { display: grid; grid-template-columns: 1.2fr 1fr 1.2fr; gap: 14px; width: 100%; margin-top: 20px; }
+  .cover-meta-chip { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; padding: 12px 18px; box-shadow: 0 2px 10px -2px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; justify-content: center; }
+  .meta-chip-label { font-size: 0.7rem; font-weight: 800; color: var(--accent-indigo); letter-spacing: 0.05em; margin-bottom: 2px; }
+  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: var(--text-main); }
+
   .meta-bar {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -123,13 +129,19 @@ style: |
 </p>
 </div>
 
-<div class="meta-bar">
-<div class="meta-items">
-<span>발표자: 인공지능연구소 자연어처리팀</span>
-<span>학술대회: 2026 AI Research Symposium</span>
-<span>세션: Edge Intelligence</span>
+<div class="cover-meta-grid">
+<div class="cover-meta-chip">
+<div class="meta-chip-label">AUTHORS & LAB</div>
+<div class="meta-chip-val">인공지능연구소 자연어처리팀</div>
 </div>
-<div class="meta-brand">Paper No. 2026-AI-088</div>
+<div class="cover-meta-chip">
+<div class="meta-chip-label">SYMPOSIUM & SESSION</div>
+<div class="meta-chip-val">2026 AI Symposium • Edge Track</div>
+</div>
+<div class="cover-meta-chip" style="border-color: rgba(79, 70, 229, 0.3);">
+<div class="meta-chip-label" style="color: var(--accent-indigo);">PAPER REGISTRATION</div>
+<div class="meta-chip-val" style="color: var(--accent-indigo);">Paper No. 2026-AI-088</div>
+</div>
 </div>
 </div>
 

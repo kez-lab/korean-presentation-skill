@@ -39,9 +39,9 @@ style: |
   }
 
   /* Typography */
-  h1 { font-size: 2.6rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
-  h2 { font-size: 1.68rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
-  .lead { font-size: 0.98rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 26px 0; }
+  h1 { font-size: 2.42rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
+  h2 { font-size: 1.62rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
+  .lead { font-size: 0.96rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 24px 0; }
 
   /* Header Container */
   .slide-header { margin-bottom: 24px; }
@@ -65,6 +65,12 @@ style: |
   .kicker-red { background: rgba(248, 113, 113, 0.15); color: var(--accent-red); border-color: rgba(248, 113, 113, 0.35); }
   .kicker-yellow { background: rgba(250, 204, 21, 0.15); color: var(--accent-yellow); border-color: rgba(250, 204, 21, 0.35); }
 
+  .highlight-cyan { color: var(--accent-cyan) !important; }
+  .highlight-blue { color: var(--accent-blue) !important; }
+  .highlight-yellow { color: var(--accent-yellow) !important; }
+  .highlight-purple { color: var(--accent-purple) !important; }
+  .highlight-green { color: var(--accent-green) !important; }
+
   /* Unified Glassmorphism Card System */
   .glass-card {
     background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%);
@@ -78,7 +84,7 @@ style: |
   }
 
   .card-title { font-size: 0.98rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px; letter-spacing: -0.02em; }
-  .card-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.5; }
+  .card-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.55; }
 
   /* 24px Micro Neon Badges */
   .circle-badge {
@@ -101,11 +107,11 @@ style: |
   .badge-yellow { background: rgba(250, 204, 21, 0.15); color: var(--accent-yellow); border: 1px solid rgba(250, 204, 21, 0.4); }
 
   /* Top Border Accents */
-  .border-red { border-top: 3.5px solid var(--accent-red) !important; }
-  .border-yellow { border-top: 3.5px solid var(--accent-yellow) !important; }
-  .border-blue { border-top: 3.5px solid var(--accent-blue) !important; }
-  .border-purple { border-top: 3.5px solid var(--accent-purple) !important; }
-  .border-green { border-top: 3.5px solid var(--accent-green) !important; }
+  .border-top-red { border-top: 3.5px solid var(--accent-red) !important; }
+  .border-top-yellow { border-top: 3.5px solid var(--accent-yellow) !important; }
+  .border-top-blue { border-top: 3.5px solid var(--accent-blue) !important; }
+  .border-top-purple { border-top: 3.5px solid var(--accent-purple) !important; }
+  .border-top-green { border-top: 3.5px solid var(--accent-green) !important; }
 
   /* Grid Layouts */
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; width: 100%; }
@@ -117,18 +123,67 @@ style: |
   .split-title { font-size: 1.5rem; font-weight: 900; letter-spacing: 0.08em; color: #FFF; margin: 6px 0 0 0; white-space: nowrap; }
   .split-right { flex-grow: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
-  /* Flow Steps (Slide 6) */
+  /* Cover Meta Grid (Hero Slide) */
+  .cover-meta-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr;
+    gap: 14px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .cover-meta-chip {
+    background: linear-gradient(180deg, rgba(26, 35, 54, 0.75) 0%, rgba(18, 24, 38, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .meta-chip-label { font-size: 0.7rem; font-weight: 800; color: var(--accent-blue); letter-spacing: 0.05em; margin-bottom: 2px; }
+  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: #FFFFFF; }
+
+      /* Closing Slide Specifics */
+  .qa-box { background: linear-gradient(180deg, rgba(30, 41, 59, 0.7) 0%, rgba(15, 23, 42, 0.95) 100%); border: 1.5px solid rgba(56, 189, 248, 0.4); border-radius: 14px; padding: 18px 20px; display: flex; flex-direction: column; justify-content: space-between; }
+  .qa-kicker { font-size: 0.72rem; font-weight: 800; color: #00F0FF; letter-spacing: 0.08em; margin-bottom: 2px; }
+  .qa-title { font-size: 1.8rem; font-weight: 900; color: #FFFFFF; line-height: 1.1; margin-bottom: 6px; }
+  .qa-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.4; }
+  .qa-meta-border { border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 10px; margin-top: 10px; }
+  .qa-meta-label { font-size: 0.68rem; color: #94A3B8; margin-bottom: 2px; }
+  .qa-meta-val-blue { font-size: 0.84rem; font-weight: 700; color: #38BDF8; margin-bottom: 6px; }
+  .qa-meta-val-white { font-size: 0.84rem; color: #E2E8F0; }
+
+  /* Closing Slide Classes */
+  .closing-box { display: flex; gap: 20px; align-items: stretch; width: 100%; }
+  .closing-left { flex: 1.35; display: flex; flex-direction: column; gap: 10px; }
+  .closing-right { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
+
+  .closing-split {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 20px;
+    width: 100%;
+    align-items: stretch;
+  }
+  .closing-card {
+    background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+
+  /* Flow Steps */
   .flow-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
   .flow-step { background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 12px; padding: 16px 12px; text-align: center; flex: 1; }
   .flow-arr { color: var(--accent-blue); font-size: 1.3rem; font-weight: 800; }
 
-  /* Big Stat Values (Slide 7) */
+  /* Big Stat Values */
   .stat-val { font-size: 2.8rem; font-weight: 900; line-height: 1; margin-bottom: 6px; }
   .stat-yellow { color: var(--accent-yellow) !important; }
   .stat-cyan { color: var(--accent-cyan) !important; }
   .stat-purple { color: var(--accent-purple) !important; }
 
-  /* Quote Container (Slide 4) */
+  /* Quote Container */
   .quote-container {
     background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(18, 24, 38, 0.9) 100%);
     border: 1.5px solid rgba(56, 189, 248, 0.28);
@@ -141,38 +196,38 @@ style: |
   .quote-text { font-size: 1.95rem; color: #38BDF8 !important; font-weight: 800; line-height: 1.38; margin-bottom: 14px; }
   .quote-highlight { color: #FACC15 !important; }
 
-  ul.clean-points {
-    margin: 6px 0 0 0;
-    padding-left: 16px;
-    font-size: 0.8rem;
-    color: var(--text-light);
-    line-height: 1.55;
-  }
+  ul.clean-points { margin: 6px 0 0 0; padding-left: 16px; font-size: 0.8rem; color: var(--text-light); line-height: 1.55; }
   ul.clean-points li { margin-bottom: 4px; }
 
   footer { font-size: 0.75rem; color: #475569; bottom: 16px; }
 ---
 
-<!-- 1. Hero Cover Slide (Gravity Space-Between) -->
+<!-- 1. Hero Cover Slide (Premium 3-Chip Meta UX) -->
 <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
 <div>
 <span class="kicker">ANDROID ARCHITECTURE SERIES</span>
 <h1>
 ViewModel에 흩어진 화면 흐름을<br>
-<span style="color: #38BDF8;">상태 머신(FSM)</span>으로 묶는 Afsm
+<span class="highlight-blue">상태 머신(FSM)으로 묶는 Afsm</span>
 </h1>
-<p class="lead" style="font-size: 1.15rem; color: #94A3B8; margin-top: 14px;">
+<p class="lead" style="font-size: 1.12rem; color: #94A3B8; margin-top: 12px;">
 Boolean 지옥을 넘어 순수 Kotlin으로 구축하는 예측 가능하고 안전한 화면 아키텍처
 </p>
 </div>
 
-<div class="glass-card" style="padding: 14px 22px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-<div style="display: flex; gap: 24px; font-size: 0.88rem; color: #94A3B8;">
-<span>👤 <strong>Android Tech Session</strong></span>
-<span>📅 <strong>2026.08</strong></span>
-<span>🏷️ <strong>State, Event, Command</strong></span>
+<div class="cover-meta-grid">
+<div class="cover-meta-chip">
+<div class="meta-chip-label">PRESENTER & TEAM</div>
+<div class="meta-chip-val">Kez Lab • Android Architecture Team</div>
 </div>
-<div style="color: #38BDF8; font-weight: 800; font-size: 0.92rem;">github.com/kez-lab/afsm</div>
+<div class="cover-meta-chip">
+<div class="meta-chip-label">SESSION & DATE</div>
+<div class="meta-chip-val">Tech Deep Dive • 2026.08</div>
+</div>
+<div class="cover-meta-chip" style="border-color: rgba(56, 189, 248, 0.3);">
+<div class="meta-chip-label" style="color: var(--accent-cyan);">OPEN SOURCE HUB</div>
+<div class="meta-chip-val" style="color: var(--accent-blue);">github.com/kez-lab/afsm</div>
+</div>
 </div>
 </div>
 
@@ -264,7 +319,7 @@ Afsm 실전 적용까지의 4단계
 </div>
 
 <div class="grid-3">
-<div class="glass-card border-red">
+<div class="glass-card border-top-red">
 <div class="circle-badge badge-red">01</div>
 <div class="card-title">상태 조합 폭발</div>
 <div class="card-desc">
@@ -273,7 +328,7 @@ Afsm 실전 적용까지의 4단계
 </div>
 </div>
 
-<div class="glass-card border-yellow">
+<div class="glass-card border-top-yellow">
 <div class="circle-badge badge-yellow">02</div>
 <div class="card-title">비동기 분기 파편화</div>
 <div class="card-desc">
@@ -282,7 +337,7 @@ Afsm 실전 적용까지의 4단계
 </div>
 </div>
 
-<div class="glass-card border-blue">
+<div class="glass-card border-top-blue">
 <div class="circle-badge badge-blue">03</div>
 <div class="card-title">높은 테스트 비용</div>
 <div class="card-desc">
@@ -335,7 +390,7 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 </div>
 
 <div class="grid-3">
-<div class="glass-card border-purple">
+<div class="glass-card border-top-purple">
 <div class="circle-badge badge-purple">01</div>
 <div class="card-title" style="color: var(--accent-purple);">STATE (Phase + Data)</div>
 <ul class="clean-points">
@@ -345,7 +400,7 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 </ul>
 </div>
 
-<div class="glass-card border-blue">
+<div class="glass-card border-top-blue">
 <div class="circle-badge badge-blue">02</div>
 <div class="card-title" style="color: var(--accent-blue);">EVENT (방금 일어난 일)</div>
 <ul class="clean-points">
@@ -355,7 +410,7 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 </ul>
 </div>
 
-<div class="glass-card border-green">
+<div class="glass-card border-top-green">
 <div class="circle-badge badge-green">03</div>
 <div class="card-title" style="color: var(--accent-green);">COMMAND (요청할 외부 작업)</div>
 <ul class="clean-points">
@@ -431,21 +486,21 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 </div>
 
 <div class="grid-3">
-<div class="glass-card border-yellow" style="text-align: center; padding: 22px 18px;">
+<div class="glass-card border-top-yellow" style="text-align: center; padding: 22px 18px;">
 <div class="circle-badge badge-yellow" style="margin: 0 auto 6px auto;">01</div>
 <div class="stat-val stat-yellow">0 ms</div>
 <div class="card-title">Mock-Free 단위 테스트</div>
 <div class="card-desc">Repository Mock이나 TestDispatcher 없이 원하는 State와 Event를 넣고 즉시 전이 검증</div>
 </div>
 
-<div class="glass-card border-blue" style="text-align: center; padding: 22px 18px;">
+<div class="glass-card border-top-blue" style="text-align: center; padding: 22px 18px;">
 <div class="circle-badge badge-blue" style="margin: 0 auto 6px auto;">02</div>
 <div class="stat-val stat-cyan">100%</div>
 <div class="card-title">코드 기반 Mermaid 생성</div>
 <div class="card-desc">실행되는 머신 코드에서 상태 다이어그램이 자동 생성되며, CI에서 코드-설계 일치 검증</div>
 </div>
 
-<div class="glass-card border-purple" style="text-align: center; padding: 22px 18px;">
+<div class="glass-card border-top-purple" style="text-align: center; padding: 22px 18px;">
 <div class="circle-badge badge-purple" style="margin: 0 auto 6px auto;">03</div>
 <div class="stat-val stat-purple">0 Error</div>
 <div class="card-title">부작용(Side-Effect) 격리</div>
@@ -458,39 +513,45 @@ Afsm (Android Finite State Machine)의 핵심 설계 철학
 
 ---
 
-<!-- 8. Conclusion & Action Slide (Unified Glassmorphism Summary & CTA) -->
-<div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+<!-- 8. Executive Closing & Q&A Hub Slide (Re-engineered UX) -->
 <div>
-<span class="kicker">SUMMARY & ACTION</span>
-<h2>핵심 요약 및 Afsm 시작하기</h2>
-<p class="lead">틀렸을 때 비용이 큰 복잡한 화면 흐름을 눈에 보이는 확실한 규칙으로 바꾸세요.</p>
-
-<div class="grid-3" style="margin-top: 8px;">
-<div class="glass-card" style="padding: 18px 20px; min-height: 130px;">
-<div class="circle-badge badge-blue">01</div>
-<div class="card-title" style="color: var(--accent-blue);">Phase 차단</div>
-<div class="card-desc">상호 배타적 단계를 정의하여 유효하지 않은 Boolean 조합 원천 제거</div>
-</div>
-<div class="glass-card" style="padding: 18px 20px; min-height: 130px;">
-<div class="circle-badge badge-yellow">02</div>
-<div class="card-title" style="color: var(--accent-yellow);">Command 격리</div>
-<div class="card-desc">전이 판단과 외부 작업을 분리해 안전하고 가벼운 단위 테스트 달성</div>
-</div>
-<div class="glass-card" style="padding: 18px 20px; min-height: 130px;">
-<div class="circle-badge badge-purple">03</div>
-<div class="card-title" style="color: var(--accent-purple);">다이어그램 일치</div>
-<div class="card-desc">코드 기반 Mermaid 자동 생성으로 설계와 구현의 불일치 해소</div>
-</div>
-</div>
+<div class="slide-header" style="margin-bottom: 16px;">
+<span class="kicker">SUMMARY & NEXT STEPS</span>
+<h2>핵심 요약 및 질의응답 (Q&A)</h2>
+<p class="lead" style="margin-bottom: 0;">복잡한 화면 흐름을 상태 머신으로 표준화하여 견고한 안드로이드 앱을 구축하세요.</p>
 </div>
 
-<div class="glass-card" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 14px 24px; border: 1.5px solid rgba(56,189,248,0.4); margin-top: 14px;">
+<div class="closing-box">
+<div class="closing-left">
+<div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-blue);">
+<div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">01. 상호 배타적 Phase 정의</div>
+<div class="card-desc">유효하지 않은 Boolean 상태 조합을 컴파일 타임에 원천 차단</div>
+</div>
+<div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-yellow);">
+<div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">02. 부작용(Side-Effect) Command 격리</div>
+<div class="card-desc">전이 판단과 외부 작업을 분리하여 Mock 없는 0ms 단위 테스트 달성</div>
+</div>
+<div class="glass-card" style="padding: 12px 16px; border-left: 3.5px solid var(--accent-purple);">
+<div style="font-size: 0.92rem; font-weight: 800; color: #FFF; margin-bottom: 2px;">03. Mermaid 다이어그램 자동 동기화</div>
+<div class="card-desc">코드 기반 상태 다이어그램으로 설계와 구현의 100% 일치 자동 검증</div>
+</div>
+</div>
+
+<div class="qa-box">
 <div>
-<div style="font-size: 0.98rem; font-weight: 800; color: #FFF;">🚀 GitHub 저장소 & 공식 한글/영문 문서 허브</div>
-<div style="font-size: 0.8rem; color: #A5B4FC; margin-top: 2px;">github.com/kez-lab/afsm &nbsp;|&nbsp; kez-lab.org/afsm</div>
+<div class="qa-kicker">OPEN FOR DISCUSSION</div>
+<div class="qa-title">Q & A</div>
+<div class="qa-desc">궁금하신 점이나 아키텍처 도입 논의를 환영합니다.</div>
 </div>
-<div style="background: var(--accent-blue); color: #0F172A; font-weight: 800; padding: 6px 18px; border-radius: 8px; font-size: 0.88rem;">Q&A</div>
+
+<div class="qa-meta-border">
+<div class="qa-meta-label">GITHUB & DOCS HUB</div>
+<div class="qa-meta-val-blue">github.com/kez-lab/afsm</div>
+<div class="qa-meta-label">CONTACT</div>
+<div class="qa-meta-val-white">kejprogramer0909@gmail.com</div>
+</div>
+</div>
 </div>
 </div>
 
-<!-- note: [마무리 멘트] 3가지 요약과 GitHub 링크를 안내하며 발표를 마무리합니다. 경청해 주셔서 감사합니다. -->
+<!-- note: [마무리 멘트] 3가지 핵심 요약과 공식 GitHub 저장소 링크를 안내하며 발표를 마무리합니다. 질문이 있으시면 편하게 말씀해 주세요. 경청해 주셔서 감사합니다. -->
