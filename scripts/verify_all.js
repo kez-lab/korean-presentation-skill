@@ -50,7 +50,10 @@ const EXPECTED_ASSETS = [
   { type: 'file', path: 'templates/preview_04_pitch_keynote_bold/slide.005.png' },
   { type: 'file', path: 'templates/preview_04_pitch_keynote_bold/slide.006.png' },
 
-  // 5. AFSM Signature Deck (8 slides)
+  // 5. Anthropic PptxGenJS Native Reference Deck
+  { type: 'file', path: 'templates/Native_PptxGenJS_Sample.pptx' },
+
+  // 6. AFSM Signature Deck (8 slides)
   { type: 'file', path: 'examples/afsm/Afsm_Presentation.pptx' },
   { type: 'file', path: 'examples/afsm/Afsm_Presentation.pdf' },
   { type: 'file', path: 'examples/afsm/slides_preview/slide.001.png' },

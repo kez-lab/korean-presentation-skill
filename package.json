@@ -29,6 +29,7 @@
   "author": "Kez <kejprogramer0909@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.0.0"
+    "@marp-team/marp-cli": "^4.0.0",
+    "pptxgenjs": "^4.0.1"
   }
 }
