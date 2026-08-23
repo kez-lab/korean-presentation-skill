@@ -1,23 +1,19 @@
 # CLAUDE.md - Guidelines for Claude Code
 
-This project is the official repository for **Korean Presentation Skill (`korean-presentation-skill`)**, a state-of-the-art presentation engine optimized for Korean typography, UI/UX methodologies, and multi-format slide generation (PPTX, PDF, PNG).
+This project is the official repository for **Korean Presentation Skill (`korean-presentation-skill`)**, a state-of-the-art presentation engine that **dynamically creates tailored, domain-specific design themes** with Korean typography optimization and multi-format slide generation (PPTX, PDF, PNG).
+
+## Core Theme Strategy: Dynamic & Context-Aware
+- **Do NOT force a rigid, static template.** Analyze the user's domain (DeepTech, ESG Green, Luxury Gold, Bio Medical, Fintech HFT, Gaming, B2B SaaS Light, Academic Paper, Robotics Pitch, Smart City) and create a unique 60-30-10 color palette, canvas mood, and card style tailored to the content.
+- Combine the 8 master layout components (`layout_catalog.md`) to form a coherent, stunning visual narrative.
 
 ## Build & Test Commands
 - **Run Full Integrity Test Suite**: `npm test`
-- **Build All 4 Domain Templates**: `npm run build:templates`
-- **Build Example Presentation (AFSM)**: `npm run build:example`
 - **Compile Any Markdown Deck**: `node skills/korean-presentation-skill/scripts/marp_compiler.js <path-to-deck.md>`
-- **Create New Presentation**: `node scripts/create_presentation.js --theme <tech|business|light|pitch> --title "<Title>" --author "<Author>" --out <file.md> --compile`
+- **Extract Text & Notes from PPTX**: `node skills/korean-presentation-skill/scripts/pptx_extractor.js <file.pptx> [out.md]`
+- **Validate PPTX OOXML Schema**: `node skills/korean-presentation-skill/scripts/pptx_validator.js <file.pptx>`
 - **Generate Web Showcase Gallery**: `npm run gallery`
 
-## Core Governance & Rules
-1. **Korean Typography Standard**:
-   - Always use `letter-spacing: -0.025em;` and `word-break: keep-all;`.
-   - Never allow orphan words/particles ("은/는/이/가/을/를/의/에", 1~2 hanging syllables) on separate lines.
-2. **Visual Center Equilibrium**:
-   - Avoid top-heavy clutter; default slide vertical alignment is `justify-content: center;`.
-   - For hero covers and closing slides, use `style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;"`.
-3. **Marp Container Rule**:
-   - Do NOT insert blank lines inside `<div>` container tags to prevent Marp parser layout fragmentation.
-4. **4-Step AI Workflow**:
-   - 1. Outline Storyline & Agenda ➔ 2. Draft Marp Markdown ➔ 3. Compile (PPTX+PDF+PNG) ➔ 4. Visually Inspect PNGs and correct any defects.
+## Core Governance & Typography Rules
+1. **Korean Typography Standard**: Always use `letter-spacing: -0.025em;` and `word-break: keep-all;`. Zero orphan words/particles on separate lines.
+2. **Visual Center Equilibrium**: Avoid top-heavy clutter; default vertical alignment is `justify-content: center;`.
+3. **Marp Container Rule**: Do NOT insert blank lines inside `<div>` container tags.
