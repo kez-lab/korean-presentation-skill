@@ -12,11 +12,11 @@
 
 <br/>
 
-[**슬라이드 쇼케이스**](#슬라이드-쇼케이스-afsm-세션) •
-[**4종 완성형 템플릿**](#완성형-프레젠테이션-템플릿-카탈로그) •
+[**4종 템플릿 갤러리**](#1-4종-완성형-프레젠테이션-템플릿-갤러리) •
+[**실전 레퍼런스 덱 쇼케이스**](#2-실전-레퍼런스-덱-쇼케이스-afsm-8-slide-session) •
 [**한국어 타이포그래피**](#한국어-타이포그래피-최적화-표준) •
 [**디자인 거버넌스**](#5대-핵심-디자인-거버넌스) •
-[**빠른 시작**](#빠른-시작-및-cli-사용법)
+[**CLI 사용법**](#빠른-시작-및-cli-사용법)
 
 </div>
 
@@ -36,6 +36,147 @@
 
 ---
 
+## 1. 4종 완성형 프레젠테이션 템플릿 갤러리
+
+발표 목적과 도메인에 따라 즉시 사용할 수 있도록 설계된 4가지 테마별 완성형 템플릿의 실제 렌더링 결과입니다.
+
+### 템플릿 01. Tech Dark Glass (테크 & 엔지니어링 아키텍처)
+- **추천 용도**: 개발자 세션, 시스템 설계, 클라우드 아키텍처, 엔지니어링 딥다이브
+- **디자인 특징**: 다크 글래스모피즘 표면, 24px 네온 서클 뱃지(시안/퍼플/블루/그린), 48px 안전 여백 비대칭 2단 분할
+- **템플릿 소스**: [`templates/01_tech_dark_glass.md`](templates/01_tech_dark_glass.md)
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_01_tech_dark_glass/slide.001.png" alt="Tech Dark Glass Cover" width="100%"/><br/>
+<b>표지 슬라이드 (Hero Cover)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_01_tech_dark_glass/slide.002.png" alt="Tech Dark Glass Agenda" width="100%"/><br/>
+<b>목차 슬라이드 (Asymmetric Split Agenda)</b>
+</td>
+</tr>
+</table>
+
+---
+
+### 템플릿 02. Business Clean Navy (기업 전략 & IR 경영 보고서)
+- **추천 용도**: C-Level 경영진 보고, 신규 사업 제안서, 분기 실적 발표, 기업 IR
+- **디자인 특징**: 딥 미드나잇 네이비 캔버스, 샴페인 골드 포인트, 재무 KPI 3대 대형 지표 카드
+- **템플릿 소스**: [`templates/02_business_clean_navy.md`](templates/02_business_clean_navy.md)
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_02_business_clean_navy/slide.001.png" alt="Business Navy Cover" width="100%"/><br/>
+<b>표지 슬라이드 (Strategic Initiative Cover)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_02_business_clean_navy/slide.002.png" alt="Business Navy KPI" width="100%"/><br/>
+<b>핵심 성과 지표 슬라이드 (Financial Big Stats)</b>
+</td>
+</tr>
+</table>
+
+---
+
+### 템플릿 03. Modern Light (학술 대회 & 논문 연구 & 백서)
+- **추천 용도**: 학회 논문 발표, 연구 성과 보고, 인쇄용 백서(Whitepaper) 배포
+- **디자인 특징**: 오프화이트 캔버스, 딥 인디고 & 마린 블루, 잉크 절약형 고대비 화이트 카드
+- **템플릿 소스**: [`templates/03_modern_light.md`](templates/03_modern_light.md)
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_03_modern_light/slide.001.png" alt="Modern Light Cover" width="100%"/><br/>
+<b>표지 슬라이드 (Research Paper Cover)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_03_modern_light/slide.002.png" alt="Modern Light Findings" width="100%"/><br/>
+<b>연구 성과 슬라이드 (3-Card Benchmark Findings)</b>
+</td>
+</tr>
+</table>
+
+---
+
+### 템플릿 04. Pitch Keynote Bold (스타트업 피치 덱 & 프로덕트 런칭)
+- **추천 용도**: Series A/B 투자 유치 피치, 데모데이 발표, 신제품 런칭 키노트
+- **디자인 특징**: 매트 옵시디언 블랙, 일렉트릭 골드, 대형 수치 타이포그래피(TAM/SAM/SOM 및 트랙션)
+- **템플릿 소스**: [`templates/04_pitch_keynote_bold.md`](templates/04_pitch_keynote_bold.md)
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="templates/preview_04_pitch_keynote_bold/slide.001.png" alt="Pitch Keynote Cover" width="100%"/><br/>
+<b>표지 슬라이드 (Investment Pitch Cover)</b>
+</td>
+<td width="50%" align="center">
+<img src="templates/preview_04_pitch_keynote_bold/slide.002.png" alt="Pitch Keynote Traction" width="100%"/><br/>
+<b>트랙션 & 시장 규모 슬라이드 (Giant Traction Metrics)</b>
+</td>
+</tr>
+</table>
+
+---
+
+## 2. 실전 레퍼런스 덱 쇼케이스 (AFSM 8-Slide Session)
+
+`korean-presentation-skill`의 거버넌스를 완벽히 적용하여 컴파일된 **AFSM (Android Finite State Machine) 기술 세션** 8개 슬라이드 전체 갤러리입니다:
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.001.png" alt="Slide 01: Hero Cover" width="100%"/><br/>
+<b>Slide 01. 표지 (Hero Cover)</b><br/>
+<sub>Space-Between Gravity • 대형 타이포그래피 • 메타데이터 배너</sub>
+</td>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.002.png" alt="Slide 02: Agenda Split" width="100%"/><br/>
+<b>Slide 02. 목차 (32:68 비대칭 2단 분할)</b><br/>
+<sub>48px 안전 여백 • 2x2 글래스모피즘 카드 • 01~04 네온 뱃지</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.003.png" alt="Slide 03: Problem Statement" width="100%"/><br/>
+<b>Slide 03. 문제점 진단 (Problem Statement)</b><br/>
+<sub>상단 3.5px 컬러 보더 • 3단 카드 그리드 • 고대비 텍스트</sub>
+</td>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.004.png" alt="Slide 04: Paradigm Shift Quote" width="100%"/><br/>
+<b>Slide 04. 패러다임 전환 (Quote Focus)</b><br/>
+<sub>수직 중앙 집중 • 시안 & 옐로우 네온 하이라이트 • 체크리스트</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.005.png" alt="Slide 05: Core 3 Pillars" width="100%"/><br/>
+<b>Slide 05. 3대 핵심 모델 (Core Architecture)</b><br/>
+<sub>퍼플/블루/그린 시그니처 보더 • 모듈러 불릿 • 정밀 마진</sub>
+</td>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.006.png" alt="Slide 06: UDF Flow Pipeline" width="100%"/><br/>
+<b>Slide 06. 단방향 데이터 흐름 (UDF Flow)</b><br/>
+<sub>수평 4단계 파이프라인 • 네온 커넥터 • 2단 역할 분담 카드</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.007.png" alt="Slide 07: Key Engineering Stats" width="100%"/><br/>
+<b>Slide 07. 3대 엔지니어링 가치 (Big Stats)</b><br/>
+<sub>0ms 옐로우 • 100% 시안 • 0 Error 퍼플 • 대형 KPI 수치</sub>
+</td>
+<td width="50%" align="center">
+<img src="examples/afsm/slides_preview/slide.008.png" alt="Slide 08: Summary & CTA" width="100%"/><br/>
+<b>Slide 08. 요약 및 액션 (Summary & CTA)</b><br/>
+<sub>3단 핵심 요약 카드 • 공식 저장소 링크 및 Q&A 배너</sub>
+</td>
+</tr>
+</table>
+
+---
+
 ## AI 에이전트 자율 워크플로우
 
 ```mermaid
@@ -51,11 +192,8 @@ flowchart LR
     F -->|레이아웃 자체 검증 및 보정| G[최종 프레젠테이션 완결]
 ```
 
-### 1. 검증된 레이아웃 참조 (Layout Catalog)
-AI 에이전트는 무작위로 HTML을 생성하지 않고, [layout_catalog.md](skills/korean-presentation-skill/references/layout_catalog.md)에 정의된 20개 이상의 검증된 레이아웃 패턴(비대칭 분할, 3대 모델 기둥, 4단계 파이프라인, 빅 스탯 지표 등)을 선택하여 슬라이드를 설계합니다.
-
-### 2. 자율 시각 검증 루프 (Self-Correction Loop)
-슬라이드 컴파일 직후, AI 에이전트는 생성된 고해상도 이미지(`slides_preview/slide.*.png`)를 확인하여 컴포넌트 간 겹침, 여백 불균형, 텍스트 클리핑이 없는지 시각적으로 검토한 후 최종 산출물을 인도합니다.
+1. **검증된 레이아웃 참조 (Layout Catalog)**: AI 에이전트는 [layout_catalog.md](skills/korean-presentation-skill/references/layout_catalog.md)에 정의된 20개 이상의 검증된 레이아웃 패턴(비대칭 분할, 3대 모델 기둥, 4단계 파이프라인, 빅 스탯 지표 등)을 선택하여 슬라이드를 설계합니다.
+2. **자율 시각 검증 루프 (Self-Correction Loop)**: 슬라이드 컴파일 직후, AI 에이전트는 생성된 고해상도 이미지(`slides_preview/slide.*.png`)를 확인하여 컴포넌트 간 겹침, 여백 불균형, 텍스트 클리핑이 없는지 시각적으로 검토한 후 최종 산출물을 인도합니다.
 
 ---
 
@@ -95,76 +233,6 @@ AI 에이전트는 무작위로 HTML을 생성하지 않고, [layout_catalog.md]
 
 ---
 
-## 완성형 프레젠테이션 템플릿 카탈로그
-
-도메인과 발표 목적에 따라 즉시 활용할 수 있는 4종의 완성형 템플릿이 `templates/` 디렉토리에 포함되어 있습니다:
-
-| 템플릿 명칭 | 추천 용도 | 디자인 특징 | 소스 경로 |
-|:---|:---|:---|:---|
-| **01. Tech Dark Glass** | 개발자 세션, 시스템 아키텍처, 엔지니어링 발표 | 다크 글래스모피즘, 24px 네온 서클 뱃지, UDF 흐름도 | `templates/01_tech_dark_glass.md` |
-| **02. Business Clean Navy** | 기업 전략 보고서, 신규 사업 제안, 경영진 보고 | 딥 미드나잇 네이비, 샴페인 골드 포인트, 재무 KPI | `templates/02_business_clean_navy.md` |
-| **03. Modern Light** | 학술 대회, 연구 논문 발표, 인쇄용 백서 | 오프화이트 캔버스, 딥 인디고, 잉크 절약형 고대비 | `templates/03_modern_light.md` |
-| **04. Pitch Keynote Bold** | 스타트업 투자 유치(IR), 프로덕트 런칭 키노트 | 매트 옵시디언 블랙, 볼드 골드, 대형 수치 타이포 | `templates/04_pitch_keynote_bold.md` |
-
----
-
-## 슬라이드 쇼케이스 (AFSM 세션)
-
-`korean-presentation-skill`을 적용하여 제작된 **AFSM (Android Finite State Machine) 기술 세션** 8개 슬라이드의 실제 렌더링 결과입니다:
-
-<table width="100%">
-<tr>
-<td width="50%" align="center">
-<img src="slides_preview/slide.001.png" alt="Slide 01: Hero Cover" width="100%"/><br/>
-<b>Slide 01. 표지 (Hero Cover)</b><br/>
-<sub>Space-Between Gravity • 대형 타이포그래피 • 메타데이터 배너</sub>
-</td>
-<td width="50%" align="center">
-<img src="slides_preview/slide.002.png" alt="Slide 02: Agenda Split" width="100%"/><br/>
-<b>Slide 02. 목차 (32:68 비대칭 2단 분할)</b><br/>
-<sub>48px 안전 여백 • 2x2 글래스모피즘 카드 • 01~04 네온 뱃지</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="slides_preview/slide.003.png" alt="Slide 03: Problem Statement" width="100%"/><br/>
-<b>Slide 03. 문제점 진단 (Problem Statement)</b><br/>
-<sub>상단 3.5px 컬러 보더 • 3단 카드 그리드 • 고대비 텍스트</sub>
-</td>
-<td width="50%" align="center">
-<img src="slides_preview/slide.004.png" alt="Slide 04: Paradigm Shift Quote" width="100%"/><br/>
-<b>Slide 04. 패러다임 전환 (Quote Focus)</b><br/>
-<sub>수직 중앙 집중 • 시안 & 옐로우 네온 하이라이트 • 체크리스트</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="slides_preview/slide.005.png" alt="Slide 05: Core 3 Pillars" width="100%"/><br/>
-<b>Slide 05. 3대 핵심 모델 (Core Architecture)</b><br/>
-<sub>퍼플/블루/그린 시그니처 보더 • 모듈러 불릿 • 정밀 마진</sub>
-</td>
-<td width="50%" align="center">
-<img src="slides_preview/slide.006.png" alt="Slide 06: UDF Flow Pipeline" width="100%"/><br/>
-<b>Slide 06. 단방향 데이터 흐름 (UDF Flow)</b><br/>
-<sub>수평 4단계 파이프라인 • 네온 커넥터 • 2단 역할 분담 카드</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="slides_preview/slide.007.png" alt="Slide 07: Key Engineering Stats" width="100%"/><br/>
-<b>Slide 07. 3대 엔지니어링 가치 (Big Stats)</b><br/>
-<sub>0ms 옐로우 • 100% 시안 • 0 Error 퍼플 • 대형 KPI 수치</sub>
-</td>
-<td width="50%" align="center">
-<img src="slides_preview/slide.008.png" alt="Slide 08: Summary & CTA" width="100%"/><br/>
-<b>Slide 08. 요약 및 액션 (Summary & CTA)</b><br/>
-<sub>3단 핵심 요약 카드 • 공식 저장소 링크 및 Q&A 배너</sub>
-</td>
-</tr>
-</table>
-
----
-
 ## 프로젝트 및 스킬 구조
 
 ```
@@ -186,7 +254,8 @@ korean-presentation-skill/
 │   ├── 01_tech_dark_glass.md              # 테크 아키텍처 템플릿
 │   ├── 02_business_clean_navy.md          # 기업 전략 / IR 템플릿
 │   ├── 03_modern_light.md                 # 학술 / 연구 / 라이트 템플릿
-│   └── 04_pitch_keynote_bold.md           # 스타트업 피치 / 키노트 템플릿
+│   ├── 04_pitch_keynote_bold.md           # 스타트업 피치 / 키노트 템플릿
+│   └── preview_*/                         # 템플릿별 1920x1080 렌더링 이미지
 │
 ├── examples/afsm/                         # 실전 프로덕션 레퍼런스 덱 (AFSM)
 │   ├── afsm_presentation.md               # 마크다운 원본 소스
@@ -214,19 +283,19 @@ npm install
 
 ### 2. 프레젠테이션 일괄 컴파일 (PPTX + PDF + PNG)
 ```bash
-# 기본 AFSM 예제 슬라이드 빌드
-npm run build:afsm
+# 임의의 마크다운 파일 직접 컴파일 (입력 파일, 출력 디렉토리, 산출물 파일명)
+node skills/korean-presentation-skill/scripts/marp_compiler.js <input.md> [output_dir] [output_name]
 
-# 4종 템플릿 일괄 빌드
+# 4종 템플릿 일괄 컴파일
 npm run build:templates
 
-# 임의의 마크다운 파일 직접 컴파일
-node skills/korean-presentation-skill/scripts/marp_compiler.js <input.md> <output_dir> [output_base_name]
+# 실전 예제(AFSM) 덱 컴파일
+npm run build:example
 ```
 
 ### 컴파일 산출물:
-- `<output_dir>/<name>.pptx` (파워포인트 원본)
-- `<output_dir>/<name>.pdf` (벡터 PDF)
+- `<output_dir>/<output_name>.pptx` (파워포인트 원본)
+- `<output_dir>/<output_name>.pdf` (벡터 PDF)
 - `<output_dir>/slides_preview/slide.001.png ~ slide.NNN.png` (1920×1080 슬라이드 이미지)
 
 ---
