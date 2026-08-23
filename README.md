@@ -1,10 +1,11 @@
 <div align="center">
 
-# 🪄 Presentation Master (AI Agent Skill)
+# 🪄 Korean Presentation Master (AI Agent Skill)
 
-### Autonomous AI Skill for Generating Consulting-Grade Presentations, Print-Ready PDFs, and Verified Slide Screenshots
+### Autonomous AI Agent Skill for Generating Korean Typography-Optimized, Consulting-Grade Presentations (.pptx), Print-Ready PDFs (.pdf), and Verified Slide Renders (.png)
 
 [![Antigravity Skill](https://img.shields.io/badge/Antigravity-AI_Agent_Skill-6366F1?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/antigravity)
+[![Korean Typography](https://img.shields.io/badge/Korean_Typography-Pretendard_%7C_-0.025em-EC4899?style=for-the-badge)](references/korean_typography_spacing_guide.md)
 [![Marp CLI](https://img.shields.io/badge/Marp-Core_Compiler-0284C7?style=for-the-badge&logo=markdown&logoColor=white)](https://marp.app/)
 [![WCAG AAA](https://img.shields.io/badge/Accessibility-WCAG_AAA_7:1+-34D399?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FACC15?style=for-the-badge)](LICENSE)
@@ -12,25 +13,45 @@
 <br/>
 
 [**Live Slide Gallery**](#-verified-output-showcase) •
+[**Korean Typography Engine**](#-korean-typography-governance) •
 [**AI Agent Workflow**](#-how-ai-agents-use-this-skill) •
-[**Design Governance**](#-5-pillars-of-pro-design-governance) •
-[**Quick Start**](#-quick-start--cli-usage) •
-[**Installation**](#-install-as-an-ai-skill)
+[**Design System**](#-5-pillars-of-pro-design-governance) •
+[**Quick Start**](#-quick-start--cli-usage)
 
 </div>
 
 ---
 
-## 🌟 What is Presentation Master?
+## 🌟 What is Korean Presentation Master?
 
-**`presentation-master`** is a specialized **AI Agent Skill** built for autonomous coding assistants (Google Antigravity, Claude Code, Cursor, Windsurf, and custom LLM agents).
+**`korean-presentation-master`** is a specialized **AI Agent Skill** built for autonomous AI coding assistants (Google Antigravity, Claude Code, Cursor, Windsurf, AutoGPT).
 
-Unlike generic AI presentation generators that produce broken layouts, illegible low-contrast text, and corrupted PPTX files, **Presentation Master enforces rigorous UI/UX design governance, cognitive psychology principles (Gestalt), modular spacing, and multilingual typography.**
+Most AI presentation generators fail when dealing with non-Latin scripts, resulting in **loose glyph tracking, awkward mid-word breaks, isolated trailing particles (orphans), top-heavy layout clutter, and corrupted PPTX recovery errors**. 
 
-From a single Markdown file, the skill compiles **3 production-grade deliverables simultaneously**:
-1. 📊 **100% Native Editable PowerPoint (`.pptx`)**: Clean native vector shapes with **0% recovery/repair errors**.
-2. 📄 **Print-Ready Vector PDF (`.pdf`)**: Crystal-clear typography for client deliverables.
-3. 🖼️ **1920×1080 High-Res Slide Images (`.png`)**: Enables autonomous visual inspection and validation by the AI agent via vision tools.
+**Korean Presentation Master** solves this by embedding **deep Korean typography engineering (`-0.025em` tracking, `word-break: keep-all;`, particle isolation protection)** and **executive UI/UX design methodologies (Gestalt, 8pt Grid, 60-30-10 Color Rule, Visual Center Equilibrium)** directly into the LLM agent's generative pipeline.
+
+### 📦 3 Production Deliverables per Run:
+1. 📊 **100% Native Editable PowerPoint (`.pptx`)**: Native vector text/shapes with **0% repair or corruption errors**.
+2. 📄 **Print-Ready Vector PDF (`.pdf`)**: Ultra-crisp typography for executive reporting and client distribution.
+3. 🖼️ **1920×1080 High-Res Screenshots (`.png`)**: Enables autonomous visual inspection and self-correction by the AI agent via multimodal vision tools.
+
+---
+
+## 🇰🇷 Korean Typography Governance
+
+Korean fonts often suffer from visual dispersion due to square glyph metrics. `korean-presentation-master` strictly enforces:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                              KOREAN TYPOGRAPHY MATRIX                                  │
+├──────────────────────────┬─────────────────────────────────────────────────────────────┤
+│ Negative Letter Spacing  │ letter-spacing: -0.025em for dense, cohesive text blocks    │
+│ Word-Break Preservation  │ word-break: keep-all; prevents awkward character-level cuts │
+│ Trailing Particle Guard  │ Semantic wrapping stops isolated particles (은/는/이/가/을/를)│
+│ Pro Font Hierarchy       │ Pretendard / Apple SD Gothic Neo font stack                 │
+│ Modular Line Heights     │ Title: 1.28 | Section: 1.32 | Body: 1.55                    │
+└──────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -38,22 +59,19 @@ From a single Markdown file, the skill compiles **3 production-grade deliverable
 
 ```mermaid
 flowchart LR
-    A[User Request] --> B[AI Agent with Skill]
-    B --> C[Draft Markdown with Design Governance]
-    C --> D[Run marp_compiler.js]
-    D --> E[Deliverables]
-    E --> E1[Editable .pptx]
+    A[User Prompt] --> B[AI Agent with korean-presentation-master]
+    B --> C[Draft Markdown with Korean Typography & UI/UX]
+    C --> D[Compile via marp_compiler.js]
+    D --> E[Multi-Format Deliverables]
+    E --> E1[100% Native .pptx]
     E --> E2[Vector .pdf]
     E --> E3[1920x1080 .png]
-    E3 --> F[AI Vision Tool Inspection]
-    F -->|Self-Correction / Verified| G[Final Presentation Delivered]
+    E3 --> F[AI Vision Tool view_file]
+    F -->|Self-Correction & Quality Gate| G[Flawless Presentation Delivered]
 ```
 
-### 1. Zero Hallucination Layouts
-The AI Agent refers to [`layout_catalog.md`](skills/presentation-master/references/layout_catalog.md) to select from **20+ verified layout recipes** (Asymmetric Split, 3-Pillar Glassmorphism, 4-Step UDF Pipelines, Big Stat KPI Metrics, Quote Focus).
-
-### 2. Autonomous Visual Verification Loop
-After compiling the deck, the AI Agent uses its `view_file` vision tool to visually inspect each rendered PNG slide for text clipping, overlap, and visual balance before delivering to the user.
+1. **Rule Enforcement**: The AI Agent references [`korean_typography_spacing_guide.md`](skills/korean-presentation-master/references/korean_typography_spacing_guide.md) and [`layout_catalog.md`](skills/korean-presentation-master/references/layout_catalog.md) to generate structured Marp markdown.
+2. **Autonomous Visual Inspection Loop**: After compilation, the AI Agent invokes its `view_file` vision tool on `slides_preview/slide.*.png` to inspect spacing, padding, text overlapping, and visual center balance.
 
 ---
 
@@ -64,7 +82,7 @@ After compiling the deck, the AI Agent uses its `view_file` vision tool to visua
 │                                 DESIGN GOVERNANCE MATRIX                                │
 ├──────────────────────────────┬──────────────────────────────────────────────────────────┤
 │ 1. Visual Center Equilibrium │ Eliminates top-heavy clutter; 1:1 vertical padding balance│
-│ 2. Multilingual Typography   │ -0.025em letter-spacing, keep-all word preservation, etc.│
+│ 2. Korean Typography Core    │ -0.025em tracking, keep-all preservation, orphan guard    │
 │ 3. Dark Glassmorphism        │ 60-30-10 rule + 24px neon micro-badges for instant focus │
 │ 4. Harmonious 8pt Spacing    │ 20px 22px card padding, 26px tier-separation margin      │
 │ 5. Anti-Occlusion Layout     │ 0% overlap/clipping guaranteed via strict height budgets │
@@ -72,38 +90,32 @@ After compiling the deck, the AI Agent uses its `view_file` vision tool to visua
 ```
 
 ### 1. ⚖️ Visual Center Equilibrium (Balanced Vertical Gravity)
-- Replaces naive top-alignment (`justify-content: flex-start`) with **`justify-content: center`**.
+- Replaces naive top-alignment (`flex-start`) with **`justify-content: center`**.
 - Content blocks float naturally along the **Visual Center Axis**, establishing balanced 1:1 top/bottom breathing zones.
 
-### 2. 🇰🇷 Korean & Multilingual Typography Optimization
-- **Negative Letter Spacing (`letter-spacing: -0.025em`)**: Eliminates loose glyph dispersion in Hangul and CJK fonts.
-- **Word-Break Protection (`word-break: keep-all;`)**: Prevents words from breaking awkwardly mid-character.
-- **Orphan Prevention**: Semantic line-breaks protect trailing particles (e.g., "을/를", "이/가") from dropping alone to new lines.
-- **Modular Scale**: Title `2.6rem` (1.28 line-height) | Body `0.78rem ~ 0.82rem` (1.5 line-height).
-
-### 3. 🔮 Dark Glassmorphism & 24px Micro-Badges
+### 2. 🔮 Dark Glassmorphism & 24px Micro-Badges
 - **Surface**: `linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%)` with `1px rgba(255, 255, 255, 0.09)` border.
 - **Micro-Badges**: 24px circular translucent badges (`01`, `02`, `03`) with neon accents (Cyan `#00F0FF`, Purple `#A78BFA`, Blue `#38BDF8`, Green `#34D399`, Yellow `#FACC15`, Red `#F87171`).
-- **WCAG AAA Compliance**: High-contrast text palette (`#FFFFFF` to `#E2E8F0`) ensures flawless legibility on high-lumen projectors and retina screens.
+- **WCAG AAA Compliance**: High-contrast text palette (`#FFFFFF` to `#E2E8F0`) ensures flawless legibility.
 
-### 4. 📐 8pt Grid & Breathing Room
+### 3. 📐 8pt Grid & Breathing Room
 - Generous card padding (`padding: 20px 22px`) and grid gutters (`gap: 16px ~ 20px`) prevent crowded text blocks.
 
-### 5. 🛡️ Zero-Collision Layout (Anti-Occlusion)
+### 4. 🛡️ Zero-Collision Layout (Anti-Occlusion)
 - All slides strictly budget height within the **640px usable viewport** (1280×720 canvas), eliminating vertical clipping and overflow.
 
 ---
 
 ## 🖼️ Verified Output Showcase
 
-*Live renders generated by `presentation-master` for **AFSM (Android Finite State Machine)** session:*
+*Live renders generated by `korean-presentation-master` for the **AFSM (Android Finite State Machine)** technical session:*
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
 <img src="slides_preview/slide.001.png" alt="Slide 01: Hero Cover" width="100%"/><br/>
 <b>Slide 01. Hero Cover</b><br/>
-<sub>Between Gravity • Bold Title Hierarchy • Glassmorphic Metadata Pill</sub>
+<sub>Between Gravity • Bold Korean Title Hierarchy • Glassmorphic Metadata Pill</sub>
 </td>
 <td width="50%" align="center">
 <img src="slides_preview/slide.002.png" alt="Slide 02: Agenda Split" width="100%"/><br/>
@@ -154,12 +166,12 @@ After compiling the deck, the AI Agent uses its `view_file` vision tool to visua
 ## 📦 Project & Skill Structure
 
 ```
-presentation-master/
-├── 📁 skills/presentation-master/         # AI Agent Skill Package
+korean-presentation-master/
+├── 📁 skills/korean-presentation-master/  # AI Agent Skill Package
 │   ├── 📜 SKILL.md                       # Agent System Prompt & Governance Rules
 │   ├── 📁 references/                    # Engineering Reference Guides
+│   │   ├── korean_typography_spacing_guide.md # Hangul Typography & Spacing Guide (-0.025em)
 │   │   ├── gravity_spacing_occlusion_guide.md # Visual Center & Spacing Standards
-│   │   ├── korean_typography_spacing_guide.md # Hangul Typography Rules (-0.025em)
 │   │   ├── ui_ux_methodologies.md             # Gestalt & Cognitive Principles
 │   │   ├── layout_catalog.md                  # 20+ Verified Layout Recipes
 │   │   ├── design_systems.md                  # Color & Surface Tokens
@@ -183,10 +195,6 @@ presentation-master/
 
 ## 💻 Quick Start & CLI Usage
 
-### Prerequisites
-- Node.js 18+
-- Chrome / Chromium (for vector PDF and PNG rendering)
-
 ### 1. Installation
 ```bash
 git clone https://github.com/kez-lab/presentation-master.git
@@ -200,28 +208,23 @@ npm install
 npm run build:afsm
 
 # Or compile any custom markdown presentation
-node skills/presentation-master/scripts/marp_compiler.js <input.md> <output_dir> [output_base_name]
+node skills/korean-presentation-master/scripts/marp_compiler.js <input.md> <output_dir> [output_base_name]
 ```
-
-### Output Files Generated:
-- `<output_dir>/<name>.pptx` (PowerPoint)
-- `<output_dir>/<name>.pdf` (Print-ready PDF)
-- `<output_dir>/slides_preview/slide.001.png ~ slide.NNN.png` (Verification Images)
 
 ---
 
-## 🧩 Install as an AI Skill
+## 🧩 Install as an AI Agent Skill
 
-To install Presentation Master into your **Google Antigravity** environment:
+To install **Korean Presentation Master** into your **Google Antigravity** environment:
 
 ```bash
 # Copy skill into Antigravity user config
-mkdir -p ~/.gemini/config/skills/presentation-master
-cp -r skills/presentation-master/* ~/.gemini/config/skills/presentation-master/
+mkdir -p ~/.gemini/config/skills/korean-presentation-master
+cp -r skills/korean-presentation-master/* ~/.gemini/config/skills/korean-presentation-master/
 ```
 
 Now prompt your agent:
-> *"Create an 8-slide presentation explaining [Your Topic] using the presentation-master skill with pro UI/UX design governance."*
+> *"Create an 8-slide presentation in Korean explaining [Your Topic] using the korean-presentation-master skill with pro UI/UX design governance."*
 
 ---
 
