@@ -292,18 +292,21 @@ flowchart LR
 
 ```
 korean-presentation-skill/
-├── skills/korean-presentation-skill/  # Antigravity 전용 AI 스킬 패키지
+├── skills/korean-presentation-skill/  # Antigravity / Claude Code 통합 AI 스킬 패키지
 │   ├── SKILL.md                       # 에이전트 시스템 프롬프트 및 거버넌스 지침
-│   ├── references/                    # 6대 상세 디자인 레퍼런스
+│   ├── references/                    # 8대 상세 디자인 및 호환성 레퍼런스
+│   │   ├── anthropic_pptx_skill_synthesis.md  # Anthropic 공식 PPTX 스킬 융합 가이드
+│   │   ├── agent_compatibility_guide.md       # 글로벌 AI 에이전트 호환성 가이드
+│   │   ├── layout_catalog.md                  # 완성형 8대 마스터 레이아웃 카탈로그
 │   │   ├── korean_typography_spacing_guide.md # 한국어 타이포 및 여백 표준 가이드
 │   │   ├── gravity_spacing_occlusion_guide.md # 수직 밸런스 및 상단 쏠림 방지 가이드
 │   │   ├── ui_ux_methodologies.md             # 게슈탈트 및 UI/UX 방법론
-│   │   ├── layout_catalog.md                  # 20+ 레이아웃 카탈로그
 │   │   ├── design_systems.md                  # 컬러 팔레트 및 글래스 토큰
 │   │   └── storytelling_framework.md          # 5단계 내러티브 프레임워크
 │   └── scripts/
 │       ├── marp_compiler.js               # PPTX + PDF + PNG 통합 컴파일러
-│       └── slide_engine.py                # 파이썬 슬라이드 보조 스크립트
+│       ├── pptx_extractor.js              # PPTX 텍스트 & 스피커 노트 마크다운 역추출 도구
+│       └── pptx_validator.js              # OOXML 스키마 & 손상 방지 유효성 검증 도구
 │
 ├── templates/                             # 4종 완성형 프레젠테이션 템플릿
 │   ├── 01_tech_dark_glass.md              # 테크 아키텍처 템플릿
@@ -357,14 +360,26 @@ npm run build:templates
 npm run build:example
 ```
 
-### 4. 웹 갤러리 뷰어 생성 및 슬라이드 감상
+### 4. 기존 PPTX 내용 및 스피커 노트 마크다운 역추출 (Extractor)
+```bash
+# 임의의 파워포인트 파일로부터 슬라이드별 본문 및 스피커 노트를 마크다운으로 추출
+node skills/korean-presentation-skill/scripts/pptx_extractor.js <deck.pptx> [output.md]
+```
+
+### 5. PPTX 스키마 및 손상 방지 유효성 검증 (Validator)
+```bash
+# OOXML 구조, [Content_Types].xml, No-Hash Hex, 차트 바인딩 자동 감사
+node skills/korean-presentation-skill/scripts/pptx_validator.js <deck.pptx>
+```
+
+### 6. 웹 갤러리 뷰어 생성 및 슬라이드 감상
 ```bash
 # 32개 슬라이드를 모달 줌으로 넘겨볼 수 있는 웹 갤러리 생성
 npm run gallery
 # 생성된 preview_gallery.html 을 브라우저에서 열어 즉시 감상
 ```
 
-### 5. 전체 42개 빌드 자산 무결성 자동 검증 (Verification Suite)
+### 7. 전체 43개 빌드 자산 무결성 자동 검증 (Verification Suite)
 ```bash
 npm test
 ```
