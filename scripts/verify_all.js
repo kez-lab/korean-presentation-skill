@@ -10,6 +10,17 @@ const path = require('path');
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const EXPECTED_ASSETS = [
+  // 6. Agentic Workflow Reference Deck (8 slides)
+  { type: 'file', path: 'examples/agentic_workflow/Agentic_Workflow_Presentation.pptx' },
+  { type: 'file', path: 'examples/agentic_workflow/Agentic_Workflow_Presentation.pdf' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.001.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.002.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.003.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.004.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.005.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.006.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.007.png' },
+  { type: 'file', path: 'examples/agentic_workflow/slides_preview/slide.008.png' },
   // 1. Tech Dark Glass (6 slides)
   { type: 'file', path: 'templates/Template_Tech_Dark_Glass.pptx' },
   { type: 'file', path: 'templates/Template_Tech_Dark_Glass.pdf' },

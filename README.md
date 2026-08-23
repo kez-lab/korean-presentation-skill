@@ -219,6 +219,55 @@
 
 ---
 
+## 3. 신규 자율 에이전트 쇼케이스 (Agentic Workflow 8-Slide Deck)
+
+Anthropic 공식 PPTX 스킬 지침과 한국어 타이포그래피 거버넌스를 결합하여 새롭게 생성된 **자율형 멀티에이전트 오케스트레이션** 8개 슬라이드 전체 갤러리입니다:
+
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.001.png" alt="Agentic Slide 1" width="100%"/><br/>
+<b>Slide 01. 표지 (3-Chip Meta Hero Cover)</b>
+</td>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.002.png" alt="Agentic Slide 2" width="100%"/><br/>
+<b>Slide 02. 목차 (32:68 Asymmetric Split Agenda)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.003.png" alt="Agentic Slide 3" width="100%"/><br/>
+<b>Slide 03. 문제 진단 (3-Card Bottleneck Breakdown)</b>
+</td>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.004.png" alt="Agentic Slide 4" width="100%"/><br/>
+<b>Slide 04. 패러다임 전환 (Orchestration Paradigm Quote)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.005.png" alt="Agentic Slide 5" width="100%"/><br/>
+<b>Slide 05. 3대 핵심 역할 (Router, Worker, Critic)</b>
+</td>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.006.png" alt="Agentic Slide 6" width="100%"/><br/>
+<b>Slide 06. 4단계 자율 파이프라인 (Execution Flow)</b>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.007.png" alt="Agentic Slide 7" width="100%"/><br/>
+<b>Slide 07. 3대 벤치마크 성과 (94.8% Completion Big Stats)</b>
+</td>
+<td width="50%" align="center">
+<img src="examples/agentic_workflow/slides_preview/slide.008.png" alt="Agentic Slide 8" width="100%"/><br/>
+<b>Slide 08. 결론 및 Q&A (Executive Closing & Docs Hub)</b>
+</td>
+</tr>
+</table>
+
+---
+
 ## AI 에이전트 자율 워크플로우
 
 ```mermaid

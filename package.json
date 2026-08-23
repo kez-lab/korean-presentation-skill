@@ -13,7 +13,8 @@
     "create": "node scripts/create_presentation.js",
     "verify": "node scripts/verify_all.js",
     "test": "node scripts/verify_all.js",
-    "gallery": "node scripts/generate_gallery_viewer.js"
+    "gallery": "node scripts/generate_gallery_viewer.js",
+    "build:agentic": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/agentic_workflow/agentic_workflow_presentation.md examples/agentic_workflow Agentic_Workflow_Presentation"
   },
   "keywords": [
     "ai-agent",

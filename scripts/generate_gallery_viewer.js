@@ -13,6 +13,14 @@ const OUT_FILE = path.join(ROOT_DIR, 'preview_gallery.html');
 
 const DECKS = [
   {
+    id: 'agentic_workflow',
+    name: 'Agentic Workflow Showcase (8 Slides)',
+    tag: 'AUTONOMOUS MULTI-AGENT ARCHITECTURE',
+    color: '#00F0FF',
+    dir: 'examples/agentic_workflow/slides_preview',
+    slides: 8
+  },
+  {
     id: 'tech_dark',
     name: '01. Tech Dark Glass (테크 아키텍처)',
     tag: 'SYSTEM ARCHITECTURE',
