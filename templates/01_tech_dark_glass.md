@@ -37,9 +37,9 @@ style: |
     height: 100%;
   }
 
-  h1 { font-size: 2.6rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
-  h2 { font-size: 1.68rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
-  .lead { font-size: 0.98rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 26px 0; }
+  h1 { font-size: 2.38rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
+  h2 { font-size: 1.62rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
+  .lead { font-size: 0.96rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 24px 0; }
 
   .slide-header { margin-bottom: 24px; }
   .slide-header-center { text-align: center; margin-bottom: 24px; }
@@ -61,6 +61,12 @@ style: |
   .kicker-red { background: rgba(248, 113, 113, 0.15); color: var(--accent-red); border-color: rgba(248, 113, 113, 0.35); }
   .kicker-yellow { background: rgba(250, 204, 21, 0.15); color: var(--accent-yellow); border-color: rgba(250, 204, 21, 0.35); }
 
+  .highlight-cyan { color: var(--accent-cyan) !important; }
+  .highlight-blue { color: var(--accent-blue) !important; }
+  .highlight-yellow { color: var(--accent-yellow) !important; }
+  .highlight-purple { color: var(--accent-purple) !important; }
+  .highlight-green { color: var(--accent-green) !important; }
+
   .glass-card {
     background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%);
     border: 1px solid rgba(255, 255, 255, 0.09);
@@ -72,7 +78,7 @@ style: |
     justify-content: flex-start;
   }
   .card-title { font-size: 0.98rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px; letter-spacing: -0.02em; }
-  .card-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.5; }
+  .card-desc { font-size: 0.78rem; color: #94A3B8; line-height: 1.55; }
 
   .circle-badge {
     width: 24px;
@@ -91,12 +97,32 @@ style: |
   .badge-blue { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.4); }
   .badge-green { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); border: 1px solid rgba(52, 211, 153, 0.4); }
 
+  .border-top-cyan { border-top: 3.5px solid var(--accent-cyan) !important; }
+  .border-top-purple { border-top: 3.5px solid var(--accent-purple) !important; }
+  .border-top-blue { border-top: 3.5px solid var(--accent-blue) !important; }
+  .border-top-green { border-top: 3.5px solid var(--accent-green) !important; }
+
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; width: 100%; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
   .split-box { display: flex; gap: 48px; align-items: center; justify-content: center; width: 100%; }
   .split-left { width: 260px; flex-shrink: 0; display: flex; flex-direction: column; justify-content: space-between; height: 380px; }
   .split-title { font-size: 1.5rem; font-weight: 900; letter-spacing: 0.08em; color: #FFF; margin: 6px 0 0 0; white-space: nowrap; }
   .split-right { flex-grow: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  /* One-line horizontal meta bar */
+  .meta-bar {
+    background: linear-gradient(180deg, rgba(26, 35, 54, 0.7) 0%, rgba(18, 24, 38, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .meta-items { display: flex; gap: 24px; font-size: 0.88rem; color: #94A3B8; }
+  .meta-brand { color: #38BDF8; font-weight: 800; font-size: 0.92rem; }
 
   ul.clean-points { margin: 6px 0 0 0; padding-left: 16px; font-size: 0.8rem; color: var(--text-light); line-height: 1.55; }
   ul.clean-points li { margin-bottom: 4px; }
@@ -109,20 +135,20 @@ style: |
 <span class="kicker">ENGINEERING TECH SESSION</span>
 <h1>
 차세대 분산 시스템을 위한<br>
-<span style="color: #38BDF8;">고성능 이벤트 드라이븐 아키텍처</span>
+<span class="highlight-blue">고성능 이벤트 드라이븐 아키텍처</span>
 </h1>
-<p class="lead" style="font-size: 1.15rem; color: #94A3B8; margin-top: 14px;">
+<p class="lead" style="font-size: 1.12rem; color: #94A3B8; margin-top: 12px;">
 마이크로서비스 환경에서 데이터 일관성과 처리량을 동시에 확보하는 설계 패턴
 </p>
 </div>
 
-<div class="glass-card" style="padding: 14px 22px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-<div style="display: flex; gap: 24px; font-size: 0.88rem; color: #94A3B8;">
+<div class="meta-bar">
+<div class="meta-items">
 <span>작성자: Backend Platform Team</span>
 <span>일자: 2026.08</span>
 <span>분류: System Architecture</span>
 </div>
-<div style="color: #38BDF8; font-weight: 800; font-size: 0.92rem;">github.com/company/architecture</div>
+<div class="meta-brand">github.com/company/architecture</div>
 </div>
 </div>
 

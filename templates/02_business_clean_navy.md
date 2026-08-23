@@ -35,9 +35,9 @@ style: |
     height: 100%;
   }
 
-  h1 { font-size: 2.55rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
-  h2 { font-size: 1.68rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
-  .lead { font-size: 0.98rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 26px 0; }
+  h1 { font-size: 2.38rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
+  h2 { font-size: 1.62rem !important; font-weight: 800 !important; color: #FFFFFF !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
+  .lead { font-size: 0.96rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 24px 0; }
 
   .kicker {
     display: inline-block;
@@ -54,6 +54,10 @@ style: |
     flex-shrink: 0;
   }
 
+  .highlight-gold { color: var(--accent-gold) !important; }
+  .highlight-blue { color: var(--accent-blue) !important; }
+  .highlight-green { color: var(--accent-emerald) !important; }
+
   .biz-card {
     background: linear-gradient(180deg, #131C31 0%, #0F172A 100%);
     border: 1px solid var(--card-border);
@@ -65,6 +69,26 @@ style: |
     justify-content: flex-start;
   }
 
+  .circle-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+  }
+  .badge-gold { background: rgba(245, 158, 11, 0.15); color: var(--accent-gold); border: 1px solid rgba(245, 158, 11, 0.4); }
+  .badge-blue { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.4); }
+  .badge-green { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border: 1px solid rgba(16, 185, 129, 0.4); }
+
+  .border-top-gold { border-top: 3.5px solid var(--accent-gold) !important; }
+  .border-top-blue { border-top: 3.5px solid var(--accent-blue) !important; }
+  .border-top-green { border-top: 3.5px solid var(--accent-emerald) !important; }
+
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; width: 100%; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
 
@@ -72,6 +96,20 @@ style: |
   .stat-gold { color: var(--accent-gold); }
   .stat-blue { color: var(--accent-blue); }
   .stat-green { color: var(--accent-emerald); }
+
+  .meta-bar {
+    background: linear-gradient(180deg, #131C31 0%, #0F172A 100%);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .meta-items { display: flex; gap: 24px; font-size: 0.88rem; color: #94A3B8; }
+  .meta-brand { color: var(--accent-gold); font-weight: 800; font-size: 0.92rem; }
 
   footer { font-size: 0.75rem; color: #475569; bottom: 16px; }
 ---
@@ -82,20 +120,20 @@ style: |
 <span class="kicker">2026 STRATEGIC INITIATIVE</span>
 <h1>
 글로벌 엔터프라이즈 B2B 시장 확대를 위한<br>
-<span style="color: var(--accent-gold);">AI 솔루션 사업화 및 성장 전략</span>
+<span class="highlight-gold">AI 솔루션 사업화 및 성장 전략</span>
 </h1>
-<p class="lead" style="font-size: 1.15rem; color: #94A3B8; margin-top: 14px;">
+<p class="lead" style="font-size: 1.12rem; color: #94A3B8; margin-top: 12px;">
 수익성 극대화와 리텐션 강화를 위한 3대 핵심 로드맵 및 재무적 실행 계획
 </p>
 </div>
 
-<div class="biz-card" style="padding: 14px 22px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-<div style="display: flex; gap: 24px; font-size: 0.88rem; color: #94A3B8;">
+<div class="meta-bar">
+<div class="meta-items">
 <span>전략기획실 / 경영전략본부</span>
 <span>보고일자: 2026.08</span>
 <span>보안등급: 대외비 (Confidential)</span>
 </div>
-<div style="color: var(--accent-gold); font-weight: 800; font-size: 0.92rem;">Executive Strategy Deck</div>
+<div class="meta-brand">Executive Strategy Deck</div>
 </div>
 </div>
 
@@ -112,22 +150,25 @@ style: |
 </div>
 
 <div class="grid-3">
-<div class="biz-card" style="text-align: center; border-top: 3.5px solid var(--accent-gold);">
+<div class="biz-card border-top-gold" style="text-align: center;">
+<div class="circle-badge badge-gold" style="margin: 0 auto 6px auto;">01</div>
 <div class="stat-val stat-gold">$12.5M</div>
-<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">연간 반복 매출 (ARR)</div>
-<div style="font-size: 0.82rem; color: var(--text-slate); line-height: 1.5;">북미 및 일본 엔터프라이즈 고객사 120개사 확보 목표</div>
+<div style="font-size: 1.02rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">연간 반복 매출 (ARR)</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">북미 및 일본 엔터프라이즈 고객사 120개사 확보 목표</div>
 </div>
 
-<div class="biz-card" style="text-align: center; border-top: 3.5px solid var(--accent-blue);">
+<div class="biz-card border-top-blue" style="text-align: center;">
+<div class="circle-badge badge-blue" style="margin: 0 auto 6px auto;">02</div>
 <div class="stat-val stat-blue">142%</div>
-<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">순매출 유지율 (NRR)</div>
-<div style="font-size: 0.82rem; color: var(--text-slate); line-height: 1.5;">계정 확장(Upsell) 및 크로스셀을 통한 LTV 극대화</div>
+<div style="font-size: 1.02rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">순매출 유지율 (NRR)</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">계정 확장(Upsell) 및 크로스셀을 통한 LTV 극대화</div>
 </div>
 
-<div class="biz-card" style="text-align: center; border-top: 3.5px solid var(--accent-emerald);">
+<div class="biz-card border-top-green" style="text-align: center;">
+<div class="circle-badge badge-green" style="margin: 0 auto 6px auto;">03</div>
 <div class="stat-val stat-green">28.4%</div>
-<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">목표 영업이익률</div>
-<div style="font-size: 0.82rem; color: var(--text-slate); line-height: 1.5;">운영 자동화 파이프라인 도입을 통한 마진 구조 개선</div>
+<div style="font-size: 1.02rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">목표 영업이익률</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">운영 자동화 파이프라인 도입을 통한 마진 구조 개선</div>
 </div>
 </div>
 </div>

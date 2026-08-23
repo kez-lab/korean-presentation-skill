@@ -1,82 +1,97 @@
-# Korean Typography, Spacing & Color Harmony Guide
+# 한국어 타이포그래피, 여백 및 고대비 가이드 (Korean Typography & Spacing Standard)
 
-본 문서는 한국어 프레젠테이션 제작 시 발생하는 **텍스트 겹침, 줄바꿈 단어 잘림, 저대비 가독성 저하, 답답한 카드 여백** 문제를 근본적으로 해결하기 위한 표준 가이드라인입니다.
-
----
-
-## 1. 한국어 타이포그래피 4대 원칙 (Korean Typography Rules)
-
-한글은 자모가 결합된 정방형 글리프 특성을 가지므로, 영문 기본 설정을 그대로 사용하면 글자가 흩어져 보이고 가독성이 떨어집니다.
-
-1. **음수 자간 (Letter-spacing: -0.02em ~ -0.03em)**:
-   - 한글 제목과 본문 모두에 `-0.02em`에서 `-0.03em`의 미세한 음수 자간을 적용하여 글자의 응집력과 가독성을 극대화합니다.
-2. **어절 보존 (word-break: keep-all)**:
-   - `word-break: keep-all;`을 전역 적용하여 단어가 자모나 음절 중간에서 끊어지지 않고, 온전한 단어 단위로 줄바꿈되도록 합니다.
-3. **외톨이 조사 방지 (Preventing Orphan Particles)**:
-   - 문장 끝의 조사("은/는", "이/가", "을/를")나 짧은 단어가 홀로 다음 줄로 넘어가지 않도록, 의미 단위로 `<br>` 줄바꿈을 수동 배치합니다.
-4. **모듈러 행간 (Line-height Modular Ratio)**:
-   - **대형 타이틀 (H1/H2)**: `line-height: 1.25 ~ 1.3;` (너무 넓으면 제목이 흩어짐)
-   - **본문 및 리스트 (Body/List)**: `line-height: 1.55 ~ 1.65;` (충분한 시선 이동 공간 확보)
-   - **서브 리드인 (Lead-in)**: `line-height: 1.4 ~ 1.5;`
+본 문서는 AI 에이전트가 한국어 및 글로벌 슬라이드를 작성할 때 준수해야 하는 **극상 수준의 타이포그래피, 어절 보존, 행간/자간, 수직 중앙 균형 및 컬러 매트릭스 거버넌스**를 정의합니다.
 
 ---
 
-## 2. 텍스트 겹침 & 클리핑 원천 방지 (Anti-Overlap System)
+## 1. 한국어 타이포그래피 최적화 4대 원칙
 
-1. **상대 단위와 유연한 높이 (Flexible Heights)**:
-   - 카드와 컨테이너에 고정 픽셀 높이(`height: 200px`)를 주는 대신, `min-height` 또는 `flex: 1`과 내부 `padding`을 사용하여 텍스트 길이에 따라 자연스럽게 늘어나도록 합니다.
-2. **Kicker 배지와 제목 사이 간격**:
-   - Kicker 뱃지 하단에 반드시 `margin-bottom: 8px ~ 12px;`을 부여하여 제목 텍스트와 절대 겹치지 않도록 보호합니다.
-3. **Flexbox 자동 축소 방지 (flex-shrink: 0)**:
-   - 고유 너비를 가져야 하는 요소(예: 좌측 30% 타이틀 영역, 숫자 배지, 아이콘)에는 반드시 `flex-shrink: 0;`을 선언하여 내용물이 찌그러지지 않게 합니다.
+### 1.1 음수 자간 (`letter-spacing: -0.025em`)
+- 한글 폰트는 글리프 구조상 정방형 박스 구조를 가지므로 기본 자간(0)에서 텍스트가 헐겁게 벌어져 가독성이 저하됩니다.
+- **표준 규격**: 모든 섹션 및 카드에 반드시 `letter-spacing: -0.025em;` (타이틀은 `-0.03em ~ -0.035em`)을 적용하여 고밀도 응집력을 확보합니다.
+
+### 1.2 어절 보존 (`word-break: keep-all;`)
+- 한글 단어가 음절 중간(예: `아키텍/처`)에서 어색하게 줄바꿈되지 않도록 `word-break: keep-all;`을 전역 선언합니다.
+
+### 1.3 외톨이 글자/조사 고립 방지 (Orphan Protection)
+- 문장 끝의 단어(예: `중`, `등`)나 조사(`을/를`, `이/가`, `은/는`, `의`, `에`)가 다음 줄에 1~2글자로 홀로 떨어지는 현상을 원천 방지합니다.
+- **해결 패턴**:
+  - H1 대제목은 글자 수에 맞추어 `2.35rem ~ 2.45rem`로 설정하고 의미 단위 `<br>`로 2줄 완결.
+  - 본문 카드는 2~3줄 내에서 문맥이 완결되도록 어휘를 다듬음 (예: `스케일업 진행 중` ➔ `기반 고속 스케일업 달성`).
+
+### 1.4 모듈러 폰트 스케일 (Typography Hierarchy)
+- **H1 메인 타이틀**: `2.35rem ~ 2.45rem` (font-weight: 800~900, line-height: 1.25~1.28)
+- **H2 섹션 타이틀**: `1.62rem ~ 1.68rem` (font-weight: 800~900, line-height: 1.3~1.32)
+- **리드 문구 (.lead)**: `0.96rem ~ 0.98rem` (line-height: 1.5, color: `#94A3B8`)
+- **카드 타이틀**: `0.98rem ~ 1.05rem` (font-weight: 800)
+- **카드 본문**: `0.78rem ~ 0.82rem` (line-height: 1.55, color: `#94A3B8` ~ `#E2E8F0`)
+- **빅 스탯 수치**: `2.8rem ~ 3.2rem` (font-weight: 900, line-height: 1.0)
 
 ---
 
-## 3. 카드 패딩 & 8pt 여백 시스템 (Card Padding & Spacing)
+## 2. 레이아웃 & 컴포넌트 여백 표준 (Spacing Budgeting)
 
-프레젠테이션의 고급스러움은 **여백(Breathing Room)**에서 나옵니다. 카드가 텍스트로 꽉 차서 답답해 보이지 않도록 넉넉한 내부 여백을 적용합니다.
+### 2.1 Visual Center Equilibrium (수직 중앙 균형)
+- 슬라이드 캔버스(1280×720)의 가용 높이(640px) 내에서 콘텐츠가 상단에 쏠리지 않도록 `justify-content: center`를 기본으로 채택합니다.
+- 표지와 결론 CTA 슬라이드는 상하 양끝 배치를 위해 `style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;"`를 부여합니다.
 
+### 2.2 8pt 모듈러 스페이싱
+- **슬라이드 외곽 패딩**: `padding: 44px 58px`
+- **헤더-본문 분리 마진**: `margin-bottom: 24px`
+- **카드 내부 패딩 (Breathing Room)**: `padding: 20px 22px` 또는 `22px 24px`
+- **그리드 간격 (Gutter)**: `gap: 16px ~ 18px`
+
+### 2.3 비대칭 2단 분할 (32:68 Asymmetric Split) 안전 규칙
+- 좌측 타이틀 영역 너비: `260px` (flex-shrink: 0)
+- 좌우 안전 여백(Gutter): `gap: 48px`
+- 우측 2x2 카드 그리드: `flex-grow: 1`
+- ➔ 좌측 타이틀 단어(`CONTENTS`)가 우측 카드에 의해 잘리는 클리핑 버그 0% 보장.
+
+---
+
+## 3. 다크 글래스모피즘 & 24px 네온 서클 뱃지 시스템
+
+```css
+/* 24px 마이크로 네온 서클 뱃지 */
+.circle-badge {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}
+.badge-cyan   { background: rgba(0, 240, 255, 0.15); color: #00F0FF; border: 1px solid rgba(0, 240, 255, 0.4); }
+.badge-purple { background: rgba(167, 139, 250, 0.15); color: #A78BFA; border: 1px solid rgba(167, 139, 250, 0.4); }
+.badge-blue   { background: rgba(56, 189, 248, 0.15); color: #38BDF8; border: 1px solid rgba(56, 189, 248, 0.4); }
+.badge-green  { background: rgba(52, 211, 153, 0.15); color: #34D399; border: 1px solid rgba(52, 211, 153, 0.4); }
+.badge-gold   { background: rgba(245, 158, 11, 0.18); color: #F59E0B; border: 1px solid rgba(245, 158, 11, 0.4); }
+
+/* 상단 3.5px 컬러 보더 */
+.border-top-cyan   { border-top: 3.5px solid #00F0FF !important; }
+.border-top-purple { border-top: 3.5px solid #A78BFA !important; }
+.border-top-blue   { border-top: 3.5px solid #38BDF8 !important; }
+.border-top-green  { border-top: 3.5px solid #34D399 !important; }
+.border-top-gold   { border-top: 3.5px solid #F59E0B !important; }
 ```
-┌──────────────────────────────────────────────────────────┐
-│ Slide Canvas Padding: 42px 56px (Safe Margins)           │
-│                                                          │
-│  ┌────────────────────────────────────────────────────┐  │
-│  │ Card Container                                     │  │
-│  │ Padding: 20px 24px (Large) / 16px 20px (Standard) │  │
-│  │                                                    │  │
-│  │  [Badge / Tag]                                     │  │
-│  │  ↕ Margin-bottom: 8px                              │  │
-│  │  [Card Header / Title]                             │  │
-│  │  ↕ Margin-bottom: 10px                             │  │
-│  │  [Body Text / Point List]                          │  │
-│  │                                                    │  │
-│  └────────────────────────────────────────────────────┘  │
-│                                                          │
-│  ↔ Grid Gap: 16px ~ 20px                                 │
-└──────────────────────────────────────────────────────────┘
-```
-
-* **슬라이드 외곽 안전 여백**: `padding: 40px 56px`
-* **카드 내부 패딩**: `padding: 20px 24px` (최소 `16px 20px` 이상 유지)
-* **카드 간 Gutter (Gap)**: `gap: 16px` (3단 그리드) / `gap: 20px` (2단 그리드)
-* **리스트 항목 간격**: `li { margin-bottom: 6px; }`
 
 ---
 
-## 4. 고대비 컬러 매트릭스 (High-Contrast Color Harmony)
+## 4. 메타데이터 바 수평 정렬 규칙 (Meta-Bar)
 
-WCAG AAA 기준(명도 대비 7:1 이상)을 충족하여 어떤 빔프로젝터나 모니터에서도 선명하게 읽히는 배색을 사용합니다.
+Marp 마크다운 파서가 `<div>` 내부 줄바꿈을 문단(`<p>`)으로 치환하는 것을 방지하기 위해, 한 줄 메타데이터 바는 다음 클래스 구조를 준수합니다:
 
-### Dark Tech Pro Palette
-* **Canvas Background**: `#0A0E17` (Deep Obsidian Dark)
-* **Surface / Card Background**: `#131B2E` (Navy Slate) / `rgba(19, 27, 46, 0.85)` 글래스모피즘
-* **Card Border**: `1px solid rgba(255, 255, 255, 0.09)` ~ `1.5px solid rgba(56, 189, 248, 0.35)`
-* **Primary Text (순백색)**: `#FFFFFF` (100% Contrast)
-* **Secondary Text (고대비 슬레이트)**: `#94A3B8` ~ `#CBD5E1` (어두운 회색 절대 금지)
-* **Accent Colors**:
-  - **Electric Blue**: `#38BDF8` (정보, 메인 액센트, UDF 플로우)
-  - **Neon Cyan**: `#00F0FF` (기술적 하이라이트)
-  - **Vibrant Yellow**: `#FACC15` (주의, 핵심 가치, 빅 스탯)
-  - **Deep Violet / Purple**: `#A78BFA` (아키텍처, 상태)
-  - **Emerald Green**: `#34D399` (성공, 결과, 데이터 계층)
-  - **Coral Red**: `#F87171` (문제점, 경고)
+```html
+<div class="meta-bar">
+  <div class="meta-items">
+    <span>작성자: Backend Platform Team</span>
+    <span>일자: 2026.08</span>
+    <span>분류: System Architecture</span>
+  </div>
+  <div class="meta-brand">github.com/company/architecture</div>
+</div>
+```

@@ -33,9 +33,9 @@ style: |
     height: 100%;
   }
 
-  h1 { font-size: 2.55rem !important; font-weight: 800 !important; color: var(--text-main) !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
-  h2 { font-size: 1.68rem !important; font-weight: 800 !important; color: var(--text-main) !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
-  .lead { font-size: 0.98rem; color: var(--text-muted); line-height: 1.5; margin: 0 0 26px 0; }
+  h1 { font-size: 2.38rem !important; font-weight: 800 !important; color: var(--text-main) !important; line-height: 1.28 !important; letter-spacing: -0.03em !important; margin: 12px 0 8px 0 !important; }
+  h2 { font-size: 1.62rem !important; font-weight: 800 !important; color: var(--text-main) !important; line-height: 1.32 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
+  .lead { font-size: 0.96rem; color: var(--text-muted); line-height: 1.5; margin: 0 0 24px 0; }
 
   .kicker {
     display: inline-block;
@@ -52,6 +52,10 @@ style: |
     flex-shrink: 0;
   }
 
+  .highlight-indigo { color: var(--accent-indigo) !important; }
+  .highlight-blue { color: var(--accent-blue) !important; }
+  .highlight-green { color: var(--accent-emerald) !important; }
+
   .light-card {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
@@ -63,15 +67,45 @@ style: |
     justify-content: flex-start;
   }
 
+  .circle-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+  }
+  .badge-indigo { background: rgba(79, 70, 229, 0.12); color: var(--accent-indigo); border: 1px solid rgba(79, 70, 229, 0.35); }
+  .badge-blue { background: rgba(2, 132, 199, 0.12); color: var(--accent-blue); border: 1px solid rgba(2, 132, 199, 0.35); }
+  .badge-green { background: rgba(5, 150, 105, 0.12); color: var(--accent-emerald); border: 1px solid rgba(5, 150, 105, 0.35); }
+
+  .border-top-indigo { border-top: 3.5px solid var(--accent-indigo) !important; }
+  .border-top-blue { border-top: 3.5px solid var(--accent-blue) !important; }
+  .border-top-green { border-top: 3.5px solid var(--accent-emerald) !important; }
+
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; width: 100%; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
 
-  .stat-val { font-size: 2.8rem; font-weight: 900; line-height: 1; margin-bottom: 6px; }
-  .stat-indigo { color: var(--accent-indigo); }
-  .stat-blue { color: var(--accent-blue); }
-  .stat-green { color: var(--accent-emerald); }
+  .meta-bar {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 10px -2px rgba(15, 23, 42, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .meta-items { display: flex; gap: 24px; font-size: 0.88rem; color: var(--text-muted); }
+  .meta-brand { color: var(--accent-indigo); font-weight: 800; font-size: 0.92rem; }
 
-  ul.clean-points { margin: 6px 0 0 0; padding-left: 16px; font-size: 0.82rem; color: var(--text-sub); line-height: 1.55; }
+  ul.clean-points { margin: 6px 0 0 0; padding-left: 16px; font-size: 0.8rem; color: var(--text-sub); line-height: 1.55; }
   ul.clean-points li { margin-bottom: 4px; }
   footer { font-size: 0.75rem; color: #94A3B8; bottom: 16px; }
 ---
@@ -82,20 +116,20 @@ style: |
 <span class="kicker">CONFERENCE PAPER & RESEARCH</span>
 <h1>
 온디바이스 소형 언어 모델(sLLM)을 활용한<br>
-<span style="color: var(--accent-indigo);">실시간 한국어 문맥 추론 및 요약 엔진</span>
+<span class="highlight-indigo">실시간 한국어 문맥 추론 및 요약 엔진</span>
 </h1>
-<p class="lead" style="font-size: 1.15rem; color: var(--text-muted); margin-top: 14px;">
+<p class="lead" style="font-size: 1.12rem; color: var(--text-muted); margin-top: 12px;">
 모바일 엣지 디바이스 환경에서 메모리 사용량 최적화와 추론 지연시간 단축에 관한 연구
 </p>
 </div>
 
-<div class="light-card" style="padding: 14px 22px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-<div style="display: flex; gap: 24px; font-size: 0.88rem; color: var(--text-muted);">
+<div class="meta-bar">
+<div class="meta-items">
 <span>발표자: 인공지능연구소 자연어처리팀</span>
 <span>학술대회: 2026 AI Research Symposium</span>
 <span>세션: Edge Intelligence</span>
 </div>
-<div style="color: var(--accent-indigo); font-weight: 800; font-size: 0.92rem;">Paper No. 2026-AI-088</div>
+<div class="meta-brand">Paper No. 2026-AI-088</div>
 </div>
 </div>
 
@@ -112,9 +146,9 @@ style: |
 </div>
 
 <div class="grid-3">
-<div class="light-card" style="border-top: 3.5px solid var(--accent-indigo);">
-<div style="font-size: 0.8rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 4px;">01. LATENCY REDUCTION</div>
-<div style="font-size: 1.1rem; font-weight: 800; color: var(--text-main); margin-bottom: 8px;">추론 지연시간 68% 단축</div>
+<div class="light-card border-top-indigo">
+<div class="circle-badge badge-indigo">01</div>
+<div style="font-size: 0.98rem; font-weight: 800; color: var(--text-main); margin-bottom: 6px;">추론 지연시간 68% 단축</div>
 <ul class="clean-points">
 <li>KV 캐시 프루닝(Pruning) 기법 적용</li>
 <li>첫 토큰 생성(TTFT) 42ms 달성</li>
@@ -122,9 +156,9 @@ style: |
 </ul>
 </div>
 
-<div class="light-card" style="border-top: 3.5px solid var(--accent-blue);">
-<div style="font-size: 0.8rem; font-weight: 800; color: var(--accent-blue); margin-bottom: 4px;">02. MEMORY FOOTPRINT</div>
-<div style="font-size: 1.1rem; font-weight: 800; color: var(--text-main); margin-bottom: 8px;">RAM 점유율 1.8GB 유지</div>
+<div class="light-card border-top-blue">
+<div class="circle-badge badge-blue">02</div>
+<div style="font-size: 0.98rem; font-weight: 800; color: var(--text-main); margin-bottom: 6px;">RAM 점유율 1.8GB 유지</div>
 <ul class="clean-points">
 <li>4-bit AWQ 양자화로 압축률 극대화</li>
 <li>모바일 저전력 LPDDR5X 완벽 지원</li>
@@ -132,9 +166,9 @@ style: |
 </ul>
 </div>
 
-<div class="light-card" style="border-top: 3.5px solid var(--accent-emerald);">
-<div style="font-size: 0.8rem; font-weight: 800; color: var(--accent-emerald); margin-bottom: 4px;">03. BENCHMARK ACCURACY</div>
-<div style="font-size: 1.1rem; font-weight: 800; color: var(--text-main); margin-bottom: 8px;">한국어 문해력 94.2점</div>
+<div class="light-card border-top-green">
+<div class="circle-badge badge-green">03</div>
+<div style="font-size: 0.98rem; font-weight: 800; color: var(--text-main); margin-bottom: 6px;">한국어 문해력 94.2점</div>
 <ul class="clean-points">
 <li>Ko-Harness 종합 평가 기준 준수</li>
 <li>전문 도메인 용어 오역률 1.2% 미만</li>

@@ -11,8 +11,7 @@ style: |
     --card-surface: #111420;
     --card-border: rgba(251, 191, 36, 0.2);
     --accent-gold: #FBBF24;
-    --accent-white: #FFFFFF;
-    --accent-red: #F87171;
+    --accent-blue: #38BDF8;
     --accent-green: #34D399;
     --text-white: #FFFFFF;
     --text-slate: #94A3B8;
@@ -33,9 +32,9 @@ style: |
     height: 100%;
   }
 
-  h1 { font-size: 2.7rem !important; font-weight: 900 !important; color: #FFFFFF !important; line-height: 1.25 !important; letter-spacing: -0.035em !important; margin: 12px 0 8px 0 !important; }
-  h2 { font-size: 1.75rem !important; font-weight: 900 !important; color: #FFFFFF !important; line-height: 1.3 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
-  .lead { font-size: 1.02rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 26px 0; }
+  h1 { font-size: 2.45rem !important; font-weight: 900 !important; color: #FFFFFF !important; line-height: 1.25 !important; letter-spacing: -0.035em !important; margin: 12px 0 8px 0 !important; }
+  h2 { font-size: 1.68rem !important; font-weight: 900 !important; color: #FFFFFF !important; line-height: 1.3 !important; letter-spacing: -0.025em !important; margin: 0 0 6px 0 !important; }
+  .lead { font-size: 0.98rem; color: var(--text-slate); line-height: 1.5; margin: 0 0 24px 0; }
 
   .kicker {
     display: inline-block;
@@ -52,21 +51,60 @@ style: |
     flex-shrink: 0;
   }
 
+  .highlight-gold { color: var(--accent-gold) !important; }
+  .highlight-blue { color: var(--accent-blue) !important; }
+  .highlight-green { color: var(--accent-green) !important; }
+
   .pitch-card {
     background: linear-gradient(180deg, #181C2C 0%, #111420 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
-    padding: 24px 26px;
+    padding: 22px 24px;
     box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
+  .circle-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+  }
+  .badge-gold { background: rgba(251, 191, 36, 0.18); color: var(--accent-gold); border: 1px solid rgba(251, 191, 36, 0.4); }
+  .badge-blue { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.4); }
+  .badge-green { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); border: 1px solid rgba(52, 211, 153, 0.4); }
+
+  .border-top-gold { border-top: 3.5px solid var(--accent-gold) !important; }
+  .border-top-blue { border-top: 3.5px solid var(--accent-blue) !important; }
+  .border-top-green { border-top: 3.5px solid var(--accent-green) !important; }
+
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; width: 100%; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; width: 100%; }
 
-  .stat-giant { font-size: 3.2rem; font-weight: 900; line-height: 1; color: var(--accent-gold); margin-bottom: 6px; }
+  .stat-giant { font-size: 3.0rem; font-weight: 900; line-height: 1; margin-bottom: 6px; }
+
+  .meta-bar {
+    background: linear-gradient(180deg, #181C2C 0%, #111420 100%);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .meta-items { display: flex; gap: 28px; font-size: 0.9rem; color: #94A3B8; }
+  .meta-brand { color: var(--accent-gold); font-weight: 800; font-size: 0.92rem; }
+
   footer { font-size: 0.75rem; color: #475569; bottom: 16px; }
 ---
 
@@ -76,20 +114,20 @@ style: |
 <span class="kicker">SERIES A INVESTMENT PITCH</span>
 <h1>
 AI 에이전트 워크플로우를 자동화하는<br>
-<span style="color: var(--accent-gold);">엔터프라이즈 오토노머스 플랫폼</span>
+<span class="highlight-gold">엔터프라이즈 오토노머스 플랫폼</span>
 </h1>
-<p class="lead" style="font-size: 1.18rem; color: #94A3B8; margin-top: 14px;">
+<p class="lead" style="font-size: 1.12rem; color: #94A3B8; margin-top: 12px;">
 반복적인 코딩 및 디자인 작업을 10배 빠르게 혁신하는 개발 생산성 솔루션
 </p>
 </div>
 
-<div class="pitch-card" style="padding: 16px 24px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-color: var(--card-border);">
-<div style="display: flex; gap: 28px; font-size: 0.92rem; color: #94A3B8;">
+<div class="meta-bar">
+<div class="meta-items">
 <span>대표이사 / 파운더: 홍길동</span>
 <span>투자 라운드: Series A ($5M Target)</span>
 <span>IR Deck v2.4</span>
 </div>
-<div style="color: var(--accent-gold); font-weight: 800; font-size: 0.95rem;">Confidential Pitch Deck</div>
+<div class="meta-brand">Confidential Pitch Deck</div>
 </div>
 </div>
 
@@ -106,22 +144,25 @@ AI 에이전트 워크플로우를 자동화하는<br>
 </div>
 
 <div class="grid-3">
-<div class="pitch-card" style="text-align: center; border-top: 4px solid var(--accent-gold);">
-<div class="stat-giant">350+</div>
-<div style="font-size: 1.15rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">도입 고객사 (B2B Teams)</div>
-<div style="font-size: 0.85rem; color: var(--text-slate); line-height: 1.5;">글로벌 테크 유니콘 및 테크 스타트업 중심 유기적 유입</div>
+<div class="pitch-card border-top-gold" style="text-align: center;">
+<div class="circle-badge badge-gold" style="margin: 0 auto 6px auto;">01</div>
+<div class="stat-giant highlight-gold">350+</div>
+<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">도입 고객사 (B2B)</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">글로벌 테크 유니콘 및 스타트업 중심 유기적 유입</div>
 </div>
 
-<div class="pitch-card" style="text-align: center; border-top: 4px solid #38BDF8;">
-<div class="stat-giant" style="color: #38BDF8;">$450K</div>
-<div style="font-size: 1.15rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">현재 월간 매출 (MRR)</div>
-<div style="font-size: 0.85rem; color: var(--text-slate); line-height: 1.5;">매월 24%의 복합 성장률(MoM)로 고속 스케일업 진행 중</div>
+<div class="pitch-card border-top-blue" style="text-align: center;">
+<div class="circle-badge badge-blue" style="margin: 0 auto 6px auto;">02</div>
+<div class="stat-giant highlight-blue">$450K</div>
+<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">현재 월간 매출 (MRR)</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">매월 24%의 복합 성장률(MoM) 기반 고속 스케일업 달성</div>
 </div>
 
-<div class="pitch-card" style="text-align: center; border-top: 4px solid var(--accent-green);">
-<div class="stat-giant" style="color: var(--accent-green);">$42B</div>
-<div style="font-size: 1.15rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">글로벌 개발 도구 시장 (TAM)</div>
-<div style="font-size: 0.85rem; color: var(--text-slate); line-height: 1.5;">2028년까지 연평균 26.5% 성장하는 초거대 시장 선점</div>
+<div class="pitch-card border-top-green" style="text-align: center;">
+<div class="circle-badge badge-green" style="margin: 0 auto 6px auto;">03</div>
+<div class="stat-giant highlight-green">$42B</div>
+<div style="font-size: 1.05rem; font-weight: 800; color: #FFF; margin-bottom: 6px;">글로벌 개발 도구 (TAM)</div>
+<div style="font-size: 0.8rem; color: var(--text-slate); line-height: 1.5;">2028년까지 연평균 26.5% 성장하는 초거대 시장 선점</div>
 </div>
 </div>
 </div>
