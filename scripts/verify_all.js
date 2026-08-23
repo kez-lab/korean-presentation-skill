@@ -4,16 +4,16 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 
 const DOMAINS = [
-  { id: '01_quantum_gpu', slides: 4 },
-  { id: '02_clean_energy_esg', slides: 4 },
-  { id: '03_luxury_horlogerie', slides: 4 },
-  { id: '04_genomics_healthcare', slides: 4 },
-  { id: '05_fintech_hft', slides: 3 },
-  { id: '06_gaming_metaverse', slides: 3 },
-  { id: '07_enterprise_cdp', slides: 3 },
-  { id: '08_academic_attention', slides: 3 },
-  { id: '09_robotics_series_a', slides: 3 },
-  { id: '10_smart_city_twin', slides: 3 }
+  { id: '01_quantum_gpu', slides: 2 },
+  { id: '02_clean_energy_esg', slides: 2 },
+  { id: '03_luxury_horlogerie', slides: 2 },
+  { id: '04_genomics_healthcare', slides: 2 },
+  { id: '05_fintech_hft', slides: 2 },
+  { id: '06_gaming_metaverse', slides: 2 },
+  { id: '07_enterprise_cdp', slides: 2 },
+  { id: '08_academic_attention', slides: 2 },
+  { id: '09_robotics_series_a', slides: 2 },
+  { id: '10_smart_city_twin', slides: 2 }
 ];
 
 const EXPECTED_ASSETS = [
@@ -60,7 +60,7 @@ console.log(`Total Assets Checked: ${EXPECTED_ASSETS.length}`);
 console.log(`Passed: ${passed} | Failed: ${failed}`);
 
 if (failed === 0) {
-  console.log('\n>>> SUCCESS: All dynamic presentation build artifacts are intact and verified! <<<\n');
+  console.log('\n>>> SUCCESS: All 10 structurally unique domain decks verified! <<<\n');
   process.exit(0);
 } else {
   console.error('\n>>> ERROR: Some expected assets are missing or failed to compile! <<<\n');

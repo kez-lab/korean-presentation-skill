@@ -4,269 +4,116 @@ theme: default
 paginate: true
 size: 16:9
 style: |
-  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
-  
-  :root {
-    
-  --bg-main: #FAF9F6;
-  --card-bg: #FFFFFF;
-  --border-color: rgba(30, 27, 75, 0.15);
-  --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  --text-title: #1E1B4B;
-  --text-body: #312E81;
-  --text-sub: #4338CA;
-  --accent-1: #1E1B4B;
-  --kicker-bg: rgba(30, 27, 75, 0.06);
-  --kicker-border: rgba(30, 27, 75, 0.2);
-
-  }
+  @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,700;1,400&family=Pretendard:wght@600;900&display=swap');
 
   section {
     width: 1280px;
     height: 720px;
-    padding: 44px 58px;
-    background: var(--bg-main);
-    color: var(--text-body);
-    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    letter-spacing: -0.025em;
+    padding: 44px 64px;
+    background: #FAF9F6;
+    color: #1E1B4B;
+    font-family: 'STIX Two Text', serif;
+    letter-spacing: -0.01em;
     word-break: keep-all;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
   }
-
-  h1 span.hl { color: var(--accent-1) !important; }
-  h1 {
-    font-size: 2.22rem;
-    font-weight: 900;
-    line-height: 1.26;
-    color: var(--text-title);
-    margin-top: 10px;
-    margin-bottom: 8px;
-    letter-spacing: -0.035em;
-  }
-
-  h2 {
-    font-size: 1.62rem;
-    font-weight: 800;
-    line-height: 1.3;
-    color: var(--text-title);
-    margin-top: 6px;
-    margin-bottom: 4px;
-    letter-spacing: -0.03em;
-  }
-
-  .slide-header { margin-bottom: 24px; }
-  .slide-header-center { text-align: center; margin-bottom: 24px; }
-
-  .kicker {
-    display: inline-block;
-    font-size: 0.72rem;
-    font-weight: 800;
-    color: var(--accent-1);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    background: var(--kicker-bg);
-    border: 1px solid var(--kicker-border);
-    padding: 3px 10px;
-    border-radius: 9999px;
-    margin-bottom: 2px;
-  }
-
-  .lead {
-    font-size: 0.94rem;
-    color: var(--text-sub);
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 1.5;
-  }
-
-  .main-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 18px 20px;
-    box-shadow: var(--card-shadow);
-    box-sizing: border-box;
-  }
-
-  .card-title {
-    font-size: 1.05rem;
-    font-weight: 800;
-    color: var(--text-title);
-    margin-bottom: 6px;
-  }
-
-  .card-desc {
-    font-size: 0.82rem;
-    color: var(--text-body);
-    line-height: 1.55;
-  }
-
-  .circle-badge {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
+  .paper-header {
+    border-bottom: 1.5px solid #1E1B4B;
+    padding-bottom: 8px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.74rem;
-    font-weight: 900;
-    margin-bottom: 10px;
-    background: var(--kicker-bg);
-    color: var(--accent-1);
-    border: 1px solid var(--kicker-border);
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 700;
   }
-
-  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
-
-  .cover-meta-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 14px;
-    margin-top: 28px;
-  }
-  .cover-meta-chip {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 10px;
-    padding: 12px 16px;
-  }
-  .meta-chip-label { font-size: 0.68rem; font-weight: 800; color: var(--accent-1); letter-spacing: 0.06em; margin-bottom: 2px; }
-  .meta-chip-val { font-size: 0.88rem; font-weight: 700; color: var(--text-title); }
-
-  .split-box { display: flex; align-items: stretch; height: 480px; box-sizing: border-box; }
-  .split-left { width: 260px; flex-shrink: 0; margin-right: 48px; display: flex; flex-direction: column; justify-content: space-between; }
-  .split-title { font-size: 1.62rem; font-weight: 900; color: var(--text-title); margin-top: 4px; letter-spacing: -0.02em; }
-  .split-right { flex-grow: 1; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 16px; }
-
-  .closing-box { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; height: 430px; box-sizing: border-box; }
-  .closing-left { display: flex; flex-direction: column; gap: 12px; justify-content: space-between; }
-  .qa-box { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; justify-content: space-between; }
-  .qa-kicker { font-size: 0.72rem; font-weight: 800; color: var(--accent-1); letter-spacing: 0.08em; }
-  .qa-title { font-size: 2.2rem; font-weight: 900; color: var(--text-title); margin-top: 2px; margin-bottom: 6px; }
-  .qa-desc { font-size: 0.8rem; color: var(--text-sub); line-height: 1.45; }
-  .qa-meta-border { border-top: 1px solid var(--border-color); padding-top: 12px; margin-top: 12px; }
-  .qa-meta-label { font-size: 0.68rem; font-weight: 800; color: var(--text-sub); margin-top: 6px; margin-bottom: 1px; }
-  .qa-meta-val-blue { font-size: 0.85rem; font-weight: 800; color: var(--accent-1); word-break: break-all; }
-  .qa-meta-val-white { font-size: 0.82rem; font-weight: 700; color: var(--text-title); }
-
-  .stat-val { font-size: 2.7rem; font-weight: 900; line-height: 1.05; margin-bottom: 8px; color: var(--accent-1); }
-  .clean-points { list-style: none; padding-left: 0; margin: 0; }
-  .clean-points li { margin-bottom: 6px; line-height: 1.5; color: var(--text-body); }
-  .clean-points li strong { color: var(--text-title); }
-
+  h1 { font-family: 'Pretendard', sans-serif; font-size: 1.95rem; font-weight: 900; color: #1E1B4B; margin: 8px 0; }
   
+  .theorem-box {
+    background: #F1F0EA;
+    border-left: 4px solid #1E1B4B;
+    padding: 12px 18px;
+    margin: 12px 0;
+    font-size: 0.85rem;
+  }
+
   footer { display: none; }
 ---
 
-<!-- 1. Hero -->
-<div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+<!-- Slide 1: Academic Paper Layout -->
+<div class="paper-header">
+  <span>NEURIPS 2026 ORAL PRESENTATION</span>
+  <span>ARXIV: 2608.01248 [CS.LG]</span>
+</div>
+
 <div>
-<span class="kicker">COMPUTER SCIENCE RESEARCH</span>
-<h1>
-선형 복잡도 어텐션 메커니즘을 통한<br>
-<span class="hl">O(N) 초경량 트랜스포머의 이론적 증명</span>
-</h1>
-<p class="lead" style="margin-top: 10px;">
-소프트맥스 커널 테일러 급수 근사를 통해 정확도 손실 없이 100만 토큰 컨텍스트를 실시간 추론하는 기법
-</p>
+  <h1>선형 시간 복잡도 어텐션을 통한<br><span style="color: #4338CA;">O(N) 초경량 트랜스포머의 이론적 증명</span></h1>
+  <div style="font-size: 0.85rem; color: #4338CA; font-weight: 700; margin-top: 4px;">
+    서울대학교 AI연구원 • 딥러닝 이론 연구실
+  </div>
+
+  <div class="theorem-box">
+    <strong>Theorem 1 (Linear Convergence).</strong> Let \( \phi(x) \) be the kernel feature map with Taylor expansion order \( k \). Then the attention matrix multiplication satisfies:
+    <div style="text-align: center; margin: 8px 0; font-size: 1.05rem; font-weight: 700;">
+      \( \text{Time Complexity} = O(N \cdot d^2) \ll O(N^2 \cdot d) \)
+    </div>
+    with zero loss on 1,000,000 token context retrieval.
+  </div>
 </div>
 
-<div class="cover-meta-grid">
-<div class="cover-meta-chip">
-<div class="meta-chip-label">RESEARCH LAB</div>
-<div class="meta-chip-val">서울대학교 AI연구원 • 딥러닝이론연구실</div>
-</div>
-<div class="cover-meta-chip">
-<div class="meta-chip-label">CONFERENCE</div>
-<div class="meta-chip-val">NeurIPS 2026 Oral Paper • 2026.08</div>
-</div>
-<div class="cover-meta-chip">
-<div class="meta-chip-label">OPEN CODE & PAPER</div>
-<div class="meta-chip-val">arxiv.org/abs/2608.linear-attn</div>
-</div>
-</div>
+<div style="display: flex; justify-content: space-between; border-top: 1px solid #D4D2C9; padding-top: 8px; font-size: 0.72rem; color: #64748B;">
+  <span>Keywords: Linear Attention, Kernel Approximation, Long-Context LLMs</span>
+  <span>Correspondence: theory@snu.ac.kr</span>
 </div>
 
-<!-- note: [오프닝] 100만 토큰을 선형 시간 복잡도 O(N)으로 처리하는 새로운 어텐션 이론을 발표합니다. -->
+<!-- note: NeurIPS 오럴 논문의 이론적 증명과 선형 복잡도 수식 설명입니다. -->
 
 ---
 
-<!-- 2. Big Stats -->
-<div>
-<div class="slide-header-center">
-<span class="kicker">THEORETICAL RESULTS</span>
-<h2>1M 토큰 벤치마크 실험 결과</h2>
-<p class="lead">Standard FlashAttention-3 대비 메모리 사용량 및 추론 지연시간 획기적 절감</p>
+<!-- Slide 2: Academic Benchmark Matrix -->
+<div class="paper-header">
+  <span>EXPERIMENTAL EVALUATION</span>
+  <span>TABLE 2: 1M CONTEXT RETRIEVAL ACCURACY</span>
 </div>
 
-<div class="grid-3">
-<div class="main-card" style="text-align: center; padding: 24px 18px;">
-<div class="circle-badge" style="margin: 0 auto 8px auto;">01</div>
-<div class="stat-val">O(N)</div>
-<div class="card-title">시간 및 공간 복잡도</div>
-<div class="card-desc">기존 트랜스포머의 O(N^2) 병목 완전 해결</div>
-</div>
-<div class="main-card" style="text-align: center; padding: 24px 18px;">
-<div class="circle-badge" style="margin: 0 auto 8px auto;">02</div>
-<div class="stat-val">1.2 GB</div>
-<div class="card-title">100만 토큰 피크 메모리</div>
-<div class="card-desc">기존 방식(48GB) 대비 97.5% 절감</div>
-</div>
-<div class="main-card" style="text-align: center; padding: 24px 18px;">
-<div class="circle-badge" style="margin: 0 auto 8px auto;">03</div>
-<div class="stat-val">99.8%</div>
-<div class="card-title">Needle In A Haystack 회수율</div>
-<div class="card-desc">초장문 문맥 정보 손실 0% 입증</div>
-</div>
-</div>
+<div style="margin: 8px 0;">
+  <h2 style="font-family: 'Pretendard'; font-size: 1.5rem; color: #1E1B4B;">기존 방식 대비 연산 복잡도 및 메모리 비교</h2>
 </div>
 
-<!-- note: [이론 결과] O(N) 복잡도와 99.8% 검색 회수율을 입증하였습니다. -->
+<div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; font-size: 0.8rem;">
+  <div>
+    <table style="width: 100%; border-collapse: collapse; border-top: 2px solid #1E1B4B; border-bottom: 2px solid #1E1B4B;">
+      <thead>
+        <tr style="border-bottom: 1px solid #1E1B4B;">
+          <th style="padding: 6px; text-align: left;">MODEL</th>
+          <th style="padding: 6px;">TIME</th>
+          <th style="padding: 6px;">MEMORY</th>
+          <th style="padding: 6px;">ACCURACY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom: 1px solid #E2E8F0;">
+          <td style="padding: 6px;">FlashAttn-3</td>
+          <td style="padding: 6px; text-align: center;">O(N^2)</td>
+          <td style="padding: 6px; text-align: center;">48.2 GB</td>
+          <td style="padding: 6px; text-align: center;">99.9%</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px; font-weight: 700; color: #4338CA;">Ours (Linear)</td>
+          <td style="padding: 6px; text-align: center; font-weight: 700; color: #4338CA;">O(N)</td>
+          <td style="padding: 6px; text-align: center; font-weight: 700; color: #4338CA;">1.2 GB (-97%)</td>
+          <td style="padding: 6px; text-align: center; font-weight: 700; color: #4338CA;">99.8%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
----
-
-<!-- 3. Closing -->
-<div>
-<div class="slide-header">
-<span class="kicker">CONCLUSION & REPO</span>
-<h2>차세대 파운데이션 모델을 향하여</h2>
-<p class="lead">사전 학습 가중치와 PyTorch/CUDA 커널 코드를 오픈소스로 전면 공개합니다.</p>
-</div>
-
-<div class="closing-box">
-<div class="closing-left">
-<div class="main-card" style="border-left: 3.5px solid var(--accent-1);">
-<div style="font-size: 0.92rem; font-weight: 800; color: #1E1B4B; margin-bottom: 2px;">01. 오픈소스 커널 라이브러리 배포</div>
-<div class="card-desc">Triton 및 FlashLinearAttention 공식 라이브러리 릴리즈 완료</div>
-</div>
-<div class="main-card" style="border-left: 3.5px solid #4338CA;">
-<div style="font-size: 0.92rem; font-weight: 800; color: #1E1B4B; margin-bottom: 2px;">02. 온디바이스 에지 디바이스 지원</div>
-<div class="card-desc">모바일 NPU에서 128K 컨텍스트 실시간 디코딩 달성</div>
-</div>
-<div class="main-card" style="border-left: 3.5px solid var(--accent-1);">
-<div style="font-size: 0.92rem; font-weight: 800; color: #1E1B4B; margin-bottom: 2px;">03. 글로벌 산학 협력 연구 확대</div>
-<div class="card-desc">차세대 70B 모델 사전 학습을 위한 컴퓨트 클러스터 공동 활용</div>
-</div>
-</div>
-
-<div class="qa-box">
-<div>
-<div class="qa-kicker">ACADEMIC DISCUSSION</div>
-<div class="qa-title" style="color: #1E1B4B;">Q & A</div>
-<div class="qa-desc">논문 연구 방법론 및 이론적 증명에 대한 질의를 환영합니다.</div>
-</div>
-<div class="qa-meta-border">
-<div class="qa-meta-label">ARXIV PAPER</div>
-<div class="qa-meta-val-blue">arxiv.org/abs/2608.linear-attn</div>
-<div class="qa-meta-label">CORRESPONDENCE</div>
-<div class="qa-meta-val-white" style="color: #1E1B4B;">researcher@snu.ac.kr</div>
-</div>
-</div>
-</div>
+  <div class="theorem-box" style="margin: 0; font-size: 0.78rem;">
+    <strong>Remark 2.1.</strong> The memory reduction enables full fine-tuning of a 70B parameter model on a single 8x H100 node with sequence length \( N = 10^6 \).
+  </div>
 </div>
 
-<!-- note: [마무리] 경청해 주셔서 감사합니다. 질의응답을 진행하겠습니다. -->
+<div style="font-size: 0.72rem; color: #64748B;">
+  * Evaluated on synthetic Needle-In-A-Haystack benchmark with Llama-3 architecture.
+</div>

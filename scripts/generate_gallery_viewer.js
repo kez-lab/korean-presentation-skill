@@ -6,90 +6,90 @@ const ROOT = path.resolve(__dirname, '..');
 const DECKS = [
   {
     id: '01_quantum_gpu',
-    name: '01. Quantum GPU Acceleration (4 Slides)',
-    tag: 'DEEP CYBER CYAN & NEON PURPLE',
+    name: '01. Quantum Computing (Terminal & Circuit Node)',
+    tag: 'CYBER TERMINAL • MONOSPACE',
     color: '#00F0FF',
     dir: 'examples/01_quantum_gpu/slides_preview',
-    slides: 4
+    slides: 2
   },
   {
     id: '02_clean_energy_esg',
-    name: '02. Smart Grid & ESG Energy (4 Slides)',
-    tag: 'WARM FOREST GREEN & SOFT SAGE',
+    name: '02. ESG Smart Grid (Timeline Roadmap 2026-2030)',
+    tag: 'EDITORIAL GREEN • HORIZONTAL TIMELINE',
     color: '#10B981',
     dir: 'examples/02_clean_energy_esg/slides_preview',
-    slides: 4
+    slides: 2
   },
   {
     id: '03_luxury_horlogerie',
-    name: '03. Haute Horlogerie Heritage (4 Slides)',
-    tag: 'MATTE CHARCOAL & CHAMPAGNE GOLD',
+    name: '03. Haute Horlogerie (Swiss Luxury Minimalist)',
+    tag: 'SWISS HAUTE • CORMORANT SERIF',
     color: '#E5C07B',
     dir: 'examples/03_luxury_horlogerie/slides_preview',
-    slides: 4
+    slides: 2
   },
   {
     id: '04_genomics_healthcare',
-    name: '04. Precision Bio-Medicine (4 Slides)',
-    tag: 'CLINICAL SOFT CYAN & PURE MEDICAL WHITE',
-    color: '#0891B2',
+    name: '04. Precision Bio-Medicine (Clinical Matrix Table)',
+    tag: 'CLINICAL MATRIX • HIGH CONTRAST LIGHT',
+    color: '#0284C7',
     dir: 'examples/04_genomics_healthcare/slides_preview',
-    slides: 4
+    slides: 2
   },
   {
     id: '05_fintech_hft',
-    name: '05. High-Frequency Quant Trading (3 Slides)',
-    tag: 'MIDNIGHT NAVY & VIVID ELECTRIC GOLD',
+    name: '05. High-Frequency Trading (Bloomberg Terminal)',
+    tag: 'BLOOMBERG TERMINAL • L3 ORDERBOOK',
     color: '#FFCC00',
     dir: 'examples/05_fintech_hft/slides_preview',
-    slides: 3
+    slides: 2
   },
   {
     id: '06_gaming_metaverse',
-    name: '06. Unreal Engine 5 Virtual Production (3 Slides)',
-    tag: 'ELECTRIC VIOLET & NEON HOT PINK',
+    name: '06. Unreal Engine 5 Virtual Production (Cyberpunk HUD)',
+    tag: 'CYBERPUNK HUD • ORBITRON NEON',
     color: '#EC4899',
     dir: 'examples/06_gaming_metaverse/slides_preview',
-    slides: 3
+    slides: 2
   },
   {
     id: '07_enterprise_cdp',
-    name: '07. Real-Time Enterprise CDP (3 Slides)',
-    tag: 'MODERN SLATE BLUE & ROYAL INDIGO LIGHT',
+    name: '07. Enterprise CDP (Modern Linear SaaS UI)',
+    tag: 'LINEAR SAAS • ACCORDION UI',
     color: '#4F46E5',
     dir: 'examples/07_enterprise_cdp/slides_preview',
-    slides: 3
+    slides: 2
   },
   {
     id: '08_academic_attention',
-    name: '08. Linear Attention CS Theory (3 Slides)',
-    tag: 'ACADEMIC MONOCHROME & DEEP INK NAVY',
+    name: '08. Linear Attention Theory (LaTeX Paper Manuscript)',
+    tag: 'LATEX PAPER • THEOREM BOX',
     color: '#1E1B4B',
     dir: 'examples/08_academic_attention/slides_preview',
-    slides: 3
+    slides: 2
   },
   {
     id: '09_robotics_series_a',
-    name: '09. Autonomous Logistics Robot Fleet (3 Slides)',
-    tag: 'OBSIDIAN BLACK & RADIANT SOLAR ORANGE',
+    name: '09. Autonomous Logistics Fleet (Giant Impact Bold)',
+    tag: 'GIANT IMPACT • PROBLEM VS SOLUTION',
     color: '#FF6B00',
     dir: 'examples/09_robotics_series_a/slides_preview',
-    slides: 3
+    slides: 2
   },
   {
     id: '10_smart_city_twin',
-    name: '10. Smart City Digital Twin (3 Slides)',
-    tag: 'DEEP TRUST NAVY & MODERN MINT TEAL',
-    color: '#00B4D8',
+    name: '10. Smart City Digital Twin (Civic Dashboard)',
+    tag: 'CIVIC DASHBOARD • 4-WIDGET GRID',
+    color: '#38BDF8',
     dir: 'examples/10_smart_city_twin/slides_preview',
-    slides: 3
+    slides: 2
   }
 ];
 
 let totalSlides = 0;
 let deckSectionsHtml = '';
 
-DECKS.forEach((deck, deckIdx) => {
+DECKS.forEach((deck) => {
   let cardsHtml = '';
   for (let i = 1; i <= deck.slides; i++) {
     totalSlides++;
@@ -116,7 +116,7 @@ DECKS.forEach((deck, deckIdx) => {
           <span class="deck-tag" style="border-color: ${deck.color}; color: ${deck.color}; background: ${deck.color}15;">${deck.tag}</span>
           <h2 class="deck-title">${deck.name}</h2>
         </div>
-        <span class="deck-count">${deck.slides} Verified Slides</span>
+        <span class="deck-count">${deck.slides} Unique Layout Slides</span>
       </div>
       <div class="slides-grid">
         ${cardsHtml}
@@ -130,7 +130,7 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Korean Presentation Skill - Dynamic 10 Domain Showcase</title>
+  <title>Korean Presentation Skill - 10 Distinct Layout & Theme Showcase</title>
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <style>
     :root {
@@ -140,7 +140,6 @@ const html = `<!DOCTYPE html>
       --text: #F8FAFC;
       --text-dim: #94A3B8;
       --cyan: #00F0FF;
-      --purple: #A78BFA;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -177,7 +176,7 @@ const html = `<!DOCTYPE html>
     p.lead {
       color: var(--text-dim);
       font-size: 0.95rem;
-      max-width: 760px;
+      max-width: 800px;
       margin: 0 auto 20px;
       line-height: 1.5;
     }
@@ -213,7 +212,7 @@ const html = `<!DOCTYPE html>
     .deck-count { font-size: 0.8rem; color: var(--text-dim); }
     .slides-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
       gap: 20px;
     }
     .slide-card {
@@ -255,7 +254,6 @@ const html = `<!DOCTYPE html>
     }
     .slide-num { font-weight: 700; color: var(--text); }
     .view-btn { color: var(--cyan); font-weight: 700; }
-    /* Modal */
     #modal {
       display: none;
       position: fixed;
@@ -276,11 +274,11 @@ const html = `<!DOCTYPE html>
 </head>
 <body>
   <header>
-    <div class="hero-kicker">DYNAMIC DOMAIN THEME SHOWCASE</div>
+    <div class="hero-kicker">10 DISTINCT STRUCTURAL THEMES</div>
     <h1>Korean Presentation Skill</h1>
-    <p class="lead">주제와 도메인에 따라 독창적인 디자인 테마를 동적으로 창조하는 차세대 AI 프레젠테이션 엔진 쇼케이스</p>
+    <p class="lead">터미널, 타임라인, 스위스 럭셔리, 임상 매트릭스, HFT 호가창, 사이버펑크 HUD, SaaS 아코디언, 논문 수식, 볼드 피치, 대시보드 등 10개 도메인 고유 구조 갤러리</p>
     <div class="stats-bar">
-      <span>총 <strong>10개</strong> 도메인 테마</span>
+      <span>총 <strong>10개</strong> 도메인 고유 레이아웃</span>
       <span>•</span>
       <span>총 <strong>${totalSlides}개</strong> 슬라이드 전수 검증 완료</span>
       <span>•</span>
@@ -315,4 +313,4 @@ const html = `<!DOCTYPE html>
 </html>`;
 
 fs.writeFileSync(path.join(ROOT, 'preview_gallery.html'), html);
-console.log(`✓ Master visual showcase generated with 10 domains (${totalSlides} slides): ${path.join(ROOT, 'preview_gallery.html')}`);
+console.log(`✓ Master visual showcase generated with 10 distinct structures: ${path.join(ROOT, 'preview_gallery.html')}`);

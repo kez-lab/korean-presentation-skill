@@ -2,7 +2,7 @@
 
 # Korean Presentation Skill
 
-### 도메인 맞춤형 동적 디자인 테마 창조 및 한국어 타이포그래피 거버넌스 기반 AI 프레젠테이션 엔진
+### 10대 도메인별 고유 레이아웃 & 한국어 타이포그래피 거버넌스 기반 AI 프레젠테이션 엔진
 
 [![Antigravity Skill](https://img.shields.io/badge/Antigravity-AI_Agent_Skill-6366F1?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/antigravity)
 [![Korean Typography](https://img.shields.io/badge/Korean_Typography-Pretendard_%7C_-0.025em-EC4899?style=for-the-badge)](skills/korean-presentation-skill/references/korean_typography_spacing_guide.md)
@@ -12,10 +12,9 @@
 
 <br/>
 
-[**10대 도메인 갤러리**](#1-10대-도메인-맞춤형-동적-테마-쇼케이스-갤러리) •
+[**10대 고유 구조 갤러리**](#1-10대-도메인-완전-차별화-레이아웃-쇼케이스-갤러리) •
 [**동적 테마 생성 원칙**](#동적-디자인-테마-창조-원칙-dynamic-theme-engine) •
 [**한국어 타이포그래피**](#한국어-타이포그래피-최적화-표준) •
-[**디자인 거버넌스**](#5대-핵심-디자인-거버넌스) •
 [**CLI 사용법**](#빠른-시작-및-cli-도구-사용법)
 
 </div>
@@ -26,162 +25,141 @@
 
 `korean-presentation-skill`은 Google Antigravity, Claude Code, OpenAI Codex, Cursor 등 최신 자율형 AI 코딩 에이전트를 위해 개발된 프레젠테이션 생성 및 검증 통합 AI 스킬입니다.
 
-**천편일률적인 고정 템플릿에 내용을 억지로 끼워 맞추지 않습니다.** 소스 주제, 발표 도메인(Tech, ESG, Luxury, Bio, Fintech, Gaming, SaaS, Academic, Pitch, Public 등), 청중의 성격에 따라 **가장 적절한 60-30-10 컬러 팔레트, 캔버스 질감, 카드 스타일, 시각 위계(Visual Hierarchy)를 동적으로 직접 창조**합니다.
-
-순수 마크다운(Markdown) 문서 하나로부터 다음 3가지 핵심 산출물을 동시에 컴파일하여 생성합니다:
-
-1. **파워포인트 원본 (`.pptx`)**: 네이티브 벡터 셰이프와 텍스트를 유지하며, OOXML 스키마 검증을 거쳐 복구 오류 0%를 보장합니다.
-2. **벡터 PDF (`.pdf`)**: 고해상도 인쇄 및 고객사 공식 배포에 최적화된 인쇄용 문서입니다.
-3. **1920×1080 고화질 이미지 (`.png`)**: AI 에이전트가 자체 비전 도구(`view_file`)를 통해 시각적 레이아웃과 클리핑 여부를 자율 검증(Self-Correction)할 수 있는 렌더링 결과물입니다.
+**천편일률적인 카드 박스 복사를 완전히 지양합니다.** 주제의 성격에 따라 **터미널 CLI, 수평 타임라인, 스위스 에디토리얼 세리프, 임상 비교 매트릭스 테이블, 금융 L3 호가창, 사이버펑크 HUD, SaaS 아코디언, 논문 수식 조판, 볼드 피치, 관제 대시보드** 등 완전히 고유한 비주얼 컴포넌트와 레이아웃을 동적으로 창조합니다.
 
 ---
 
-## 1. 10대 도메인 맞춤형 동적 테마 쇼케이스 갤러리
-
-주제별 성격에 맞춰 완전히 독창적으로 창조된 10가지 도메인 실전 프레젠테이션 덱 갤러리입니다:
+## 1. 10대 도메인 완전 차별화 레이아웃 쇼케이스 갤러리
 
 ---
 
-### 01. 양자-GPU 분산 가속 (Quantum DeepTech)
-- **테마 무드**: Deep Midnight Cyber & Hyper Neon Cyan (`#00F0FF`, `#7928CA`)
+### 01. 양자 컴퓨팅 (Cyber Terminal & Circuit Node)
+- **고유 비주얼**: Monospace 폰트 + 터미널 타이틀바 + 양자 회로 게이트 다이어그램 + 레지스터 비교표
 - **소스 경로**: [`examples/01_quantum_gpu/presentation.md`](examples/01_quantum_gpu/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/01_quantum_gpu/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (3-Chip Meta Cover)</b></td>
-<td width="50%" align="center"><img src="examples/01_quantum_gpu/slides_preview/slide.003.png" width="100%"/><br/><b>Slide 03. 정량 성과 (1,200x Big Stats)</b></td>
+<td width="50%" align="center"><img src="examples/01_quantum_gpu/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 터미널 프롬프트 & 회로도</b></td>
+<td width="50%" align="center"><img src="examples/01_quantum_gpu/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 하드웨어 레지스터 비교표</b></td>
 </tr>
 </table>
 
 ---
 
-### 02. 친환경 재생에너지 스마트 그리드 (ESG CleanTech)
-- **테마 무드**: Organic Earth Forest Green & Soft Sage (`#10B981`, `#A7F3D0`)
+### 02. 친환경 스마트 그리드 (Editorial Green & Horizontal Timeline)
+- **고유 비주얼**: 에코 그린 캔버스 + 수평 연도별 로드맵 타임라인('26 ➔ '28 ➔ '30) + 마일스톤 노드
 - **소스 경로**: [`examples/02_clean_energy_esg/presentation.md`](examples/02_clean_energy_esg/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/02_clean_energy_esg/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (2030 탄소중립 Hero)</b></td>
-<td width="50%" align="center"><img src="examples/02_clean_energy_esg/slides_preview/slide.003.png" width="100%"/><br/><b>Slide 03. 환경 지표 (-48.5% GHG)</b></td>
+<td width="50%" align="center"><img src="examples/02_clean_energy_esg/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 2030 탄소중립 Hero</b></td>
+<td width="50%" align="center"><img src="examples/02_clean_energy_esg/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 수평 단계별 로드맵 타임라인</b></td>
 </tr>
 </table>
 
 ---
 
-### 03. 하이엔드 럭셔리 워치메이킹 (Haute Horlogerie Heritage)
-- **테마 무드**: Deep Matte Charcoal & Champagne Warm Gold (`#101012`, `#E5C07B`)
+### 03. 하이엔드 럭셔리 워치메이킹 (Swiss Haute Minimalist & Cormorant Serif)
+- **고유 비주얼**: Cormorant Garamond 대형 세리프 + 얇은 골드 헤어라인 + 여백의 미 + 에디토리얼 인용구
 - **소스 경로**: [`examples/03_luxury_horlogerie/presentation.md`](examples/03_luxury_horlogerie/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/03_luxury_horlogerie/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (Luxury Heritage)</b></td>
-<td width="50%" align="center"><img src="examples/03_luxury_horlogerie/slides_preview/slide.003.png" width="100%"/><br/><b>Slide 03. VIP 로열티 (96.4% 재구매율)</b></td>
+<td width="50%" align="center"><img src="examples/03_luxury_horlogerie/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 대형 세리프 에디토리얼 표지</b></td>
+<td width="50%" align="center"><img src="examples/03_luxury_horlogerie/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 장인 인용구 & 2단 디테일</b></td>
 </tr>
 </table>
 
 ---
 
-### 04. 정밀 면역항암 신약 플랫폼 (Bio-Medicine Clinical Light)
-- **테마 무드**: Clinical Soft Cyan & Pure Medical White Light (`#F0FDFA`, `#0891B2`)
+### 04. 정밀 면역항암 신약 (Clinical Matrix Table & High-Contrast Light)
+- **고유 비주얼**: 클리니컬 화이트 캔버스 + 대조군 vs 치료법 임상 행렬 비교표(PASS/FAIL 태그)
 - **소스 경로**: [`examples/04_genomics_healthcare/presentation.md`](examples/04_genomics_healthcare/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/04_genomics_healthcare/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (단일세포 유전체)</b></td>
-<td width="50%" align="center"><img src="examples/04_genomics_healthcare/slides_preview/slide.003.png" width="100%"/><br/><b>Slide 03. 임상 유효성 (84.2% 종양 감소)</b></td>
+<td width="50%" align="center"><img src="examples/04_genomics_healthcare/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 임상 프로토콜 헤더 & 3단 지표</b></td>
+<td width="50%" align="center"><img src="examples/04_genomics_healthcare/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 표준 치료법(SoC) 비교 행렬</b></td>
 </tr>
 </table>
 
 ---
 
-### 05. 마이크로초 초저지연 HFT (Quantitative Fintech)
-- **테마 무드**: Midnight Royal Navy & Vivid Electric Gold (`#0F1B38`, `#FFCC00`)
+### 05. 마이크로초 초저지연 HFT (Bloomberg Terminal & L3 Orderbook)
+- **고유 비주얼**: 상단 실시간 티커 바 + 오더북 Depth 호가창 스트림 + 마이크로초(ns) 틱 타임라인
 - **소스 경로**: [`examples/05_fintech_hft/presentation.md`](examples/05_fintech_hft/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/05_fintech_hft/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (FPGA HFT 엔진)</b></td>
-<td width="50%" align="center"><img src="examples/05_fintech_hft/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 성능 지표 (380ns 지연시간)</b></td>
+<td width="50%" align="center"><img src="examples/05_fintech_hft/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 금융 티커 & 오더북 Depth</b></td>
+<td width="50%" align="center"><img src="examples/05_fintech_hft/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 나노초 틱투트레이드 파이프라인</b></td>
 </tr>
 </table>
 
 ---
 
-### 06. 언리얼 엔진 5 버추얼 프로덕션 (Gaming & VFX)
-- **테마 무드**: Electric Violet & Neon Hot Pink (`#1A0B2E`, `#EC4899`)
+### 06. 언리얼 엔진 5 버추얼 프로덕션 (Cyberpunk HUD & Orbitron Neon)
+- **고유 비주얼**: Orbitron 미래형 폰트 + 사선 컷아웃 HUD 카드 + ICVFX 렌더링 스펙
 - **소스 경로**: [`examples/06_gaming_metaverse/presentation.md`](examples/06_gaming_metaverse/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/06_gaming_metaverse/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (UE5 Virtual Production)</b></td>
-<td width="50%" align="center"><img src="examples/06_gaming_metaverse/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 프로덕션 성과 (120 FPS 8K)</b></td>
+<td width="50%" align="center"><img src="examples/06_gaming_metaverse/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 사이버 HUD & 120 FPS 지표</b></td>
+<td width="50%" align="center"><img src="examples/06_gaming_metaverse/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. ICVFX 3대 아키텍처 스택</b></td>
 </tr>
 </table>
 
 ---
 
-### 07. 실시간 엔터프라이즈 CDP (B2B SaaS Light)
-- **테마 무드**: Modern Clean Slate & Royal Indigo Light (`#FFFFFF`, `#4F46E5`)
+### 07. 실시간 엔터프라이즈 CDP (Linear Modern SaaS & Accordion UI)
+- **고유 비주얼**: Linear/Stripe 스타일의 3단계 수직 인터랙티브 아코디언 바 + 우측 데이터 리프트 박스
 - **소스 경로**: [`examples/07_enterprise_cdp/presentation.md`](examples/07_enterprise_cdp/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/07_enterprise_cdp/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (Enterprise CDP)</b></td>
-<td width="50%" align="center"><img src="examples/07_enterprise_cdp/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 비즈니스 ROI (+340% CVR)</b></td>
+<td width="50%" align="center"><img src="examples/07_enterprise_cdp/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. SaaS 스텝 아코디언 UI</b></td>
+<td width="50%" align="center"><img src="examples/07_enterprise_cdp/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 엔터프라이즈 아키텍처 기둥</b></td>
 </tr>
 </table>
 
 ---
 
-### 08. O(N) 선형 어텐션 이론 (Academic Paper CS)
-- **테마 무드**: Strict Academic Monochrome Off-White & Deep Ink Navy (`#FAF9F6`, `#1E1B4B`)
+### 08. O(N) 선형 어텐션 이론 (LaTeX Paper & Theorem Box)
+- **고유 비주얼**: NeurIPS 논문 헤더 + Theorem 1 수식 박스 + 수식 비교 테이블 + 서지 정보 푸터
 - **소스 경로**: [`examples/08_academic_attention/presentation.md`](examples/08_academic_attention/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/08_academic_attention/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (NeurIPS Oral Paper)</b></td>
-<td width="50%" align="center"><img src="examples/08_academic_attention/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 이론 증명 (O(N) 복잡도)</b></td>
+<td width="50%" align="center"><img src="examples/08_academic_attention/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 학술 논문 헤더 & Theorem 박스</b></td>
+<td width="50%" align="center"><img src="examples/08_academic_attention/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 1M 토큰 메모리 벤치마크</b></td>
 </tr>
 </table>
 
 ---
 
-### 09. 자율주행 물류 로봇 플릿 (Series A Keynote Pitch)
-- **테마 무드**: Obsidian Black & Radiant Solar Orange (`#080808`, `#FF6B00`)
+### 09. 자율주행 물류 로봇 (Giant Impact Bold & Problem vs Solution)
+- **고유 비주얼**: 거대 볼드 수치($8.4M, +420%) + 극적인 Old Way vs Robotics-X 1:1 대조 박스
 - **소스 경로**: [`examples/09_robotics_series_a/presentation.md`](examples/09_robotics_series_a/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/09_robotics_series_a/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (Series A Investment)</b></td>
-<td width="50%" align="center"><img src="examples/09_robotics_series_a/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 트랙션 지표 ($8.4M ARR)</b></td>
+<td width="50%" align="center"><img src="examples/09_robotics_series_a/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 거대 폰트 ARR 트랙션 표지</b></td>
+<td width="50%" align="center"><img src="examples/09_robotics_series_a/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 1:1 문제 vs 솔루션 대조</b></td>
 </tr>
 </table>
 
 ---
 
-### 10. 스마트시티 디지털 트윈 (Public CivicTech)
-- **테마 무드**: Deep Trust Navy & Modern Mint Teal (`#0B1E36`, `#00B4D8`)
+### 10. 스마트시티 디지털 트윈 (Civic Control Dashboard & 4-Widget Grid)
+- **고유 비주얼**: 정부 상황실 헤더 + 4분할 실시간 관제 위젯 + 3계층 통합 재난 안전망 트리
 - **소스 경로**: [`examples/10_smart_city_twin/presentation.md`](examples/10_smart_city_twin/presentation.md)
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="examples/10_smart_city_twin/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 표지 (국가 스마트시티)</b></td>
-<td width="50%" align="center"><img src="examples/10_smart_city_twin/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 시민 안전 지표 (5분 골든타임)</b></td>
+<td width="50%" align="center"><img src="examples/10_smart_city_twin/slides_preview/slide.001.png" width="100%"/><br/><b>Slide 01. 4분할 실시간 관제 대시보드</b></td>
+<td width="50%" align="center"><img src="examples/10_smart_city_twin/slides_preview/slide.002.png" width="100%"/><br/><b>Slide 02. 3계층 국가 재난안전망 체계</b></td>
 </tr>
 </table>
-
----
-
-## 동적 디자인 테마 창조 원칙 (Dynamic Theme Engine)
-
-1. **도메인 심리학 기반 60-30-10 컬러 팔레트 창조**:
-   - 60% 캔버스 베이스, 30% 카드/서피스, 10% 액센트 컬러를 주제에 맞게 자동 조색합니다.
-2. **한국어 타이포그래피 최적화 표준**:
-   - **음수 자간 (`letter-spacing: -0.025em`)**: 한글 폰트 특유의 헐거운 분산감을 잡고 응집력을 극대화합니다.
-   - **어절 보존 (`word-break: keep-all;`)**: 음절 중간 단어 잘림을 원천 방지합니다.
-   - **외톨이 조사 방지**: 문장 끝 조사("을/를", "이/가", "의")가 다음 줄에 홀로 떨어지지 않도록 정돈합니다.
-3. **8대 마스터 레이아웃 컴포넌트 자유 조합**:
-   - Hero Cover, Split Agenda, 3-Card Breakdown, Quote, Core Pillars, Pipeline Flow, Big Stats, Closing Hub.
 
 ---
 
@@ -214,7 +192,7 @@ node skills/korean-presentation-skill/scripts/pptx_validator.js <deck.pptx>
 
 ### 5. 웹 갤러리 뷰어 생성 및 슬라이드 감상
 ```bash
-# 10개 도메인 34개 슬라이드를 모달 줌으로 넘겨볼 수 있는 웹 갤러리 생성
+# 10개 도메인 고유 구조 슬라이드를 모달 줌으로 넘겨볼 수 있는 웹 갤러리 생성
 npm run gallery
 # 생성된 preview_gallery.html 을 브라우저에서 열어 즉시 감상
 ```
