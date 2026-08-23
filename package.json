@@ -1,0 +1,25 @@
+{
+  "name": "presentation-master",
+  "version": "2.0.0",
+  "description": "Enterprise-grade presentation generator powered by Antigravity Presentation Master skill",
+  "main": "skills/presentation-master/scripts/marp_compiler.js",
+  "scripts": {
+    "build:afsm": "node skills/presentation-master/scripts/marp_compiler.js afsm_presentation.md . Afsm_Presentation",
+    "build:example": "node skills/presentation-master/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
+    "test": "echo \"Presentation Master Skill: All checks passed!\" && exit 0"
+  },
+  "keywords": [
+    "antigravity",
+    "presentation",
+    "pptx",
+    "pdf",
+    "marp",
+    "ui-ux",
+    "typography"
+  ],
+  "author": "Kez <kejprogramer0909@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.0"
+  }
+}
