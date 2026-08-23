@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korean Presentation Skill - Master Visual Showcase</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <style>
+    :root {
+      --bg: #07090E;
+      --card-bg: rgba(18, 24, 38, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #F1F5F9;
+      --text-dim: #94A3B8;
+      --accent: #00F0FF;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Pretendard', sans-serif; letter-spacing: -0.025em; }
+    body { background: var(--bg); color: var(--text); padding: 40px 24px; min-height: 100vh; }
+    .container { max-width: 1360px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 48px; }
+    .hero-badge { display: inline-block; padding: 4px 14px; background: rgba(0, 240, 255, 0.12); border: 1px solid rgba(0, 240, 255, 0.3); border-radius: 9999px; color: var(--accent); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; margin-bottom: 12px; }
+    h1 { font-size: 2.4rem; font-weight: 900; color: #FFF; margin-bottom: 8px; }
+    .subtitle { color: var(--text-dim); font-size: 1.05rem; }
+    .deck-section { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 28px; margin-bottom: 36px; box-shadow: 0 16px 36px rgba(0,0,0,0.4); }
+    .deck-header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; }
+    .deck-tag { font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border: 1px solid; border-radius: 4px; }
+    .deck-header h2 { font-size: 1.35rem; font-weight: 800; color: #FFF; }
+    .slide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 20px; }
+    .slide-card { background: rgba(10, 14, 23, 0.6); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; overflow: hidden; transition: transform 0.2s, border-color 0.2s; }
+    .slide-card:hover { transform: translateY(-4px); border-color: rgba(0, 240, 255, 0.4); }
+    .slide-thumb-wrap { width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; cursor: pointer; }
+    .slide-thumb-wrap img { width: 100%; height: 100%; object-fit: contain; }
+    .slide-caption { padding: 10px 14px; font-size: 0.82rem; font-weight: 700; color: var(--text-dim); border-top: 1px solid var(--border); text-align: right; }
+    
+    /* Modal */
+    #modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 999; justify-content: center; align-items: center; padding: 24px; }
+    #modal img { max-width: 96vw; max-height: 94vh; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.15); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="hero-badge">AI Agent Presentation Engine</div>
+      <h1>Korean Presentation Skill Master Showcase</h1>
+      <p class="subtitle">한국어 타이포그래피 최적화 및 프로 UI/UX 거버넌스 기반 32개 슬라이드 전체 렌더링 갤러리</p>
+    </header>
+
+    
+    <div class="deck-section" id="tech_dark">
+      <div class="deck-header">
+        <span class="deck-tag" style="border-color: #00F0FF; color: #00F0FF;">SYSTEM ARCHITECTURE</span>
+        <h2>01. Tech Dark Glass (테크 아키텍처)</h2>
+      </div>
+      <div class="slide-grid">
+  
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.001.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 1" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.001.png')"/>
+        </div>
+        <div class="slide-caption">Slide 1 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.002.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 2" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.002.png')"/>
+        </div>
+        <div class="slide-caption">Slide 2 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.003.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 3" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.003.png')"/>
+        </div>
+        <div class="slide-caption">Slide 3 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.004.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 4" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.004.png')"/>
+        </div>
+        <div class="slide-caption">Slide 4 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.005.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 5" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.005.png')"/>
+        </div>
+        <div class="slide-caption">Slide 5 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_01_tech_dark_glass/slide.006.png" alt="01. Tech Dark Glass (테크 아키텍처) Slide 6" loading="lazy" onclick="openModal('templates/preview_01_tech_dark_glass/slide.006.png')"/>
+        </div>
+        <div class="slide-caption">Slide 6 / 6</div>
+      </div>
+    
+      </div>
+    </div>
+  
+    <div class="deck-section" id="biz_navy">
+      <div class="deck-header">
+        <span class="deck-tag" style="border-color: #F59E0B; color: #F59E0B;">ENTERPRISE STRATEGY</span>
+        <h2>02. Business Clean Navy (기업 전략 / IR)</h2>
+      </div>
+      <div class="slide-grid">
+  
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.001.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 1" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.001.png')"/>
+        </div>
+        <div class="slide-caption">Slide 1 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.002.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 2" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.002.png')"/>
+        </div>
+        <div class="slide-caption">Slide 2 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.003.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 3" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.003.png')"/>
+        </div>
+        <div class="slide-caption">Slide 3 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.004.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 4" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.004.png')"/>
+        </div>
+        <div class="slide-caption">Slide 4 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.005.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 5" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.005.png')"/>
+        </div>
+        <div class="slide-caption">Slide 5 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_02_business_clean_navy/slide.006.png" alt="02. Business Clean Navy (기업 전략 / IR) Slide 6" loading="lazy" onclick="openModal('templates/preview_02_business_clean_navy/slide.006.png')"/>
+        </div>
+        <div class="slide-caption">Slide 6 / 6</div>
+      </div>
+    
+      </div>
+    </div>
+  
+    <div class="deck-section" id="modern_light">
+      <div class="deck-header">
+        <span class="deck-tag" style="border-color: #4F46E5; color: #4F46E5;">ACADEMIC RESEARCH</span>
+        <h2>03. Modern Light (학술 / 백서)</h2>
+      </div>
+      <div class="slide-grid">
+  
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.001.png" alt="03. Modern Light (학술 / 백서) Slide 1" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.001.png')"/>
+        </div>
+        <div class="slide-caption">Slide 1 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.002.png" alt="03. Modern Light (학술 / 백서) Slide 2" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.002.png')"/>
+        </div>
+        <div class="slide-caption">Slide 2 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.003.png" alt="03. Modern Light (학술 / 백서) Slide 3" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.003.png')"/>
+        </div>
+        <div class="slide-caption">Slide 3 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.004.png" alt="03. Modern Light (학술 / 백서) Slide 4" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.004.png')"/>
+        </div>
+        <div class="slide-caption">Slide 4 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.005.png" alt="03. Modern Light (학술 / 백서) Slide 5" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.005.png')"/>
+        </div>
+        <div class="slide-caption">Slide 5 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_03_modern_light/slide.006.png" alt="03. Modern Light (학술 / 백서) Slide 6" loading="lazy" onclick="openModal('templates/preview_03_modern_light/slide.006.png')"/>
+        </div>
+        <div class="slide-caption">Slide 6 / 6</div>
+      </div>
+    
+      </div>
+    </div>
+  
+    <div class="deck-section" id="pitch_bold">
+      <div class="deck-header">
+        <span class="deck-tag" style="border-color: #EAB308; color: #EAB308;">SERIES A INVESTMENT</span>
+        <h2>04. Pitch Keynote Bold (스타트업 피치)</h2>
+      </div>
+      <div class="slide-grid">
+  
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.001.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 1" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.001.png')"/>
+        </div>
+        <div class="slide-caption">Slide 1 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.002.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 2" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.002.png')"/>
+        </div>
+        <div class="slide-caption">Slide 2 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.003.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 3" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.003.png')"/>
+        </div>
+        <div class="slide-caption">Slide 3 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.004.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 4" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.004.png')"/>
+        </div>
+        <div class="slide-caption">Slide 4 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.005.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 5" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.005.png')"/>
+        </div>
+        <div class="slide-caption">Slide 5 / 6</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="templates/preview_04_pitch_keynote_bold/slide.006.png" alt="04. Pitch Keynote Bold (스타트업 피치) Slide 6" loading="lazy" onclick="openModal('templates/preview_04_pitch_keynote_bold/slide.006.png')"/>
+        </div>
+        <div class="slide-caption">Slide 6 / 6</div>
+      </div>
+    
+      </div>
+    </div>
+  
+    <div class="deck-section" id="afsm_signature">
+      <div class="deck-header">
+        <span class="deck-tag" style="border-color: #38BDF8; color: #38BDF8;">SIGNATURE PRODUCTION DECK</span>
+        <h2>AFSM Production Reference Deck (8 Slides)</h2>
+      </div>
+      <div class="slide-grid">
+  
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.001.png" alt="AFSM Production Reference Deck (8 Slides) Slide 1" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.001.png')"/>
+        </div>
+        <div class="slide-caption">Slide 1 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.002.png" alt="AFSM Production Reference Deck (8 Slides) Slide 2" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.002.png')"/>
+        </div>
+        <div class="slide-caption">Slide 2 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.003.png" alt="AFSM Production Reference Deck (8 Slides) Slide 3" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.003.png')"/>
+        </div>
+        <div class="slide-caption">Slide 3 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.004.png" alt="AFSM Production Reference Deck (8 Slides) Slide 4" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.004.png')"/>
+        </div>
+        <div class="slide-caption">Slide 4 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.005.png" alt="AFSM Production Reference Deck (8 Slides) Slide 5" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.005.png')"/>
+        </div>
+        <div class="slide-caption">Slide 5 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.006.png" alt="AFSM Production Reference Deck (8 Slides) Slide 6" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.006.png')"/>
+        </div>
+        <div class="slide-caption">Slide 6 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.007.png" alt="AFSM Production Reference Deck (8 Slides) Slide 7" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.007.png')"/>
+        </div>
+        <div class="slide-caption">Slide 7 / 8</div>
+      </div>
+    
+      <div class="slide-card">
+        <div class="slide-thumb-wrap">
+          <img src="examples/afsm/slides_preview/slide.008.png" alt="AFSM Production Reference Deck (8 Slides) Slide 8" loading="lazy" onclick="openModal('examples/afsm/slides_preview/slide.008.png')"/>
+        </div>
+        <div class="slide-caption">Slide 8 / 8</div>
+      </div>
+    
+      </div>
+    </div>
+  
+  </div>
+
+  <div id="modal" onclick="closeModal()">
+    <img id="modalImg" src="" alt="Enlarged Slide" />
+  </div>
+
+  <script>
+    function openModal(src) {
+      document.getElementById('modalImg').src = src;
+      document.getElementById('modal').style.display = 'flex';
+    }
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

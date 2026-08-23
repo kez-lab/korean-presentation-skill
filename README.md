@@ -344,7 +344,14 @@ npm run build:templates
 npm run build:example
 ```
 
-### 4. 전체 42개 빌드 자산 무결성 자동 검증 (Verification Suite)
+### 4. 웹 갤러리 뷰어 생성 및 슬라이드 감상
+```bash
+# 32개 슬라이드를 모달 줌으로 넘겨볼 수 있는 웹 갤러리 생성
+npm run gallery
+# 생성된 preview_gallery.html 을 브라우저에서 열어 즉시 감상
+```
+
+### 5. 전체 42개 빌드 자산 무결성 자동 검증 (Verification Suite)
 ```bash
 npm test
 ```

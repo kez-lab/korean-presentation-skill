@@ -12,7 +12,8 @@
     "build:example": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
     "create": "node scripts/create_presentation.js",
     "verify": "node scripts/verify_all.js",
-    "test": "node scripts/verify_all.js"
+    "test": "node scripts/verify_all.js",
+    "gallery": "node scripts/generate_gallery_viewer.js"
   },
   "keywords": [
     "ai-agent",
