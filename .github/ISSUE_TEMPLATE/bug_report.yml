@@ -1,0 +1,55 @@
+name: 버그 리포트 (Bug report)
+description: 렌더링, 감사, PPTX 변환에서 발생한 문제를 알려주세요.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보 전에 `node skills/korean-presentation-skill/scripts/build_deck.js <deck.md> --out dist --json` 을 한 번 실행해 주세요.
+        생성된 `dist/<name>.audit.json` 과 `dist/<name>.preview.html` 이 원인 파악에 결정적입니다.
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 어느 단계에서 발생했나요?
+      options:
+        - 1. 렌더 (HTML 프리뷰 생성)
+        - 2. 감사 (audit 결과가 잘못됨 — 오탐 또는 미탐)
+        - 3. 변환 (PPTX 결과가 프리뷰와 다름)
+        - 4. 추출/검증 (pptx_extractor / pptx_validator)
+        - 기타
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 무슨 일이 일어났나요?
+      description: 기대한 결과와 실제 결과를 함께 적어주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 방법
+      description: 실행한 명령어와 문제가 되는 마크다운 덱(또는 최소 재현본)을 붙여주세요.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: audit
+    attributes:
+      label: 감사 리포트
+      description: 콘솔 출력 또는 `<name>.audit.json` 내용.
+      render: json
+
+  - type: input
+    id: env
+    attributes:
+      label: 환경
+      description: "`node -v`, OS, 그리고 PPTX를 연 프로그램 (PowerPoint 버전 / Keynote / Google Slides 등)"
+      placeholder: "node v20.11.0 · macOS 14.5 · PowerPoint 365 (Windows)"
+    validations:
+      required: true

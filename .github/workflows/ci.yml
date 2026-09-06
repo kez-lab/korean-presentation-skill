@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Render, audit & verify decks
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Decks pull Pretendard and friends from a CDN, but install the CJK fallback
+      # too so Korean never renders as tofu if a font request fails — that would
+      # silently change every layout measurement the audit depends on.
+      - name: Install Korean font fallback
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+
+      # The pipeline measures real laid-out geometry in headless Chrome, so a
+      # browser must be resolvable. Fail loudly here rather than deep in a build.
+      - name: Resolve headless browser
+        run: |
+          node -e "
+            const { findBrowser } = require('./skills/korean-presentation-skill/scripts/lib/browser');
+            const path = findBrowser();
+            if (!path) { console.error('No Chrome/Chromium found on this runner.'); process.exit(1); }
+            console.log('Using browser:', path);
+          "
+
+      # Re-renders every deck from source, audits the real geometry, and asserts
+      # the committed PPTX files contain genuine text runs.
+      - name: Verify deck integrity
+        run: npm test
+
+      - name: Assert committed decks are natively editable
+        run: |
+          set -e
+          for f in examples/*/Presentation.pptx templates/Template_*.pptx; do
+            node skills/korean-presentation-skill/scripts/pptx_validator.js "$f"
+          done
+
+      - name: Upload rendered previews
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deck-previews
+          path: examples/*/Presentation.preview.html
+          retention-days: 7

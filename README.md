@@ -1,23 +1,31 @@
 <div align="center">
 
+<img src="assets/hero.png" alt="Korean Presentation Skill — HTML로 먼저 확인하고, 편집 가능한 PPTX로 내보냅니다" width="100%"/>
+
 # Korean Presentation Skill
 
-### 10대 도메인별 고유 레이아웃 & 한국어 타이포그래피 거버넌스 기반 AI 프레젠테이션 엔진
+### HTML-First 파이프라인으로 네이티브 편집 가능한 PPTX를 만드는 AI 프레젠테이션 엔진
 
-[![Antigravity Skill](https://img.shields.io/badge/Antigravity-AI_Agent_Skill-6366F1?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/antigravity)
-[![Korean Typography](https://img.shields.io/badge/Korean_Typography-Pretendard_%7C_-0.025em-EC4899?style=for-the-badge)](skills/korean-presentation-skill/references/korean_typography_spacing_guide.md)
-[![Native PPTX](https://img.shields.io/badge/PPTX-Native_%26_Editable-D24726?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](#2-html-first-파이프라인)
+[![CI](https://github.com/kez-lab/korean-presentation-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/kez-lab/korean-presentation-skill/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/package-json/v/kez-lab/korean-presentation-skill?color=6366F1)](package.json)
+[![Node](https://img.shields.io/badge/node-%E2%89%A518-339933?logo=node.js&logoColor=white)](package.json)
+[![License: MIT](https://img.shields.io/badge/license-MIT-FACC15)](LICENSE)
+
+[![Native PPTX](https://img.shields.io/badge/PPTX-네이티브_·_편집_가능-D24726?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](#2-html-first-파이프라인)
 [![HTML First](https://img.shields.io/badge/Pipeline-HTML_First-0284C7?style=for-the-badge&logo=html5&logoColor=white)](#2-html-first-파이프라인)
-[![WCAG AAA](https://img.shields.io/badge/Accessibility-WCAG_AAA_7:1+-34D399?style=for-the-badge)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-FACC15?style=for-the-badge)](LICENSE)
+[![Audit Gate](https://img.shields.io/badge/Audit-12_거버넌스_규칙-F59E0B?style=for-the-badge)](#감사-규칙)
+[![Korean Typography](https://img.shields.io/badge/한국어_타이포그래피--0.025em_·_keep--all-EC4899?style=for-the-badge)](#4-한국어-타이포그래피-최적화-표준)
+[![Antigravity Skill](https://img.shields.io/badge/Antigravity-AI_Agent_Skill-6366F1?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/antigravity)
 
 <br/>
 
-[**10대 고유 구조 갤러리**](#1-10대-도메인-완전-차별화-레이아웃-쇼케이스-갤러리) •
-[**HTML-First 파이프라인**](#2-html-first-파이프라인) •
-[**동적 테마 엔진 원칙**](#3-동적-디자인-테마-창조-원칙-dynamic-theme-engine) •
-[**한국어 타이포그래피 표준**](#4-한국어-타이포그래피-최적화-표준) •
-[**CLI 도구 사용법**](#5-빠른-시작-및-cli-도구-사용법)
+[**갤러리**](#1-10대-도메인-완전-차별화-레이아웃-쇼케이스-갤러리) •
+[**파이프라인**](#2-html-first-파이프라인) •
+[**테마 엔진**](#3-동적-디자인-테마-창조-원칙-dynamic-theme-engine) •
+[**타이포그래피**](#4-한국어-타이포그래피-최적화-표준) •
+[**빠른 시작**](#5-빠른-시작-및-cli-도구-사용법) •
+[**기여**](CONTRIBUTING.md) •
+[**변경 이력**](CHANGELOG.md)
 
 </div>
 
@@ -30,6 +38,26 @@
 산출되는 `.pptx`는 슬라이드 이미지를 붙인 껍데기가 아니라 **실제 도형과 텍스트 프레임으로 구성된 완전 편집 가능한 네이티브 파일**입니다. 파워포인트에서 글자를 고치고, 검색하고, 번역하고, 스크린리더로 읽을 수 있습니다.
 
 **천편일률적인 카드 박스 복사를 완전히 지양합니다.** 주제의 성격에 따라 **터미널 CLI, 수평 타임라인, 스위스 에디토리얼 세리프, 임상 비교 매트릭스 테이블, 금융 L3 호가창, 사이버펑크 HUD, SaaS 아코디언, 논문 수식 조판, 볼드 피치, 관제 대시보드** 등 완전히 고유한 비주얼 컴포넌트와 레이아웃을 동적으로 창조합니다.
+
+---
+
+## 60초 안에 시작하기
+
+```bash
+git clone https://github.com/kez-lab/korean-presentation-skill.git
+cd korean-presentation-skill && npm ci
+
+# ① 리뷰 — HTML 프리뷰 + 감사. 아직 PPTX는 만들지 않습니다.
+node skills/korean-presentation-skill/scripts/build_deck.js examples/09_robotics_series_a/presentation.md --out dist
+open dist/presentation.preview.html
+
+# ② 승인 — 감사를 통과하면 네이티브 PPTX로 변환합니다.
+node skills/korean-presentation-skill/scripts/build_deck.js examples/09_robotics_series_a/presentation.md \
+     --out dist --approve --pdf --png --safe-fonts
+```
+
+> Node 18 이상과 Chrome(또는 Chromium)이 필요합니다. 파이프라인이 헤드리스 브라우저에서 실제 레이아웃 좌표를 측정하기 때문입니다.
+> 자동 탐색에 실패하면 `CHROME_PATH` 로 지정할 수 있습니다.
 
 ---
 
@@ -233,9 +261,37 @@
 
 덱을 곧바로 PPTX로 내보내지 않습니다. **HTML로 먼저 렌더링해 눈으로 확인하고, 기계 검수를 통과한 레이아웃만 PPTX로 변환**합니다.
 
-```
-markdown ──▶ ① HTML 프리뷰 ──▶ ② 감사 게이트 ──▶ ③ 네이티브 PPTX (+ PDF / PNG)
-                (사람이 확인)     (기계가 차단)      (완전 편집 가능)
+```mermaid
+flowchart LR
+    MD["deck.md<br/><small>Marp 마크다운</small>"] --> R
+
+    subgraph S1["① 렌더"]
+        R["marp-core<br/><small>in-process</small>"] --> H["preview.html<br/><small>1280×720 실측 렌더</small>"]
+    end
+
+    H --> M
+
+    subgraph S2["② 측정 &amp; 감사"]
+        M["헤드리스 Chrome<br/><small>DOM 좌표·스타일 추출</small>"] --> A{"감사 게이트<br/><small>12개 거버넌스 규칙</small>"}
+    end
+
+    A -- "error 발견" --> FIX["덱 수정<br/><small>--force 로 우회하지 않음</small>"]
+    FIX --> MD
+    A -- "--approve &amp; 통과" --> W
+
+    subgraph S3["③ 변환"]
+        W["PptxGenJS<br/><small>도형 · 텍스트 프레임</small>"] --> P["deck.pptx<br/><small>네이티브 · 편집 가능</small>"]
+        W --> PDF["deck.pdf<br/><small>벡터 · 실제 텍스트</small>"]
+        W --> PNG["slide.*.png<br/><small>1920×1080</small>"]
+    end
+
+    style MD fill:#1e293b,stroke:#475569,color:#e2e8f0
+    style H fill:#0c2a3f,stroke:#0284c7,color:#e0f2fe
+    style A fill:#3a2606,stroke:#f59e0b,color:#fde68a
+    style FIX fill:#3f1d1d,stroke:#ef4444,color:#fecaca
+    style P fill:#0d2019,stroke:#34d399,color:#d1fae5
+    style PDF fill:#0d2019,stroke:#34d399,color:#d1fae5
+    style PNG fill:#0d2019,stroke:#34d399,color:#d1fae5
 ```
 
 | 단계 | 산출물 | 하는 일 |
@@ -364,6 +420,52 @@ npm run build:examples   # 예제 10종을 파이프라인 전체로 재빌드
 npm test                 # 전 덱 재렌더 → 감사 → PPTX 편집 가능성까지 검증
 ```
 `npm test`는 파일 존재 여부만 보지 않습니다. 모든 예제 덱을 다시 렌더링해 감사 게이트를 통과하는지, 그리고 커밋된 `.pptx`가 실제 텍스트 런을 담고 있는지 확인합니다.
+
+---
+
+## 6. 프로젝트 구조
+
+```
+korean-presentation-skill/
+├── skills/korean-presentation-skill/
+│   ├── SKILL.md                    # AI 에이전트가 읽는 스킬 정의
+│   ├── references/                 # 레이아웃 카탈로그, 타이포그래피 가이드, 디자인 시스템
+│   └── scripts/
+│       ├── build_deck.js           # ★ 파이프라인 진입점 (2단계 CLI)
+│       ├── lib/
+│       │   ├── deck.js             #   마크다운 → 슬라이드 HTML + CSS + 스피커 노트
+│       │   ├── browser.js          #   헤드리스 Chrome 탐색 및 페이지 수명 관리
+│       │   ├── extract.js          #   렌더된 DOM → 도형·텍스트·이미지 디스플레이 리스트
+│       │   ├── audit.js            #   12개 거버넌스 규칙 검사
+│       │   ├── pptx.js             #   디스플레이 리스트 → 네이티브 PPTX
+│       │   └── constants.js        #   캔버스 좌표계, 폰트 폴백, 임계값
+│       ├── pptx_extractor.js       # 기존 PPTX → 마크다운 역추출
+│       ├── pptx_validator.js       # OOXML 스키마 + 편집 가능성 검증
+│       └── marp_compiler.js        # (deprecated) build_deck.js 로 위임
+├── examples/                       # 10개 도메인 예제 덱 + 산출물
+├── templates/                      # 4종 스타터 템플릿
+├── themes/                         # 공용 Marp 테마 CSS
+└── scripts/
+    ├── build_examples.js           # 예제·템플릿 일괄 재빌드
+    ├── verify_all.js               # 무결성 테스트 스위트 (npm test)
+    └── generate_gallery_viewer.js  # 웹 갤러리 생성
+```
+
+### 좌표계
+
+덱은 1280×720 CSS 픽셀로 작성하고, PowerPoint 의 16:9 와이드는 13.333in × 7.5in 입니다. 이 대응이 **정확히 96 px/in, 0.75 pt/px** 이기 때문에 HTML 프리뷰와 PPTX 가 어긋나지 않습니다. 이 관계는 `lib/constants.js` 에 고정돼 있습니다.
+
+---
+
+## 기여하기
+
+버그 제보, 새로운 레이아웃, 감사 규칙 제안 모두 환영합니다. [기여 가이드](CONTRIBUTING.md)를 먼저 읽어주세요.
+
+특히 이 저장소에는 타협하지 않는 규칙이 있습니다.
+
+1. **래스터 덱은 커밋하지 않습니다** — 슬라이드가 통짜 이미지인 `.pptx` 는 편집·검색·접근성이 전부 불가능합니다.
+2. **감사 게이트를 `--force` 로 우회하지 않습니다** — `error` 가 뜨면 원인을 고칩니다.
+3. **눈으로 먼저 확인합니다** — `.preview.html` 을 열어보지 않고 PPTX 를 만들지 않습니다.
 
 ---
 

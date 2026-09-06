@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 기여 가이드
+    url: https://github.com/kez-lab/korean-presentation-skill/blob/master/CONTRIBUTING.md
+    about: PR 을 열기 전 개발 환경 설정과 저장소의 핵심 원칙을 확인해 주세요.
