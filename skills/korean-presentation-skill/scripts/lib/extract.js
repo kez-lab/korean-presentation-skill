@@ -459,9 +459,26 @@ function pageExtractor(SLIDE_W, SLIDE_H) {
       { top: Infinity, left: Infinity, right: -Infinity, bottom: -Infinity }
     );
 
+    const rootFontPx = parseFloat(sectionCs.fontSize) || 16;
+    const rootLsRaw = sectionCs.letterSpacing;
+    const rootLsPx = !rootLsRaw || rootLsRaw === 'normal' ? 0 : parseFloat(rootLsRaw) || 0;
+
     return {
       index: sIdx + 1,
       background: slideBg,
+      /**
+       * The slide's declared typography. `letterSpacing` in em resolves against
+       * the section's own font-size, so this ratio is what the author wrote —
+       * a descendant only inherits the already-resolved px value.
+       */
+      root: {
+        fontSizePx: rootFontPx,
+        fontFamily: firstFont(sectionCs.fontFamily),
+        letterSpacingPx: rootLsPx,
+        letterSpacingEm: rootFontPx ? rootLsPx / rootFontPx : 0,
+        letterSpacingDeclared: rootLsRaw === 'normal' ? null : rootLsRaw,
+        wordBreak: sectionCs.wordBreak,
+      },
       boxes,
       texts,
       images,

@@ -65,12 +65,24 @@ npm test
 qlmanage -t -s 1600 -o /tmp dist/<name>.pptx
 ```
 
+### 변환 코드를 수정한 뒤 (골든 스냅샷)
+
+생성된 `.pptx` 의 기하는 `examples/<id>/Presentation.layout.json` 에 골든으로 커밋돼 있습니다. `lib/extract.js` 나 `lib/pptx.js` 를 고치면 이 골든이 달라집니다.
+
+```bash
+npm run snapshot:check   # 무엇이 달라졌는지 확인
+npm run snapshot         # 의도한 변경이면 재기록
+```
+
+**골든 diff 를 반드시 눈으로 읽어주세요.** `corner adjust 49988 → 122070` 같은 줄은 단위 버그의 신호이고, `x moved +3px` 는 대개 정상적인 레이아웃 변화입니다. 재기록 전에 어느 쪽인지 판단해야 합니다. 골든을 무비판적으로 갱신하면 안전망이 사라집니다.
+
 ### 감사 규칙을 추가할 때
 
 `lib/audit.js` 의 `auditDeck()` 에 추가하고, 다음을 함께 갖춰주세요.
 
 - **`error` 는 실제로 결과물을 망가뜨리는 경우에만.** 그 외는 `warn` 또는 `info` 입니다.
-- 오탐이 나지 않는지 예제 덱 14종 전체로 확인 (`npm test`).
+- **오탐률을 먼저 재보세요.** 예제 덱 14종에 돌려 경고가 수십 건 쏟아지면 규칙 설계가 틀린 것입니다. 실제로 초기 `letter-spacing` 규칙은 CSS 의 em 상속을 위반으로 오독해 오탐 130건(전체 경고의 78%)을 만들었고, 그 탓에 리포트 전체가 읽히지 않는 상태였습니다.
+- `tests/fixtures/governance_violations.md` 에 그 규칙을 위반하는 케이스를 추가하고, `scripts/verify_all.js` 의 `EXPECTED_RULES` 에 이름을 넣어주세요. 스위트가 **모든 규칙이 발동 가능한지** 검사하므로, 빠뜨리면 조용히 죽은 규칙이 됩니다.
 - `README.md` 와 `SKILL.md` 의 규칙 표에 항목 추가.
 
 ## 커밋 및 PR

@@ -3,17 +3,10 @@
   "slideCount": 2,
   "counts": {
     "error": 0,
-    "warn": 3,
+    "warn": 1,
     "info": 2
   },
   "findings": [
-    {
-      "slide": 1,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"풍력·태양광의 간헐성을 AI 가상발전소(VPP)와 대용량 ES…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-      "detail": null
-    },
     {
       "slide": 1,
       "level": "info",
@@ -30,13 +23,6 @@
     },
     {
       "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"* 국가 탄소중립녹색성장 기본계획 및 전력수급기본계획 연계\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
       "level": "info",
       "rule": "thin-notes",
       "message": "Speaker notes are only 39 characters; aim for a full spoken paragraph.",
@@ -45,13 +31,6 @@
   ],
   "findingsBySlide": {
     "1": [
-      {
-        "slide": 1,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"풍력·태양광의 간헐성을 AI 가상발전소(VPP)와 대용량 ES…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-        "detail": null
-      },
       {
         "slide": 1,
         "level": "info",
@@ -66,13 +45,6 @@
         "level": "warn",
         "rule": "korean-orphan",
         "message": "\"Phase 2: 하이브리드 ESS 확장\" strands \"확장\" alone on its last line. Rebalance the break or widen the container.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"* 국가 탄소중립녹색성장 기본계획 및 전력수급기본계획 연계\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
         "detail": null
       },
       {

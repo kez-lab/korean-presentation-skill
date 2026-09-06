@@ -1,0 +1,1156 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "060A14",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 342900,
+          "cx": 11353830,
+          "cy": 444124,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0F172A",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 768005,
+          "cx": 11353830,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFCC00",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 392369,
+          "cx": 6487028,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "ALPHA HFT TERMINAL"
+            },
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": " // CME:NQ1! "
+            },
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "▲ 19,842.50 (+1.42%)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7393198,
+          "y": 392369,
+          "cx": 4584527,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "LATENCY: "
+            },
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFCC00",
+              "font": "Consolas",
+              "text": "380 ns"
+            },
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": " | STATUS: "
+            },
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "ACTIVE ARB"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 400050,
+          "y": 2402860,
+          "cx": 12281124,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFCC00",
+              "font": "Consolas",
+              "text": "FPGA TICK-TO-TRADE PIPELINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 400050,
+          "y": 2597170,
+          "cx": 12281124,
+          "cy": 400050,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3150,
+          "runs": [
+            {
+              "sz": 2520,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "나노초 초저지연 알고리즘 트레이딩 엔진"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 4776826,
+          "cx": 5600700,
+          "cy": 1738274,
+          "prst": "roundRect",
+          "adj": 3288,
+          "fill": "0B1120",
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 561990,
+          "y": 5268590,
+          "cx": 5314950,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 4911974,
+          "cx": 5759166,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "L3 ORDERBOOK DEPTH STREAM"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 5346497,
+          "cx": 3062600,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "BID 19,842.25 [142 LOTS]"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 5035875,
+          "y": 5346497,
+          "cx": 906810,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "0.12 μs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 5685831,
+          "cx": 3062600,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "BID 19,842.00 [380 LOTS]"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 5035875,
+          "y": 5685831,
+          "cx": 906810,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "0.18 μs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 6025164,
+          "cx": 2935681,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "EF4444",
+              "font": "Consolas",
+              "text": "ASK 19,842.50 [98 LOTS]"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 5035875,
+          "y": 6025164,
+          "cx": 906810,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "EF4444",
+              "font": "Consolas",
+              "text": "0.09 μs"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6172200,
+          "y": 4776826,
+          "cx": 5600700,
+          "cy": 1738274,
+          "prst": "roundRect",
+          "adj": 3288,
+          "fill": "0F172A",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6324630,
+          "y": 5007803,
+          "cx": 5697444,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "ANNUALIZED SHARPE RATIO"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6324630,
+          "y": 5164988,
+          "cx": 5697444,
+          "cy": 502920,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3960,
+          "runs": [
+            {
+              "sz": 2640,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFCC00",
+              "font": "Consolas",
+              "text": "4.28 SR"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6324630,
+          "y": 5796839,
+          "cx": 5697444,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "DAILY VOLUME PROCESSED"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6324630,
+          "y": 5959785,
+          "cx": 5697444,
+          "cy": 320040,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2520,
+          "runs": [
+            {
+              "sz": 1680,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "$4,850,000,000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "060A14",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 342900,
+          "cx": 11353830,
+          "cy": 444124,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0F172A",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 768005,
+          "cx": 11353830,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFCC00",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 392369,
+          "cx": 7247443,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "EXECUTION LATENCY BREAKDOWN"
+            },
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": " // FIBER OPTIC VS DIRECT FPGA"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 9859152,
+          "y": 392369,
+          "cx": 1921337,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFCC00",
+              "font": "Consolas",
+              "text": "TARGET < 500 ns"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 400050,
+          "y": 2160361,
+          "cx": 12281124,
+          "cy": 285750,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2250,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "3단계 하드웨어 직접 가속 틱투트레이드 파이프라인"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 1037112,
+          "prst": "roundRect",
+          "adj": 5510,
+          "fill": "0B1120",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4105290,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 5020147,
+          "cx": 3695730,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 419070,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 4153205,
+          "cx": 3701766,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Consolas",
+              "text": "PHASE 1: PACKET INGEST"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 4354281,
+          "cx": 3701766,
+          "cy": 320040,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2520,
+          "runs": [
+            {
+              "sz": 1680,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "90 ns"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 542971,
+          "y": 4715378,
+          "cx": 3701766,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "Solarflare 커널 바이패스"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4248120,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 1037112,
+          "prst": "roundRect",
+          "adj": 5510,
+          "fill": "0B1120",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4248120,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFCC00",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7934340,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4248120,
+          "y": 5020147,
+          "cx": 3695730,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4248120,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4372021,
+          "y": 4153205,
+          "cx": 3701766,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFCC00",
+              "font": "Consolas",
+              "text": "PHASE 2: FPGA ARB CALC"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4372021,
+          "y": 4354281,
+          "cx": 3701766,
+          "cy": 320040,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2520,
+          "runs": [
+            {
+              "sz": 1680,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "180 ns"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4372021,
+          "y": 4715378,
+          "cx": 3701766,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "C++23 템플릿 메타 계산"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8077170,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 1037112,
+          "prst": "roundRect",
+          "adj": 5510,
+          "fill": "0B1120",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8077170,
+          "y": 3992636,
+          "cx": 3695730,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11763390,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8077170,
+          "y": 5020147,
+          "cx": 3695730,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8077170,
+          "y": 3992636,
+          "cx": 9510,
+          "cy": 1037112,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8201071,
+          "y": 4153205,
+          "cx": 3701766,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "PHASE 3: DMA ORDER OUT"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8201071,
+          "y": 4354281,
+          "cx": 3701766,
+          "cy": 320040,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2520,
+          "runs": [
+            {
+              "sz": 1680,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "110 ns"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8201071,
+          "y": 4715378,
+          "cx": 3701766,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "거래소 전용선 즉시 체결"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 400050,
+          "y": 6349228,
+          "cx": 12281124,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Consolas",
+              "text": "* Total Round-Trip: 380 ns (World Record Benchmark, 2026.08)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

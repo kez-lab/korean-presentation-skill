@@ -1,0 +1,922 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "071322",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 457200,
+          "y": 361920,
+          "cx": 11277570,
+          "cy": 494690,
+          "prst": "roundRect",
+          "adj": 11553,
+          "fill": "0C2138",
+          "line": {
+            "color": "1E3A5F",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 443301,
+          "cx": 2858049,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E0F2FE",
+              "font": "Malgun Gothic",
+              "text": "🏛️ 국토교통부 스마트도시기획단"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7705283,
+          "y": 443301,
+          "cx": 4175516,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E0F2FE",
+              "font": "Malgun Gothic",
+              "text": "실시간 국가 재난 안전망 관제 현황 : "
+            },
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "정상 가동 중"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 438180,
+          "y": 1875434,
+          "cx": 11315700,
+          "cy": 1346637,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5302,
+          "runs": [
+            {
+              "sz": 4241,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "전국 지자체 연계 실시간 3D"
+            },
+            {
+              "sz": 4241,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "스마트시티 디지털 트윈 재난 관제"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 457200,
+          "y": 4484766,
+          "cx": 5581680,
+          "cy": 948507,
+          "prst": "roundRect",
+          "adj": 8030,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 4602450,
+          "cx": 1035467,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "7DD3FC",
+              "font": "Malgun Gothic",
+              "text": "침수 사전 감지 골든타임"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4958243,
+          "y": 4608576,
+          "cx": 918698,
+          "cy": 319857,
+          "prst": "roundRect",
+          "adj": 11921,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4996373,
+          "y": 4620097,
+          "cx": 887791,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "5분 전 경보"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 4961717,
+          "cx": 5697444,
+          "cy": 342900,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2700,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "100% 자동 통제"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6153180,
+          "y": 4484766,
+          "cx": 5581680,
+          "cy": 948507,
+          "prst": "roundRect",
+          "adj": 8030,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6296010,
+          "y": 4602450,
+          "cx": 845729,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "7DD3FC",
+              "font": "Malgun Gothic",
+              "text": "긴급 소방 출동 단축"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 10309677,
+          "y": 4608576,
+          "cx": 1263335,
+          "cy": 319857,
+          "prst": "roundRect",
+          "adj": 11921,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 10347808,
+          "y": 4620097,
+          "cx": 1259952,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "-41% 시간 절감"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6296010,
+          "y": 4961717,
+          "cx": 5697444,
+          "cy": 342900,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2700,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "신호등 우선 제어"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 457200,
+          "y": 5547573,
+          "cx": 5581680,
+          "cy": 948507,
+          "prst": "roundRect",
+          "adj": 8030,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 5665257,
+          "cx": 985083,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "7DD3FC",
+              "font": "Malgun Gothic",
+              "text": "지하 매설물 3D 가시화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4912340,
+          "y": 5671383,
+          "cx": 964601,
+          "cy": 319857,
+          "prst": "roundRect",
+          "adj": 11921,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4950470,
+          "y": 5682905,
+          "cx": 937351,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "100% 완비"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 6024524,
+          "cx": 5697444,
+          "cy": 342900,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2700,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "상하수도·가스관 맵"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6153180,
+          "y": 5547573,
+          "cx": 5581680,
+          "cy": 948507,
+          "prst": "roundRect",
+          "adj": 8030,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6296010,
+          "y": 5665257,
+          "cx": 732983,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "7DD3FC",
+              "font": "Malgun Gothic",
+              "text": "전국 지자체 보급"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 10467960,
+          "y": 5671383,
+          "cx": 1104870,
+          "cy": 319857,
+          "prst": "roundRect",
+          "adj": 11921,
+          "fill": "6366F1",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 10506090,
+          "y": 5682905,
+          "cx": 1088868,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "226개 시군구"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6296010,
+          "y": 6024524,
+          "cx": 5697444,
+          "cy": 342900,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2700,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "K-스마트시티 표준"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "071322",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 457200,
+          "y": 361920,
+          "cx": 11277570,
+          "cy": 494690,
+          "prst": "roundRect",
+          "adj": 11553,
+          "fill": "0C2138",
+          "line": {
+            "color": "1E3A5F",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 443210,
+          "cx": 3817346,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E0F2FE",
+              "font": "Malgun Gothic",
+              "text": "🏛️ 국가 스마트시티 디지털 트윈 인프라 체계"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 9209014,
+          "y": 443210,
+          "cx": 2551359,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "전국 226개 지자체 통합 연계"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 438180,
+          "y": 2362352,
+          "cx": 12198828,
+          "cy": 276240,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2175,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "3계층 통합 재난 관제 및 대시민 안전망"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 457200,
+          "y": 4220047,
+          "cx": 3670310,
+          "cy": 658277,
+          "prst": "roundRect",
+          "adj": 11571,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 4341937,
+          "cx": 3633186,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "LAYER 1: 센서 & GIS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 600121,
+          "y": 4567977,
+          "cx": 3633186,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "BAE6FD",
+              "font": "Malgun Gothic",
+              "text": "IoT 수위계, 지능형 CCTV, 3D 지하 매설물 데이터 수집"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4260830,
+          "y": 4220047,
+          "cx": 3670310,
+          "cy": 658277,
+          "prst": "roundRect",
+          "adj": 11571,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4403659,
+          "y": 4341937,
+          "cx": 3633186,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "LAYER 2: AI 시뮬레이션"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4403659,
+          "y": 4567977,
+          "cx": 3633186,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "BAE6FD",
+              "font": "Malgun Gothic",
+              "text": "강우량에 따른 침수 확산 5분 전 예측 및 대피 경로 자동 산출"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8064459,
+          "y": 4220047,
+          "cx": 3670402,
+          "cy": 658277,
+          "prst": "roundRect",
+          "adj": 11571,
+          "fill": "0A1B30",
+          "line": {
+            "color": "16365C",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8207289,
+          "y": 4341937,
+          "cx": 3633277,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "6366F1",
+              "font": "Malgun Gothic",
+              "text": "LAYER 3: 자동 현장 제어"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8207289,
+          "y": 4567977,
+          "cx": 3633277,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "BAE6FD",
+              "font": "Malgun Gothic",
+              "text": "차수벽 자동 가동, 소방차 우선 신호 제어, 내비게이션 우회 전송"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -445038,
+          "y": 6325453,
+          "cx": 13082046,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "7DD3FC",
+              "font": "Malgun Gothic",
+              "text": "* 국토교통부 스마트시티 국가 전략 과제 (2024-2027)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

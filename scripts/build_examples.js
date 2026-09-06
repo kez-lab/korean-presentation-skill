@@ -44,9 +44,9 @@ if (WITH_TEMPLATES) {
   }
 }
 
+const selected = targets.filter((t) => !ONLY || t.id === ONLY);
 let failed = 0;
-for (const t of targets) {
-  if (ONLY && t.id !== ONLY) continue;
+for (const t of selected) {
   console.log(`\n${'─'.repeat(68)}\n▸ ${t.id}\n${'─'.repeat(68)}`);
   // --safe-fonts on the shipped artifacts: the PDF and PNGs embed the real
   // webfonts, so those stay pixel-faithful, while the PPTX stays readable on a
@@ -69,5 +69,5 @@ for (const t of targets) {
   }
 }
 
-console.log(`\n${targets.length - failed}/${targets.length} decks built${failed ? ` · ${failed} failed` : ''}`);
+console.log(`\n${selected.length - failed}/${selected.length} decks built${failed ? ` · ${failed} failed` : ''}`);
 process.exit(failed ? 1 : 0);

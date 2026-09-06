@@ -3,43 +3,15 @@
   "slideCount": 2,
   "counts": {
     "error": 0,
-    "warn": 14,
+    "warn": 3,
     "info": 1
   },
   "findings": [
     {
       "slide": 1,
       "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"침수 사전 감지 골든타임\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 1,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"긴급 소방 출동 단축\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 1,
-      "level": "warn",
       "rule": "low-contrast",
       "message": "\"-41% 시간 절감\" has 2.54:1 contrast on #10B981 (needs 3:1).",
-      "detail": null
-    },
-    {
-      "slide": 1,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"지하 매설물 3D 가시화\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 1,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"전국 지자체 보급\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
       "detail": null
     },
     {
@@ -52,57 +24,8 @@
     {
       "slide": 2,
       "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"LAYER 1: 센서 & GIS\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"IoT 수위계, 지능형 CCTV, 3D 지하 매설물 데이터 수…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"LAYER 2: AI 시뮬레이션\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"강우량에 따른 침수 확산 5분 전 예측 및 대피 경로 자동 산…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"LAYER 3: 자동 현장 제어\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
       "rule": "low-contrast",
       "message": "\"LAYER 3: 자동 현장 제어\" has 3.88:1 contrast on #0A1B30 (needs 4.5:1).",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"차수벽 자동 가동, 소방차 우선 신호 제어, 내비게이션 우회 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"* 국토교통부 스마트시티 국가 전략 과제 (2024-2027)\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
       "detail": null
     },
     {
@@ -118,36 +41,8 @@
       {
         "slide": 1,
         "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"침수 사전 감지 골든타임\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 1,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"긴급 소방 출동 단축\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 1,
-        "level": "warn",
         "rule": "low-contrast",
         "message": "\"-41% 시간 절감\" has 2.54:1 contrast on #10B981 (needs 3:1).",
-        "detail": null
-      },
-      {
-        "slide": 1,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"지하 매설물 3D 가시화\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 1,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"전국 지자체 보급\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
         "detail": null
       },
       {
@@ -162,57 +57,8 @@
       {
         "slide": 2,
         "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"LAYER 1: 센서 & GIS\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"IoT 수위계, 지능형 CCTV, 3D 지하 매설물 데이터 수…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"LAYER 2: AI 시뮬레이션\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"강우량에 따른 침수 확산 5분 전 예측 및 대피 경로 자동 산…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"LAYER 3: 자동 현장 제어\" uses letter-spacing -0.053em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
         "rule": "low-contrast",
         "message": "\"LAYER 3: 자동 현장 제어\" has 3.88:1 contrast on #0A1B30 (needs 4.5:1).",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"차수벽 자동 가동, 소방차 우선 신호 제어, 내비게이션 우회 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"* 국토교통부 스마트시티 국가 전략 과제 (2024-2027)\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
         "detail": null
       },
       {

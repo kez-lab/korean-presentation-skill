@@ -1,0 +1,804 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "0D021A",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 428671,
+          "cx": 5895228,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "EC4899",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 561990,
+          "y": 468539,
+          "cx": 6159581,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": 245,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "UNREAL ENGINE 5.4 // ICVFX PIPELINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 457200,
+          "y": 902421,
+          "cx": 11277570,
+          "cy": 1519276,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5981,
+          "runs": [
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "실시간 버추얼 프로덕션"
+            },
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "EC4899",
+              "font": "Malgun Gothic",
+              "text": "8K 120FPS 차세대 렌더링 엔진"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 457200,
+          "y": 2679558,
+          "cx": 12157680,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C084FC",
+              "font": "Malgun Gothic",
+              "text": "Nanite와 Lumen을 결합한 영화급 인카메라 시각효과(VFX) 스튜디오 아키텍처"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 5272522,
+          "cx": 3644798,
+          "cy": 1166317,
+          "prst": "roundRect",
+          "adj": 3269,
+          "fill": "1E0A37",
+          "line": {
+            "color": "8B5CF6",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 5442692,
+          "cx": 3585180,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "RENDER LATENCY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 5640842,
+          "cx": 3585180,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Arial",
+              "text": "3.8 ms"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 6091276,
+          "cx": 3585180,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "D8B4FE",
+              "font": "Malgun Gothic",
+              "text": "Genlock 카메라 완벽 동기화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4273448,
+          "y": 5272522,
+          "cx": 3644890,
+          "cy": 1166317,
+          "prst": "roundRect",
+          "adj": 3269,
+          "fill": "1E0A37",
+          "line": {
+            "color": "EC4899",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 5442692,
+          "cx": 3585271,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C084FC",
+              "font": "Arial",
+              "text": "POST-PROD COST"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 5640842,
+          "cx": 3585271,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "-72%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 6091276,
+          "cx": 3585271,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "D8B4FE",
+              "font": "Malgun Gothic",
+              "text": "현장 즉시 최종 픽셀 완성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8070860,
+          "y": 5272522,
+          "cx": 3644798,
+          "cy": 1166317,
+          "prst": "roundRect",
+          "adj": 3269,
+          "fill": "1E0A37",
+          "line": {
+            "color": "8B5CF6",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 5442692,
+          "cx": 3585180,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "8B5CF6",
+              "font": "Arial",
+              "text": "LED VOLUME"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 5640842,
+          "cx": 3585180,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Arial",
+              "text": "360° 20m"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 6091276,
+          "cx": 3585180,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "D8B4FE",
+              "font": "Malgun Gothic",
+              "text": "상암 초대형 볼륨 스튜디오"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "0D021A",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 428671,
+          "cx": 6316127,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "EC4899",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 561990,
+          "y": 468539,
+          "cx": 6614130,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": 245,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "CORE ARCHITECTURE // NANITE & LUMEN"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 457200,
+          "y": 887059,
+          "cx": 12157680,
+          "cy": 304770,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2400,
+          "runs": [
+            {
+              "sz": 1920,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "실시간 3D 버추얼 프로덕션 3대 파이프라인"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 3311134,
+          "cx": 3644798,
+          "cy": 978957,
+          "prst": "roundRect",
+          "adj": 3895,
+          "fill": "1E0A37",
+          "line": {
+            "color": "EC4899",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 3481212,
+          "cx": 3585180,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "01. ICVFX SYNC"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 3676528,
+          "cx": 3585180,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "인카메라 시각효과"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 628650,
+          "y": 3932194,
+          "cx": 3585180,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C084FC",
+              "font": "Malgun Gothic",
+              "text": "카메라 시점에 맞춘 배경 원근 실시간 왜곡 렌더링"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4273448,
+          "y": 3311134,
+          "cx": 3644890,
+          "cy": 978957,
+          "prst": "roundRect",
+          "adj": 3895,
+          "fill": "1E0A37",
+          "line": {
+            "color": "8B5CF6",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 3481212,
+          "cx": 3585271,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "8B5CF6",
+              "font": "Arial",
+              "text": "02. AI ASSET GEN"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 3676528,
+          "cx": 3585271,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "생성형 3D 에셋"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4425879,
+          "y": 3932194,
+          "cx": 3585271,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C084FC",
+              "font": "Malgun Gothic",
+              "text": "프롬프트 기반 초고해상도 3D 공간 10분 내 인제스트"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8070860,
+          "y": 3311134,
+          "cx": 3644798,
+          "cy": 978957,
+          "prst": "roundRect",
+          "adj": 3895,
+          "fill": "1E0A37",
+          "line": {
+            "color": "EC4899",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 3481212,
+          "cx": 3585180,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "EC4899",
+              "font": "Arial",
+              "text": "03. OPTICAL TRACK"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 3676528,
+          "cx": 3585180,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "초정밀 모션 트래킹"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8223199,
+          "y": 3932194,
+          "cx": 3585180,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C084FC",
+              "font": "Malgun Gothic",
+              "text": "0.01mm 오차 미만 광학식 센서 트래킹 융합"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -422910,
+          "y": 6273058,
+          "cx": 12157680,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "r",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "8B5CF6",
+              "font": "Arial",
+              "text": "SYSTEM STATUS: ONLINE // ZERO LATENCY PIPELINE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

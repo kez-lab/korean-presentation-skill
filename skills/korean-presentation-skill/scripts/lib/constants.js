@@ -70,9 +70,21 @@ const SAFE_FONT_FALLBACKS = {
 const GOVERNANCE = {
   /** Text below this rendered size is unreadable when projected. */
   minFontPx: 11,
-  /** Letter-spacing mandated by the Korean typography standard. */
-  requiredLetterSpacingEm: -0.025,
-  letterSpacingToleranceEm: 0.02,
+  /**
+   * Letter-spacing is checked at two levels, because CSS resolves an em value
+   * once against the element that declares it and then inherits the resulting
+   * px. A descendant's effective ratio therefore drifts with its own font-size
+   * and is NOT an authoring error — measuring it against the standard produced
+   * a flood of false positives.
+   */
+  letterSpacing: {
+    /** What the slide root must declare. */
+    declaredTargetEm: -0.025,
+    declaredToleranceEm: 0.02,
+    /** Per-block guard rails on the value that actually renders. */
+    effectiveTightestEm: -0.08,
+    effectiveLoosestEm: 0.05,
+  },
   /** A trailing line of <= this many Korean chars is an orphan. */
   orphanMaxChars: 2,
   /** Content may not exceed the canvas by more than this many px. */

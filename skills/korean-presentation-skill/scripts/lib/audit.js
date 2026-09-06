@@ -77,7 +77,24 @@ function auditDeck(slides, deckSlides, opts = {}) {
       }
     }
 
-    /* ---- 3-7. Per-text-block rules ---- */
+    /* ---- 3. The slide's declared Korean typography ---- */
+    if (s.root && s.texts.some((t) => HANGUL.test(t.plain))) {
+      const ls = GOVERNANCE.letterSpacing;
+      const declared = s.root.letterSpacingEm;
+      if (Math.abs(declared - ls.declaredTargetEm) > ls.declaredToleranceEm) {
+        add(
+          n,
+          'warn',
+          'letter-spacing',
+          `Slide root declares ${declared.toFixed(3)}em letter-spacing (${s.root.letterSpacingDeclared || 'normal'} at a ${s.root.fontSizePx}px root); the Korean standard is ${ls.declaredTargetEm}em.`
+        );
+      }
+      if (s.root.wordBreak !== 'keep-all') {
+        add(n, 'warn', 'word-break-root', 'Slide root is missing word-break: keep-all; set it on `section` so every block inherits it.');
+      }
+    }
+
+    /* ---- 4-8. Per-text-block rules ---- */
     const seenFonts = new Set();
     s.texts.forEach((t) => {
       const label = short(t.plain.trim());
@@ -97,10 +114,14 @@ function auditDeck(slides, deckSlides, opts = {}) {
 
       const base = t.runs[0];
       if (korean) {
-        // 5. Mandatory Korean letter-spacing
-        const diff = Math.abs(base.letterSpacingEm - GOVERNANCE.requiredLetterSpacingEm);
-        if (diff > GOVERNANCE.letterSpacingToleranceEm) {
-          add(n, 'warn', 'letter-spacing', `"${label}" uses letter-spacing ${base.letterSpacingEm.toFixed(3)}em; the Korean standard is ${GOVERNANCE.requiredLetterSpacingEm}em.`);
+        // 5. Guard rails on what actually renders. The declared value is checked
+        //    once per slide (below); here we only catch spacing that is genuinely
+        //    cramped or loose enough to hurt Korean legibility, whatever caused it.
+        const ls = GOVERNANCE.letterSpacing;
+        if (base.letterSpacingEm < ls.effectiveTightestEm) {
+          add(n, 'warn', 'letter-spacing-extreme', `"${label}" renders at ${base.letterSpacingEm.toFixed(3)}em on ${base.fontSize.toFixed(1)}px text — tighter than ${ls.effectiveTightestEm}em and cramped for Hangul. Set letter-spacing on this block directly.`);
+        } else if (base.letterSpacingEm > ls.effectiveLoosestEm) {
+          add(n, 'warn', 'letter-spacing-extreme', `"${label}" renders at +${base.letterSpacingEm.toFixed(3)}em, which breaks 어절 cohesion in Hangul.`);
         }
         // 6. word-break: keep-all
         if (t.wordBreak !== 'keep-all') {

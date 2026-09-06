@@ -24,6 +24,7 @@ const { renderDeck, buildMeasureHtml } = require(path.join(SCRIPTS, 'lib', 'deck
 const { withPage } = require(path.join(SCRIPTS, 'lib', 'browser'));
 const { extractFromPage } = require(path.join(SCRIPTS, 'lib', 'extract'));
 const { auditDeck } = require(path.join(SCRIPTS, 'lib', 'audit'));
+const { snapshotPptx, diffSnapshots } = require(path.join(SCRIPTS, 'lib', 'layout_snapshot'));
 
 const argv = process.argv.slice(2);
 const STRICT = argv.includes('--strict');
@@ -33,6 +34,26 @@ const DOMAINS = fs
   .readdirSync(path.join(ROOT, 'examples'))
   .filter((d) => fs.existsSync(path.join(ROOT, 'examples', d, 'presentation.md')))
   .sort();
+
+/** Every rule the auditor can emit. Keep in sync with lib/audit.js. */
+const EXPECTED_RULES = [
+  'canvas-overflow',
+  'vertical-imbalance',
+  'letter-spacing',
+  'letter-spacing-extreme',
+  'word-break',
+  'word-break-root',
+  'korean-orphan',
+  'font-too-small',
+  'unsafe-font',
+  'low-contrast',
+  'text-collision',
+  'missing-notes',
+  'thin-notes',
+  'empty-slide',
+  'gradient-approximated',
+  'text-gradient-approximated',
+];
 
 const results = [];
 let failures = 0;
@@ -113,10 +134,52 @@ async function main() {
       }
     }
 
+    // Layout regression: the geometry that actually landed in the OOXML, against
+    // a committed golden. This is what protects lib/extract.js and lib/pptx.js —
+    // a unit slip there still yields a valid file that merely looks wrong.
+    const goldenPath = path.join(ROOT, 'examples', id, 'Presentation.layout.json');
+    if (!fs.existsSync(pptxPath)) {
+      // already reported above
+    } else if (!fs.existsSync(goldenPath)) {
+      fail(scope, 'Presentation.layout.json golden is missing — run: node scripts/snapshot_decks.js');
+    } else {
+      const diffs = diffSnapshots(JSON.parse(fs.readFileSync(goldenPath, 'utf8')), snapshotPptx(pptxPath));
+      if (diffs.length) {
+        fail(scope, `layout drifted from golden — ${diffs.length} difference(s)`);
+        for (const d of diffs.slice(0, 5)) console.log(`      · ${d}`);
+      } else {
+        pass(scope, 'layout matches golden');
+      }
+    }
+
     for (const rel of ['Presentation.pdf', 'Presentation.preview.html']) {
       const p = path.join(ROOT, 'examples', id, rel);
       if (fs.existsSync(p)) pass(scope, `${rel} (${(fs.statSync(p).size / 1024).toFixed(0)} KB)`);
       else fail(scope, `${rel} is missing`);
+    }
+  }
+
+  // A rule that can no longer fire is a silently disabled rule. The fixture is a
+  // deliberately non-compliant deck; every rule the auditor knows about must
+  // still trigger on it.
+  if (!ONLY) {
+    const scope = 'governance rules';
+    const fixture = path.join(ROOT, 'tests', 'fixtures', 'governance_violations.md');
+    if (!fs.existsSync(fixture)) {
+      fail(scope, 'tests/fixtures/governance_violations.md is missing');
+    } else {
+      try {
+        const deck = renderDeck(fixture, { themeDirs });
+        const measurePath = path.join(tmpDir, 'fixture.html');
+        fs.writeFileSync(measurePath, buildMeasureHtml(deck), 'utf8');
+        const measured = await withPage(measurePath, (page) => extractFromPage(page));
+        const fired = new Set(auditDeck(measured, deck.slides).findings.map((f) => f.rule));
+        const absent = EXPECTED_RULES.filter((r) => !fired.has(r));
+        if (absent.length) fail(scope, `${absent.length} rule(s) never fired on the violation fixture: ${absent.join(', ')}`);
+        else pass(scope, `all ${EXPECTED_RULES.length} rules fire on the violation fixture`);
+      } catch (err) {
+        fail(scope, `fixture audit threw: ${err.message}`);
+      }
     }
   }
 

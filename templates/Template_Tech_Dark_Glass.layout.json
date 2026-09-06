@@ -1,0 +1,3943 @@
+{
+  "slideCount": 6,
+  "slides": [
+    {
+      "index": 1,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 438180,
+          "cx": 3401751,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 481432,
+          "cx": 3384377,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "ENGINEERING TECH SESSION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1040679,
+          "cx": 11125230,
+          "cy": 1682953,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 6626,
+          "runs": [
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "차세대 분산 시스템을 위한"
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "고성능 이벤트 드라이븐 아키텍처"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 3032425,
+          "cx": 11993088,
+          "cy": 256032,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2016,
+          "runs": [
+            {
+              "sz": 1344,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "마이크로서비스 환경에서 데이터 일관성과 처리량을 동시에 확보하는 설계 패턴"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5153284,
+          "cx": 3678448,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5457139,
+          "cx": 3600907,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "PRESENTER & TEAM"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5766938,
+          "cx": 3600907,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Backend Platform Team"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4364248,
+          "y": 5153284,
+          "cx": 3065435,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4526189,
+          "y": 5275082,
+          "cx": 2938790,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "SESSION & DATE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4526189,
+          "y": 5584698,
+          "cx": 2741554,
+          "cy": 729234,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Tech Architecture • 2026.08"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7563002,
+          "y": 5153284,
+          "cx": 4076487,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "161E2E",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7724943,
+          "y": 5457139,
+          "cx": 4030767,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "00F0FF",
+              "font": "Malgun Gothic",
+              "text": "REPOSITORY & DOCS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7724943,
+          "y": 5766938,
+          "cx": 4030767,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "github.com/company/architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1638330,
+          "cx": 1207831,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1681490,
+          "cx": 1014893,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "AGENDA"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2188982,
+          "cx": 2693640,
+          "cy": 621518,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4894,
+          "runs": [
+            {
+              "sz": 3263,
+              "b": 1,
+              "i": 0,
+              "spc": 261,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "CONTENTS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2882463,
+          "cx": 2514600,
+          "cy": 402336,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1584,
+          "runs": [
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "동기 병목 극복부터"
+            },
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "프로덕션 튜닝까지 4단계"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4686300,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "6366F1",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4724430,
+          "cx": 571500,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "6366F1",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4914900,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4953030,
+          "cx": 952530,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5143500,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "6366F1",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 5181630,
+          "cx": 428671,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "6366F1",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 1163848,
+          "cx": 4000500,
+          "cy": 2188982,
+          "prst": "roundRect",
+          "adj": 6090,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 1363919,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "00F0FF",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 1329355,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 1684691,
+          "cx": 3866358,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "동기 호출의 병목 한계"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 2150577,
+          "cx": 3600450,
+          "cy": 1001817,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• REST 체인에 따른 연쇄 지연"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 서비스 간 강한 결합도 위험"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 부분 장애 시 전체 시스템 마비"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 1163848,
+          "cx": 4000500,
+          "cy": 2188982,
+          "prst": "roundRect",
+          "adj": 6090,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 1363919,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "A78BFA",
+          "line": {
+            "color": "A78BFA",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 1329355,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A78BFA",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 1684691,
+          "cx": 3866358,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "이벤트 브로커 스트리밍"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 2150577,
+          "cx": 3600450,
+          "cy": 1001817,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• Kafka 파티셔닝 및 순서 보장"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• Idempotent Consumer 설계"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• Transactional Outbox 패턴"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 3505170,
+          "cx": 4000500,
+          "cy": 2188982,
+          "prst": "roundRect",
+          "adj": 6090,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 3705240,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 3670767,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4026012,
+          "cx": 3866358,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Saga 패턴 분산 트랜잭션"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4491990,
+          "cx": 3600450,
+          "cy": 1001817,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 오케스트레이션 vs 코레오그래피"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 보상 트랜잭션(Compensation)"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 최종 일관성(Eventual Consistency)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 3505170,
+          "cx": 4000500,
+          "cy": 2188982,
+          "prst": "roundRect",
+          "adj": 6090,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 3705240,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "34D399",
+          "line": {
+            "color": "34D399",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 3670767,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "04"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4026012,
+          "cx": 3866358,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "모니터링 & 프로덕션 튜닝"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4491990,
+          "cx": 3600450,
+          "cy": 1001817,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• OpenTelemetry 분산 추적"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 컨슈머 랙 자동 오토스케일링"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "• 데드레터 큐(DLQ) 장애 격리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4742901,
+          "y": 1012881,
+          "cx": 2706350,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F87171",
+          "line": {
+            "color": "F87171",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4692152,
+          "y": 1056132,
+          "cx": 2807848,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F87171",
+              "font": "Malgun Gothic",
+              "text": "SYSTEM BOTTLENECK"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 1507480,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "동기식 REST API 체인이 초래하는 3대 구조적 위험"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2281337,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "트래픽 폭증 시 단일 서비스 지연이 전체 마이크로서비스로 전파되어 연쇄 장애를 유발합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2916204,
+          "cx": 3594049,
+          "cy": 2948026,
+          "prst": "roundRect",
+          "adj": 4522,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2916204,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F87171",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4137020,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5854629,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 771571,
+          "y": 3135295,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F87171",
+          "line": {
+            "color": "F87171",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 761970,
+          "y": 3100639,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F87171",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3456066,
+          "cx": 3193999,
+          "cy": 812079,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "계단식 연쇄 장애 (Cascading)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 4327947,
+          "cx": 3193999,
+          "cy": 1335756,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "다운스트림 서비스의 지연이 업스트림 스레드 풀을 고갈시켜"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "전체 인프라 타임아웃 셧다운"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "을 유발합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 2916204,
+          "cx": 3594049,
+          "cy": 2948026,
+          "prst": "roundRect",
+          "adj": 4522,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 2916204,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FACC15",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7883500,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 5854629,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4517959,
+          "y": 3135295,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "FACC15",
+          "line": {
+            "color": "FACC15",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4508449,
+          "y": 3100639,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FACC15",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4498939,
+          "y": 3456066,
+          "cx": 3427446,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "2PC 분산 락 병목"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4498939,
+          "y": 3921953,
+          "cx": 3193999,
+          "cy": 1335756,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "2단계 커밋(2PC)의 글로벌 락으로 인해"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "트랜잭션 지연시간 8배 증가"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": " 및 처리량 급락이 발생합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 2916204,
+          "cx": 3594141,
+          "cy": 2948026,
+          "prst": "roundRect",
+          "adj": 4522,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 2916204,
+          "cx": 3594141,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11630071,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 5854629,
+          "cx": 3594141,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 2916204,
+          "cx": 9510,
+          "cy": 2948026,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8264439,
+          "y": 3135295,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8254929,
+          "y": 3100639,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8245419,
+          "y": 3456066,
+          "cx": 3427537,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "데이터 정합성 파편화"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8245419,
+          "y": 3921953,
+          "cx": 3194091,
+          "cy": 1001817,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "네트워크 파티션 발생 시 롤백 실패로"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "DB 간 불일치 데이터 누적"
+            },
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": " 및 복구 비용이 발생합니다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1571854,
+          "cx": 2997678,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1614922,
+          "cx": 2947934,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "PIPELINE ARCHITECTURE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2066453,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "이벤트 기반 비동기 스트리밍 및 Saga 오케스트레이션"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2840126,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "이벤트를 불변 로그로 발행하고, 중앙 오케스트레이터를 통해 비동기 보상 트랜잭션을 제어합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3474994,
+          "cx": 2372502,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 506303,
+          "y": 3636935,
+          "cx": 2464857,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "PRODUCER"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 506303,
+          "y": 3824752,
+          "cx": 2464857,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "주문 요청 접수"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 506303,
+          "y": 4055273,
+          "cx": 2464857,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "Outbox DB 적재"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3020172,
+          "y": 3654674,
+          "cx": 379933,
+          "cy": 538673,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4241,
+          "runs": [
+            {
+              "sz": 2828,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "➔"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3457255,
+          "y": 3474994,
+          "cx": 2372594,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "161E2E",
+          "line": {
+            "color": "6366F1",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3411078,
+          "y": 3636935,
+          "cx": 2464948,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "818CF8",
+              "font": "Malgun Gothic",
+              "text": "CDC RELAY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3411078,
+          "y": 3824752,
+          "cx": 2464948,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Debezium 캡처"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3411078,
+          "y": 4055273,
+          "cx": 2464948,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "Kafka 토픽 발행"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 5925129,
+          "y": 3654674,
+          "cx": 379933,
+          "cy": 538673,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4241,
+          "runs": [
+            {
+              "sz": 2828,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "➔"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6362212,
+          "y": 3474994,
+          "cx": 2372502,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "1E1B4B",
+          "line": {
+            "color": "6366F1",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6316035,
+          "y": 3636935,
+          "cx": 2464857,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A5B4FC",
+              "font": "Malgun Gothic",
+              "text": "SAGA ENGINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6316035,
+          "y": 3824752,
+          "cx": 2464857,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "단계별 상태 전이"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6316035,
+          "y": 4055273,
+          "cx": 2464857,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "C7D2FE",
+              "font": "Malgun Gothic",
+              "text": "결제/재고 이벤트"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8829995,
+          "y": 3654674,
+          "cx": 379933,
+          "cy": 538673,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4241,
+          "runs": [
+            {
+              "sz": 2828,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "➔"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 9267078,
+          "y": 3474994,
+          "cx": 2372502,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "161E2E",
+          "line": {
+            "color": "34D399",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 9220901,
+          "y": 3636935,
+          "cx": 2464857,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "CONSUMER"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 9220901,
+          "y": 3824752,
+          "cx": 2464857,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Idempotent 처리"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 9220901,
+          "y": 4055273,
+          "cx": 2464857,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "최종 일관성 달성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4559198,
+          "cx": 5467380,
+          "cy": 746059,
+          "prst": "roundRect",
+          "adj": 17870,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4718304,
+          "cx": 5491704,
+          "cy": 205740,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1620,
+          "runs": [
+            {
+              "sz": 1080,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "✓ Transactional Outbox 패턴"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4956871,
+          "cx": 5491704,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "로컬 트랜잭션 내에서 비즈니스 데이터와 이벤트 테이블을 동시 커밋하여 메시지 유실 0% 달성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6172200,
+          "y": 4559198,
+          "cx": 5467380,
+          "cy": 746059,
+          "prst": "roundRect",
+          "adj": 17870,
+          "fill": "161E2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6353160,
+          "y": 4718304,
+          "cx": 5491704,
+          "cy": 205740,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1620,
+          "runs": [
+            {
+              "sz": 1080,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "✓ 자동 보상 트랜잭션(Compensation)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6353160,
+          "y": 4956871,
+          "cx": 5491704,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "중간 단계 실패 시 역순으로 롤백 이벤트를 발행하여 글로벌 락 없이 완벽한 최종 일관성 보장"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4741347,
+          "y": 1124986,
+          "cx": 2709093,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "FACC15",
+          "line": {
+            "color": "FACC15",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4690323,
+          "y": 1168146,
+          "cx": 2811048,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "FACC15",
+              "font": "Malgun Gothic",
+              "text": "BENCHMARK RESULTS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 1619677,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "아키텍처 전환 후 달성한 3대 엔지니어링 성과"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2393442,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "동일 하드웨어 스펙에서 동기 호출 대비 처리량 10배 증가 및 P99 응답시간 85% 단축"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3028218,
+          "cx": 3594049,
+          "cy": 2723632,
+          "prst": "roundRect",
+          "adj": 4895,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3028218,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FACC15",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4137020,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5742341,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 2225650,
+          "y": 3266328,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "FACC15",
+          "line": {
+            "color": "FACC15",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2178009,
+          "y": 3231855,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FACC15",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 474848,
+          "y": 3570183,
+          "cx": 3749223,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FACC15",
+              "font": "Malgun Gothic",
+              "text": "120K"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 474848,
+          "y": 4398721,
+          "cx": 3749223,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "초당 트랜잭션 (TPS)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4864608,
+          "cx": 3270260,
+          "cy": 667878,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "기존 12K TPS 대비 10배 처리량 확장 달성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3028218,
+          "cx": 3594049,
+          "cy": 2723632,
+          "prst": "roundRect",
+          "adj": 4895,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3028218,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7883500,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 5742341,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 5971946,
+          "y": 3266328,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 5924398,
+          "y": 3231855,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4221328,
+          "y": 3570183,
+          "cx": 3749223,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Malgun Gothic",
+              "text": "18 ms"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4221328,
+          "y": 4398721,
+          "cx": 3749223,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "P99 응답 지연시간"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4460809,
+          "y": 4864608,
+          "cx": 3270260,
+          "cy": 667878,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "비동기 큐잉을 통해 클라이언트 체감 85% 단축"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3028218,
+          "cx": 3594141,
+          "cy": 2723632,
+          "prst": "roundRect",
+          "adj": 4895,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3028218,
+          "cx": 3594141,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "A78BFA",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11630071,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 5742341,
+          "cx": 3594141,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3028218,
+          "cx": 9510,
+          "cy": 2723632,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 9718609,
+          "y": 3266328,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "A78BFA",
+          "line": {
+            "color": "A78BFA",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 9671060,
+          "y": 3231855,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A78BFA",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7967807,
+          "y": 3570183,
+          "cx": 3749406,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A78BFA",
+              "font": "Malgun Gothic",
+              "text": "99.99%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7967807,
+          "y": 4398721,
+          "cx": 3749406,
+          "cy": 406085,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3197,
+          "runs": [
+            {
+              "sz": 2132,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "서비스 가용성 (SLA)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8207289,
+          "y": 4864608,
+          "cx": 3270352,
+          "cy": 667878,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "단일 서비스 장애 시에도 전체 중단 없는 격리 달성"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "background": "4E92F5",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 955182,
+          "cx": 3032059,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 998433,
+          "cx": 2985059,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "SUMMARY & NEXT STEPS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1449781,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "핵심 요약 및 질의응답 (Q&A)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2223638,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "이벤트 기반 분산 아키텍처로 고가용성 엔터프라이즈 시스템을 구축하세요."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2782153,
+          "cx": 6029919,
+          "cy": 810981,
+          "prst": "roundRect",
+          "adj": 16439,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2782153,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 2782153,
+          "cx": 9510,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3583625,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2782153,
+          "cx": 28621,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 2905597,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "01. Transactional Outbox로 유실 방지"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3135020,
+          "cx": 6161044,
+          "cy": 333939,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "DB 커밋과 메시지 발행을 원자적으로 묶어 100% 신뢰성 보장"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3688324,
+          "cx": 6029919,
+          "cy": 810981,
+          "prst": "roundRect",
+          "adj": 16439,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3688324,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 3688324,
+          "cx": 9510,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4489795,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3688324,
+          "cx": 28621,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FACC15",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3811768,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "02. Saga 엔진 기반 분산 트랜잭션"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4041282,
+          "cx": 6161044,
+          "cy": 333939,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "글로벌 락 없는 보상 트랜잭션으로 시스템 전체 처리량 극대화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4594677,
+          "cx": 6029919,
+          "cy": 810981,
+          "prst": "roundRect",
+          "adj": 16439,
+          "fill": "161E2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4594677,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 4594677,
+          "cx": 9510,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5396149,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4594677,
+          "cx": 28621,
+          "cy": 810981,
+          "prst": "rect",
+          "adj": null,
+          "fill": "A78BFA",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4718121,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "03. OpenTelemetry 기반 분산 가시성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4947453,
+          "cx": 6161044,
+          "cy": 333939,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2630,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "이벤트 체인 전 구간 추적으로 장애 원인 1분 내 격리 및 해결"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6772869,
+          "y": 2782153,
+          "cx": 4866711,
+          "cy": 3139684,
+          "prst": "roundRect",
+          "adj": 4246,
+          "fill": "172033",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 2961650,
+          "cx": 4843028,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": 125,
+              "color": "00F0FF",
+              "font": "Malgun Gothic",
+              "text": "OPEN FOR DISCUSSION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3278490,
+          "cx": 4843028,
+          "cy": 546903,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4307,
+          "runs": [
+            {
+              "sz": 3915,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Q & A"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3881354,
+          "cx": 4843028,
+          "cy": 301661,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2375,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "궁금하신 점이나 아키텍처 도입 논의를 환영합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6972849,
+          "y": 4281495,
+          "cx": 4466661,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4378696,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "GITHUB & DOCS HUB"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4679716,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "github.com/company/architecture"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5084613,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "CONTACT"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5385633,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "platform-lead@company.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

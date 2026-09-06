@@ -1,0 +1,3710 @@
+{
+  "slideCount": 6,
+  "slides": [
+    {
+      "index": 1,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 438180,
+          "cx": 3345424,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 481432,
+          "cx": 3323570,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "2026 STRATEGIC INITIATIVE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1040679,
+          "cx": 11125230,
+          "cy": 1682953,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 6626,
+          "runs": [
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "글로벌 엔터프라이즈 B2B 시장 확대를 위한"
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "AI 솔루션 사업화 및 성장 전략"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 3032425,
+          "cx": 11993088,
+          "cy": 256032,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2016,
+          "runs": [
+            {
+              "sz": 1344,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "수익성 극대화와 리텐션 강화를 위한 3대 핵심 로드맵 및 재무적 실행 계획"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5153284,
+          "cx": 3818992,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5457139,
+          "cx": 3752606,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "DIVISION & OWNER"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5766938,
+          "cx": 3752606,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "경영전략본부 / 전략기획실"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4504792,
+          "y": 5153284,
+          "cx": 3182386,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4666640,
+          "y": 5275082,
+          "cx": 3065160,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "REPORT DATE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4666640,
+          "y": 5584698,
+          "cx": 2858506,
+          "cy": 729234,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "2026.08 • Q3 Executive Review"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7820497,
+          "y": 5153284,
+          "cx": 3819083,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "111A2E",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7982438,
+          "y": 5457139,
+          "cx": 3752698,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "CONFIDENTIALITY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7982438,
+          "y": 5766938,
+          "cx": 3752698,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "대외비 (Confidential)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1638330,
+          "cx": 2428555,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1681490,
+          "cx": 2333274,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "STRATEGY AGENDA"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2188982,
+          "cx": 2693640,
+          "cy": 621518,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4894,
+          "runs": [
+            {
+              "sz": 3263,
+              "b": 1,
+              "i": 0,
+              "spc": 261,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "ROADMAP"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2882463,
+          "cx": 2514600,
+          "cy": 402336,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1584,
+          "runs": [
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "시장 진입부터"
+            },
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "수익성 가속화까지 4단계"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4686300,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4724430,
+          "cx": 571500,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4914900,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4953030,
+          "cx": 952530,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5143500,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 5181630,
+          "cx": 428671,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 764347,
+          "cx": 4000500,
+          "cy": 2795595,
+          "prst": "roundRect",
+          "adj": 4769,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 964418,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 929945,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 1285921,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "시장 기회 및 목표 KPI"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 1700235,
+          "cx": 3600450,
+          "cy": 1657350,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 글로벌 AI 솔루션 시장 동향"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 2026 연간 반복 매출(ARR) 목표"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 고객 유지율(NRR) 극대화 모델"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 764347,
+          "cx": 4000500,
+          "cy": 2795595,
+          "prst": "roundRect",
+          "adj": 4769,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 964418,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 929945,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 1285921,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "GTM 및 파트너십 전략"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 1700235,
+          "cx": 3600450,
+          "cy": 1657350,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 북미/일본 거점 엔터프라이즈 침투"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 탑티어 클라우드 MSP 협력 체계"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• PoC 전환율 65% 달성 방안"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 3712373,
+          "cx": 4000500,
+          "cy": 2381280,
+          "prst": "roundRect",
+          "adj": 5599,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 3912352,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "10B981",
+          "line": {
+            "color": "10B981",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 3877879,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4233855,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "유닛 이코노믹스 최적화"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4648170,
+          "cx": 3600450,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 고객 획득 비용(CAC) 45% 절감"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• LTV/CAC 비율 4.5x 달성"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 세일즈 사이클 90일 단축"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 3712373,
+          "cx": 4000500,
+          "cy": 2381280,
+          "prst": "roundRect",
+          "adj": 5599,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 3912352,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 3877879,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "04"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4233855,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "재무 계획 및 실행 과제"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4648170,
+          "cx": 3600450,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 분기별 R&D 투자 배분 계획"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 흑자 전환(BEP) 시점 가속화"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 조직 확장 및 핵심 인재 영입"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4180728,
+          "y": 1473098,
+          "cx": 3830604,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4040002,
+          "y": 1516258,
+          "cx": 4111965,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "KEY PERFORMANCE INDICATORS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 1967789,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "2026년 목표 재무 성과 및 핵심 마일스톤"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2741463,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "ARR 3.2배 성장과 고객 획득 비용(CAC) 45% 절감을 통한 영업이익률 28.4% 달성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3376331,
+          "cx": 3594049,
+          "cy": 2027499,
+          "prst": "roundRect",
+          "adj": 6576,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3376331,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4137020,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5394320,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 2225650,
+          "y": 3595421,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2178009,
+          "y": 3560856,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 519013,
+          "y": 3899276,
+          "cx": 3660892,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "$12.5M"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 519013,
+          "y": 4728454,
+          "cx": 3660892,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "연간 반복 매출 (ARR)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 519013,
+          "y": 5020056,
+          "cx": 3660892,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "북미 및 일본 엔터프라이즈 고객사 120개사 확보 목표"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3376331,
+          "cx": 3594049,
+          "cy": 2027499,
+          "prst": "roundRect",
+          "adj": 6576,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3376331,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7883500,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 5394320,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 5971946,
+          "y": 3595421,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 5924398,
+          "y": 3560856,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4265493,
+          "y": 3899276,
+          "cx": 3660892,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "142%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4265493,
+          "y": 4728454,
+          "cx": 3660892,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "순매출 유지율 (NRR)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4265493,
+          "y": 5020056,
+          "cx": 3660892,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "계정 확장(Upsell) 및 크로스셀을 통한 LTV 극대화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3376331,
+          "cx": 3594141,
+          "cy": 2027499,
+          "prst": "roundRect",
+          "adj": 6576,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3376331,
+          "cx": 3594141,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11630071,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 5394320,
+          "cx": 3594141,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3376331,
+          "cx": 9510,
+          "cy": 2027499,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 9718609,
+          "y": 3595421,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "10B981",
+          "line": {
+            "color": "10B981",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 9671060,
+          "y": 3560856,
+          "cx": 342900,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8011973,
+          "y": 3899276,
+          "cx": 3660983,
+          "cy": 773400,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 6090,
+          "runs": [
+            {
+              "sz": 6090,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "28.4%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8011973,
+          "y": 4728454,
+          "cx": 3660983,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "목표 영업이익률"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8011973,
+          "y": 5020056,
+          "cx": 3660983,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "운영 자동화 파이프라인 도입을 통한 마진 구조 개선"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1353769,
+          "cx": 1687982,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1396929,
+          "cx": 1533540,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "GTM FUNNEL"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1848460,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "엔터프라이즈 시장 공략을 위한 3단계 세일즈 퍼널"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2622133,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "리드 발굴부터 유료 전환, 계정 확장까지 체계화된 B2B 파이프라인을 가동합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3257001,
+          "cx": 3594049,
+          "cy": 2266158,
+          "prst": "roundRect",
+          "adj": 5883,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3257001,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4137020,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5513649,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 771571,
+          "y": 3476092,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 761970,
+          "y": 3441436,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3797595,
+          "cx": 3427446,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "STAGE 1: Inbound Lead"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4137934,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "기술 백서 및 솔루션 데모 배포"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4535607,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "빅테크 컨퍼런스 스폰서십 참여"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4933279,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "월 450+ 검증된 리드(MQL) 확보"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3257001,
+          "cx": 3594049,
+          "cy": 2266158,
+          "prst": "roundRect",
+          "adj": 5883,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3257001,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7883500,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 5513649,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4517959,
+          "y": 3476092,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "38BDF8",
+          "line": {
+            "color": "38BDF8",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4508449,
+          "y": 3441436,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4498939,
+          "y": 3797595,
+          "cx": 3427446,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "STAGE 2: Fast-Track PoC"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4137934,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "2주 완성 맞춤형 프로토타입 검증"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4535607,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "전담 솔루션 아키텍트 밀착 기술지원"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4933279,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "PoC 완료 후 본 계약 전환율 65%"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3257001,
+          "cx": 3594141,
+          "cy": 2266158,
+          "prst": "roundRect",
+          "adj": 5883,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3257001,
+          "cx": 3594141,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11630071,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 5513649,
+          "cx": 3594141,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3257001,
+          "cx": 9510,
+          "cy": 2266158,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8264439,
+          "y": 3476092,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "10B981",
+          "line": {
+            "color": "10B981",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8254929,
+          "y": 3441436,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8245419,
+          "y": 3797595,
+          "cx": 3427537,
+          "cy": 233172,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1836,
+          "runs": [
+            {
+              "sz": 1224,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "STAGE 3: Land & Expand"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4137934,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "전사 부서 단위 라이선스 확장"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4535607,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "연간 계약 전환 시 다년 할인 제공"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4933279,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "평균 계약 규모(ACV) 2.4배 증대"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4990064,
+          "y": 1787561,
+          "cx": 2211934,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4978817,
+          "y": 1830812,
+          "cx": 2234336,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "UNIT ECONOMICS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2282160,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "수익성 지표 개선 및 투자 대비 성과 (ROI)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 3056016,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "세일즈 자동화 및 고객 성공(CS) 프로세스 내재화로 고수익성 비즈니스 모델 완성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3690793,
+          "cx": 5467380,
+          "cy": 1398575,
+          "prst": "roundRect",
+          "adj": 9533,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3886932,
+          "cx": 5450556,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "✓ 고객 획득 및 회수 기간 (Payback)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4220596,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "고객 획득 비용(CAC): "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "$14.5K ➔ $7.9K (45% 절감)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4442978,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "CAC 투자금 회수 기간: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "14개월 ➔ 6.5개월 단축"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4665360,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "세일즈 리드 타임: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "평균 45일 내 본 계약 체결"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6172200,
+          "y": 3690793,
+          "cx": 5467380,
+          "cy": 1398575,
+          "prst": "roundRect",
+          "adj": 9533,
+          "fill": "111A2E",
+          "line": {
+            "color": "FFFFFF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6372271,
+          "y": 3886932,
+          "cx": 5450556,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "10B981",
+              "font": "Malgun Gothic",
+              "text": "✓ 고객 생애 가치 (LTV / CAC Ratio)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4220596,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "고객 생애 가치(LTV): "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "평균 $38,000 달성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4442978,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "LTV / CAC 비율: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "4.8x (SaaS 벤치마크 3.0x 상회)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4665360,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "연간 로고 이탈률(Churn): "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "1.8% 미만 극저치 유지"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "background": "38BDF8",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 804306,
+          "cx": 2733690,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "F59E0B",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 847466,
+          "cx": 2662824,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "EXECUTIVE SUMMARY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1298905,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "핵심 결론 및 질의응답 (Q&A)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2072670,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "차별화된 제품 경쟁력과 실행력을 바탕으로 2026년 목표 ARR $12.5M을 달성하겠습니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 2631277,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3291474,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 2754721,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "01. 글로벌 엔터프라이즈 GTM 선점"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 2997586,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "북미 및 일본 거점 120개 고객사 확보로 ARR 3.2배 견인"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 3396264,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4056370,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "38BDF8",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3519708,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "02. 유닛 이코노믹스 고도화"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3762573,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "CAC 45% 절감 및 LTV/CAC 4.8x 달성으로 영업이익률 28.4% 확보"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "111A2E",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 4161252,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4821448,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4284696,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "03. 지속 가능한 NRR 142% 달성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4527560,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "부서 단위 확장 및 크로스셀 파이프라인으로 장기 락인 효과 극대화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6772869,
+          "y": 2631277,
+          "cx": 4866711,
+          "cy": 3441344,
+          "prst": "roundRect",
+          "adj": 3874,
+          "fill": "111A2E",
+          "line": {
+            "color": "F59E0B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 2810774,
+          "cx": 4843028,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": 125,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "EXECUTIVE DISCUSSION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3127522,
+          "cx": 4843028,
+          "cy": 546903,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4307,
+          "runs": [
+            {
+              "sz": 3915,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Q & A"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3730478,
+          "cx": 4504792,
+          "cy": 603321,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2375,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "사업화 전략 및 재무 실행 계획에 대한 질의응답을 진행합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6972849,
+          "y": 4432280,
+          "cx": 4466661,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4529480,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "STRATEGY DIVISION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4830501,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "F59E0B",
+              "font": "Malgun Gothic",
+              "text": "경영전략본부 / 전략기획실"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5235397,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "EXECUTIVE CONTACT"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5536418,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Malgun Gothic",
+              "text": "strategy@enterprise.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

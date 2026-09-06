@@ -1,0 +1,710 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "FFFFFF",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 504840,
+          "cx": 2413467,
+          "cy": 374447,
+          "prst": "roundRect",
+          "adj": 49988,
+          "fill": "EEF2FF",
+          "line": {
+            "color": "C7D2FE",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 541416,
+          "cx": 2358146,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "ENTERPRISE PLATFORM"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 947044,
+          "cx": 11087100,
+          "cy": 1519276,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5981,
+          "runs": [
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "옴니채널 고객 데이터 통합을 위한"
+            },
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "실시간 AI-Native CDP 플랫폼"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 4343857,
+          "cx": 28621,
+          "cy": 571317,
+          "prst": "rect",
+          "adj": null,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4416278,
+          "cx": 6228161,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "01. 단일 고객 ID 실시간 매핑"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4655210,
+          "cx": 6228161,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "결제, 웹로그, CS 상담 기록을 50ms 내 실시간 병합"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 5029474,
+          "cx": 28621,
+          "cy": 571317,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 5101895,
+          "cx": 6228161,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "02. AI 자동 세그먼트 생성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 5340919,
+          "cx": 6228161,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "이탈 확률 80% 이상 VIP 고객 자동 선별 및 트리거 발송"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 5715183,
+          "cx": 28621,
+          "cy": 571317,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 5787603,
+          "cx": 6228161,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "03. 200+ 엔터프라이즈 커넥터"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 6026536,
+          "cx": 6228161,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "Salesforce, Snowflake, AWS와 노코드 즉시 연동"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6768389,
+          "y": 4598975,
+          "cx": 4852172,
+          "cy": 1546708,
+          "prst": "roundRect",
+          "adj": 7390,
+          "fill": "F8FAFC",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6656466,
+          "y": 4837085,
+          "cx": 5076017,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "PROVEN CONVERSION LIFT"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6656466,
+          "y": 5040904,
+          "cx": 5076017,
+          "cy": 640080,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 5040,
+          "runs": [
+            {
+              "sz": 3360,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "+340%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6656466,
+          "y": 5723778,
+          "cx": 5076017,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "80여 개 대기업 실증 완료"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "FFFFFF",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 504840,
+          "cx": 2200046,
+          "cy": 374447,
+          "prst": "roundRect",
+          "adj": 49988,
+          "fill": "EEF2FF",
+          "line": {
+            "color": "C7D2FE",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 541416,
+          "cx": 2127717,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "CORE VALUE PILLARS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 926836,
+          "cx": 11951940,
+          "cy": 304770,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2400,
+          "runs": [
+            {
+              "sz": 1920,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "엔터프라이즈 성장을 견인하는 3대 아키텍처"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 3270992,
+          "cx": 3581430,
+          "cy": 1039856,
+          "prst": "roundRect",
+          "adj": 9163,
+          "fill": "F8FAFC",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3467222,
+          "cx": 3454878,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "실시간 데이터 스트리밍"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3744285,
+          "cx": 3219420,
+          "cy": 365760,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "475569",
+              "font": "Malgun Gothic",
+              "text": "초당 50만 건의 트래픽을 지연 없이 처리하는 Apache Flink 기반 분산 엔진"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4305270,
+          "y": 3270992,
+          "cx": 3581430,
+          "cy": 1039856,
+          "prst": "roundRect",
+          "adj": 9163,
+          "fill": "F8FAFC",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4486321,
+          "y": 3467222,
+          "cx": 3454878,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "AI 행동 예측 세그먼트"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4486321,
+          "y": 3744285,
+          "cx": 3454878,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "475569",
+              "font": "Malgun Gothic",
+              "text": "고객 생애 가치(LTV)와 이탈 확률을 실시간으로 추론하여 마케팅 자동화"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8039130,
+          "y": 3270992,
+          "cx": 3581430,
+          "cy": 1039856,
+          "prst": "roundRect",
+          "adj": 9163,
+          "fill": "F8FAFC",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8220090,
+          "y": 3467222,
+          "cx": 3454878,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "글로벌 보안 컴플라이언스"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8220090,
+          "y": 3744285,
+          "cx": 3219420,
+          "cy": 365760,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "475569",
+              "font": "Malgun Gothic",
+              "text": "GDPR, SOC2 Type II, PIPA를 완벽히 준수하는 엔터프라이즈 암호화 체계"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -312450,
+          "y": 6229350,
+          "cx": 12816870,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "475569",
+              "font": "Malgun Gothic",
+              "text": "TRUSTED BY 80+ GLOBAL ENTERPRISES ACROSS FINTECH, COMMERCE, AND MOBILITY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

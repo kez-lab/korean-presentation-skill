@@ -1,0 +1,540 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "080808",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 476220,
+          "cx": 1773753,
+          "cy": 386974,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FF6B00",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 511424,
+          "cx": 1728948,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "000000",
+              "font": "Arial",
+              "text": "SERIES A DECK"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 959480,
+          "cx": 11087100,
+          "cy": 1591056,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 6264,
+          "runs": [
+            {
+              "sz": 5220,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "완전 무인 물류를 위한"
+            },
+            {
+              "sz": 5220,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FF6B00",
+              "font": "Malgun Gothic",
+              "text": "자율주행 군집 로봇 오케스트레이션"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 5358293,
+          "cx": 11048970,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "262626",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 3690518,
+          "cx": 5820888,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "A3A3A3",
+              "font": "Malgun Gothic",
+              "text": "ANNUAL RECURRING REVENUE (ARR)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 3879525,
+          "cx": 5820888,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 9788,
+          "runs": [
+            {
+              "sz": 9788,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FF6B00",
+              "font": "Arial",
+              "text": "$8.4M"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6229350,
+          "y": 3690518,
+          "cx": 5820888,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "A3A3A3",
+              "font": "Malgun Gothic",
+              "text": "YEAR-OVER-YEAR GROWTH"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6229350,
+          "y": 3879525,
+          "cx": 5820888,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 9788,
+          "runs": [
+            {
+              "sz": 9788,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Arial",
+              "text": "+420%"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 6212342,
+          "cx": 1756654,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "737373",
+              "font": "Malgun Gothic",
+              "text": "ROBOTICS-X INC. • CONFIDENTIAL"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 10268986,
+          "y": 6212342,
+          "cx": 1458102,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "737373",
+              "font": "Malgun Gothic",
+              "text": "SERIES A $10M ROUND OPEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "080808",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 476220,
+          "cx": 2677546,
+          "cy": 386974,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FF6B00",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 511424,
+          "cx": 2705070,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "000000",
+              "font": "Arial",
+              "text": "MARKET OPPORTUNITY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 943021,
+          "cx": 11951940,
+          "cy": 342900,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2700,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "전통 물류 풀필먼트의 한계 vs 로보틱스X"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 3116824,
+          "cx": 5410230,
+          "cy": 1444386,
+          "prst": "roundRect",
+          "adj": 5273,
+          "fill": "141414",
+          "line": {
+            "color": "262626",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 790590,
+          "y": 3348350,
+          "cx": 5347686,
+          "cy": 251460,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1980,
+          "runs": [
+            {
+              "sz": 1320,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "EF4444",
+              "font": "Malgun Gothic",
+              "text": "THE OLD WAY: 수작업 & 단일 AGV"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 790590,
+          "y": 3674059,
+          "cx": 4972050,
+          "cy": 621792,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1632,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "A3A3A3",
+              "font": "Malgun Gothic",
+              "text": "• 물류 피크타임 시 300% 병목 및 오배송 급증"
+            },
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "A3A3A3",
+              "font": "Malgun Gothic",
+              "text": "• 단일 로봇 충돌 시 전체 라인 셧다운"
+            },
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "A3A3A3",
+              "font": "Malgun Gothic",
+              "text": "• 설치에만 12개월 이상 소요되는 고비용 인프라"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6210330,
+          "y": 3116824,
+          "cx": 5410230,
+          "cy": 1444386,
+          "prst": "roundRect",
+          "adj": 5273,
+          "fill": "1A0D00",
+          "line": {
+            "color": "FF6B00",
+            "w": 19050
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6438930,
+          "y": 3357860,
+          "cx": 5327112,
+          "cy": 251460,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1980,
+          "runs": [
+            {
+              "sz": 1320,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FF6B00",
+              "font": "Malgun Gothic",
+              "text": "THE ROBOTICS-X WAY: 자율 군집"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6438930,
+          "y": 3683569,
+          "cx": 4953030,
+          "cy": 621792,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1632,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 1,000대 로봇 실시간 무충돌 자율 경로 생성"
+            },
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 2주 만에 기존 창고에 즉시 플러그앤플레이"
+            },
+            {
+              "sz": 1020,
+              "b": 0,
+              "i": 0,
+              "spc": -65,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "• 고객사 물류비 60% 절감으로 8개월 내 ROI 실현"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -312450,
+          "y": 6224595,
+          "cx": 11951940,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "r",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -65,
+              "color": "FF6B00",
+              "font": "Malgun Gothic",
+              "text": "PROVEN BY 12 ENTERPRISE FULFILLMENT CENTERS IN KOREA & US"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

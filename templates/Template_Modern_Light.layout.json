@@ -1,0 +1,3586 @@
+{
+  "slideCount": 6,
+  "slides": [
+    {
+      "index": 1,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 438180,
+          "cx": 3942253,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 481432,
+          "cx": 3968039,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "CONFERENCE PAPER & RESEARCH"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1040679,
+          "cx": 11125230,
+          "cy": 1682953,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 6626,
+          "runs": [
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "온디바이스 소형 언어 모델(sLLM)을 활용한"
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": " "
+            },
+            {
+              "sz": 5177,
+              "b": 1,
+              "i": 0,
+              "spc": -155,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "실시간 한국어 문맥 추론 및 요약 엔진"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 3032425,
+          "cx": 11993088,
+          "cy": 256032,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2016,
+          "runs": [
+            {
+              "sz": 1344,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "모바일 엣지 디바이스 환경에서 메모리 사용량 최적화와 추론 지연시간 단축에 관한 연구"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5153284,
+          "cx": 3818992,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5457139,
+          "cx": 3752606,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "AUTHORS & LAB"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 5766938,
+          "cx": 3752606,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "인공지능연구소 자연어처리팀"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4504792,
+          "y": 5153284,
+          "cx": 3182386,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4666640,
+          "y": 5275082,
+          "cx": 3065160,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "SYMPOSIUM & SESSION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4666640,
+          "y": 5584698,
+          "cx": 2858506,
+          "cy": 729234,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "2026 AI Symposium • Edge Track"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7820497,
+          "y": 5153284,
+          "cx": 3819083,
+          "cy": 1285555,
+          "prst": "roundRect",
+          "adj": 8891,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7982438,
+          "y": 5457139,
+          "cx": 3752698,
+          "cy": 290048,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2284,
+          "runs": [
+            {
+              "sz": 1523,
+              "b": 1,
+              "i": 0,
+              "spc": 76,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "PAPER REGISTRATION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7982438,
+          "y": 5766938,
+          "cx": 3752698,
+          "cy": 364663,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2871,
+          "runs": [
+            {
+              "sz": 1914,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "Paper No. 2026-AI-088"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1638330,
+          "cx": 1983791,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1681490,
+          "cx": 1852940,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "PAPER OUTLINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2188982,
+          "cx": 2693640,
+          "cy": 621518,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4894,
+          "runs": [
+            {
+              "sz": 3263,
+              "b": 1,
+              "i": 0,
+              "spc": 261,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "CONTENTS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2882463,
+          "cx": 2514600,
+          "cy": 402336,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1584,
+          "runs": [
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "연구 배경부터"
+            },
+            {
+              "sz": 1056,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "실험 벤치마크까지 4챕터"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4686300,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4724430,
+          "cx": 571500,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4914900,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 4953030,
+          "cx": 952530,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5143500,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 761970,
+          "y": 5181630,
+          "cx": 428671,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 764347,
+          "cx": 4000500,
+          "cy": 2795595,
+          "prst": "roundRect",
+          "adj": 4769,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 964418,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 929945,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 1285921,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "연구 배경 및 당면 과제"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 1700235,
+          "cx": 3600450,
+          "cy": 1657350,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 엣지 디바이스 하드웨어 제약"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 한국어 토크나이저 메모리 오버헤드"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 저지연 스트리밍 구현 한계"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 764347,
+          "cx": 4000500,
+          "cy": 2795595,
+          "prst": "roundRect",
+          "adj": 4769,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 964418,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "0284C7",
+          "line": {
+            "color": "0284C7",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 929945,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0284C7",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 1285921,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "경량화 아키텍처 설계"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 1700235,
+          "cx": 3600450,
+          "cy": 1657350,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 4-bit AWQ 활성화 양자화"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 동적 KV Cache Pruning 기법"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 모바일 NPU 연산 최적화 파이프라인"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3486150,
+          "y": 3712373,
+          "cx": 4000500,
+          "cy": 2381280,
+          "prst": "roundRect",
+          "adj": 5599,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 3705240,
+          "y": 3912352,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "059669",
+          "line": {
+            "color": "059669",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3695730,
+          "y": 3877879,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "059669",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4233855,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "실험 결과 및 정량 분석"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3686221,
+          "y": 4648170,
+          "cx": 3600450,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• Ko-Harness 벤치마크 평가"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• TTFT 및 토큰 생성 속도 측정"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 전력 소모 및 RAM 점유율 비교"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7639080,
+          "y": 3712373,
+          "cx": 4000500,
+          "cy": 2381280,
+          "prst": "roundRect",
+          "adj": 5599,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7858171,
+          "y": 3912352,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7848570,
+          "y": 3877879,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "04"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4233855,
+          "cx": 3866358,
+          "cy": 414315,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "결론 및 향후 연구 방향"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7839060,
+          "y": 4648170,
+          "cx": 3600450,
+          "cy": 1243035,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3263,
+          "runs": [
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 온디바이스 멀티모달 확장 방안"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 연속 학습(Continual Learning)"
+            },
+            {
+              "sz": 2175,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "• 오픈소스 모델 가중치 공개 계획"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4611685,
+          "y": 1358158,
+          "cx": 2968417,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4539996,
+          "y": 1401409,
+          "cx": 3111886,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "EXPERIMENTAL RESULTS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 1852849,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "3대 핵심 연구 성과 및 벤치마크 검증"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2626614,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "양자화(Quantization)와 캐시 최적화를 통해 기존 모델 대비 처리 속도 3.4배 향상"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3261482,
+          "cx": 3594049,
+          "cy": 2257196,
+          "prst": "roundRect",
+          "adj": 5906,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3261482,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4137020,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 5509169,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 771571,
+          "y": 3480572,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 761970,
+          "y": 3445916,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "01"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3801892,
+          "cx": 3427446,
+          "cy": 224028,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1764,
+          "runs": [
+            {
+              "sz": 1176,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "추론 지연시간 68% 단축"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4133454,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "KV 캐시 프루닝(Pruning) 기법 적용"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4531126,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "첫 토큰 생성(TTFT) 42ms 달성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4928799,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "초당 38.5 토큰 실시간 스트리밍"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3261482,
+          "cx": 3594049,
+          "cy": 2257196,
+          "prst": "roundRect",
+          "adj": 5906,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3261482,
+          "cx": 3594049,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7883500,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 5509169,
+          "cx": 3594049,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4298960,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4517959,
+          "y": 3480572,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "0284C7",
+          "line": {
+            "color": "0284C7",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4508449,
+          "y": 3445916,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0284C7",
+              "font": "Malgun Gothic",
+              "text": "02"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4498939,
+          "y": 3801892,
+          "cx": 3427446,
+          "cy": 224028,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1764,
+          "runs": [
+            {
+              "sz": 1176,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "RAM 점유율 1.8GB 유지"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4133454,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "4-bit AWQ 양자화로 압축률 극대화"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4531126,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "모바일 저전력 LPDDR5X 완벽 지원"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4651370,
+          "y": 4928799,
+          "cx": 3262854,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "백그라운드 메모리 누수 0% 달성"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3261482,
+          "cx": 3594141,
+          "cy": 2257196,
+          "prst": "roundRect",
+          "adj": 5906,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3261482,
+          "cx": 3594141,
+          "cy": 28621,
+          "prst": "rect",
+          "adj": null,
+          "fill": "059669",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 11630071,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 5509169,
+          "cx": 3594141,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8045348,
+          "y": 3261482,
+          "cx": 9510,
+          "cy": 2257196,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8264439,
+          "y": 3480572,
+          "cx": 247620,
+          "cy": 247620,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "059669",
+          "line": {
+            "color": "059669",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8254929,
+          "y": 3445916,
+          "cx": 304770,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "059669",
+              "font": "Malgun Gothic",
+              "text": "03"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8245419,
+          "y": 3801892,
+          "cx": 3427537,
+          "cy": 224028,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1764,
+          "runs": [
+            {
+              "sz": 1176,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "한국어 문해력 94.2점"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4133454,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "Ko-Harness 종합 평가 기준 준수"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4531126,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "전문 도메인 용어 오역률 1.2% 미만"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8397850,
+          "y": 4928799,
+          "cx": 3262945,
+          "cy": 342534,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2697,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "환각 현상(Hallucination) 78% 억제"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 1571854,
+          "cx": 2890236,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 1614922,
+          "cx": 2831897,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "OPTIMIZATION PIPELINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2066453,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "온디바이스 배포를 위한 3단계 모델 경량화 파이프라인"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2840126,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "가중치 압축부터 캐시 압축, 하드웨어 가속기 오프로딩까지 유기적으로 연결됩니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3474994,
+          "cx": 3340669,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 428854,
+          "y": 3636935,
+          "cx": 3587923,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "STEP 1: AWQ"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 428854,
+          "y": 3824752,
+          "cx": 3587923,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "4-bit 가중치 양자화"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 428854,
+          "y": 4055273,
+          "cx": 3587923,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "정확도 손실 0.3% 미만"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3988430,
+          "y": 3654674,
+          "cx": 379933,
+          "cy": 538673,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4241,
+          "runs": [
+            {
+              "sz": 2828,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "➔"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4425605,
+          "y": 3474994,
+          "cx": 3340852,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "0284C7",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4301978,
+          "y": 3636935,
+          "cx": 3588197,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0284C7",
+              "font": "Malgun Gothic",
+              "text": "STEP 2: KV PRUNING"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4301978,
+          "y": 3824752,
+          "cx": 3588197,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "동적 토큰 압축"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4301978,
+          "y": 4055273,
+          "cx": 3588197,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "컨텍스트 메모리 60% 절감"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7861737,
+          "y": 3654674,
+          "cx": 379933,
+          "cy": 538673,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4241,
+          "runs": [
+            {
+              "sz": 2828,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "➔"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8298820,
+          "y": 3474994,
+          "cx": 3340669,
+          "cy": 912754,
+          "prst": "roundRect",
+          "adj": 12523,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "059669",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8175193,
+          "y": 3636935,
+          "cx": 3587923,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "059669",
+              "font": "Malgun Gothic",
+              "text": "STEP 3: NPU RUNTIME"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8175193,
+          "y": 3824752,
+          "cx": 3587923,
+          "cy": 214884,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1692,
+          "runs": [
+            {
+              "sz": 1128,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "모바일 칩셋 가속"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8175193,
+          "y": 4055273,
+          "cx": 3587923,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "배터리 전력 소모 55% 개선"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4559198,
+          "cx": 5467380,
+          "cy": 746059,
+          "prst": "roundRect",
+          "adj": 17870,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4718304,
+          "cx": 5491704,
+          "cy": 205740,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1620,
+          "runs": [
+            {
+              "sz": 1080,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "✓ 활성화 인식 양자화 (Activation-aware Weight Quantization)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 733440,
+          "y": 4956871,
+          "cx": 5491704,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "중요 가중치 채널을 보존하여 4-bit 환경에서도 한국어 문맥 추론 능력을 99% 이상 유지"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6172200,
+          "y": 4559198,
+          "cx": 5467380,
+          "cy": 746059,
+          "prst": "roundRect",
+          "adj": 17870,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6353160,
+          "y": 4718304,
+          "cx": 5491704,
+          "cy": 205740,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1620,
+          "runs": [
+            {
+              "sz": 1080,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "059669",
+              "font": "Malgun Gothic",
+              "text": "✓ NPU 하드웨어 친화적 커널 퓨전 (Kernel Fusion)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6353160,
+          "y": 4956871,
+          "cx": 5491704,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "메모리 I/O 병목을 제거하여 모바일 디바이스의 발열과 전력 소모를 대폭 억제"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 4997653,
+          "y": 1787561,
+          "cx": 2196755,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4987686,
+          "y": 1830812,
+          "cx": 2216780,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "ABLATION STUDY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 2282160,
+          "cx": 12861036,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "기존 온디바이스 모델 대비 성능 비교 매트릭스"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -334488,
+          "y": 3056016,
+          "cx": 12861036,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "동일한 3B 파라미터 규모에서 기존 최고 성능 모델 대비 모든 지표에서 유의미한 우위 입증"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3690793,
+          "cx": 5467380,
+          "cy": 1398575,
+          "prst": "roundRect",
+          "adj": 9533,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3886932,
+          "cx": 5450556,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "✓ 추론 속도 및 반응성 (Latency & Throughput)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4220596,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "첫 토큰 생성(TTFT): "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "140ms ➔ 42ms (68% 단축)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4442978,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "초당 생성 토큰 수: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "11.2 ➔ 38.5 tokens/s"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 904890,
+          "y": 4665360,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "최대 컨텍스트 길이: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "8K 토큰 무손실 지원"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6172200,
+          "y": 3690793,
+          "cx": 5467380,
+          "cy": 1398575,
+          "prst": "roundRect",
+          "adj": 9533,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "E2E8F0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6372271,
+          "y": 3886932,
+          "cx": 5450556,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "059669",
+              "font": "Malgun Gothic",
+              "text": "✓ 자원 효율성 및 정확도 (Efficiency & Quality)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4220596,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "피크 메모리 사용량: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "5.4GB ➔ 1.8GB (66% 절감)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4442978,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "Ko-Harness 벤치마크: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "88.4점 ➔ 94.2점 달성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6524610,
+          "y": 4665360,
+          "cx": 5285964,
+          "cy": 184252,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1451,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "시간당 배터리 소모율: "
+            },
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "4.2% 수준 극저치 유지"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "background": "F8FAFC",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 804306,
+          "cx": 2579431,
+          "cy": 418521,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "4F46E5",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 847466,
+          "cx": 2496221,
+          "cy": 323149,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2545,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 1,
+              "i": 0,
+              "spc": 34,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "CONCLUSION & REPO"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 1298905,
+          "cx": 11993088,
+          "cy": 590611,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4651,
+          "runs": [
+            {
+              "sz": 3524,
+              "b": 1,
+              "i": 0,
+              "spc": -88,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "결론 및 질의응답 (Q&A)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 533370,
+          "y": 2072670,
+          "cx": 11993088,
+          "cy": 397764,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3132,
+          "runs": [
+            {
+              "sz": 2088,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "소형 언어 모델의 엣지 배포 가능성을 확인하였으며, 오픈소스 모델 가중치를 공개합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 2631277,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3291474,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 2631277,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "4F46E5",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 2754721,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "01. 4-bit AWQ + KV 캐시 프루닝 실증"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 2997586,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "정확도 저하 없이 메모리 66% 절감 및 모바일 RAM 1.8GB 유지"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 3396264,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4056370,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 3396264,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0284C7",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3519708,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "02. 실시간 스트리밍 38.5 tok/s 달성"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 3762573,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "첫 토큰 지연시간 42ms로 온디바이스 실시간 UX 완벽 지원"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 6029919,
+          "cy": 669707,
+          "prst": "roundRect",
+          "adj": 19907,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 6572799,
+          "y": 4161252,
+          "cx": 9510,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4821448,
+          "cx": 6029919,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 552480,
+          "y": 4161252,
+          "cx": 28621,
+          "cy": 669707,
+          "prst": "rect",
+          "adj": null,
+          "fill": "059669",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4284696,
+          "cx": 6161044,
+          "cy": 210312,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1656,
+          "runs": [
+            {
+              "sz": 1104,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "03. 오픈 연구 생태계 기여"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 714421,
+          "y": 4527560,
+          "cx": 6161044,
+          "cy": 173736,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1368,
+          "runs": [
+            {
+              "sz": 912,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "사전 학습된 한국어 가중치 및 양자화 파이프라인 공개"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6772869,
+          "y": 2631277,
+          "cx": 4866711,
+          "cy": 3441344,
+          "prst": "roundRect",
+          "adj": 3874,
+          "fill": "FFFFFF",
+          "line": {
+            "color": "4F46E5",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 2810774,
+          "cx": 4843028,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": 125,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "ACADEMIC DISCUSSION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3127522,
+          "cx": 4843028,
+          "cy": 546903,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 4307,
+          "runs": [
+            {
+              "sz": 3915,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "0F172A",
+              "font": "Malgun Gothic",
+              "text": "Q & A"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 3730478,
+          "cx": 4504792,
+          "cy": 603321,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2375,
+          "runs": [
+            {
+              "sz": 1697,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "논문 연구 방법론 및 벤치마크에 대한 질의응답을 진행합니다."
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6972849,
+          "y": 4432280,
+          "cx": 4466661,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4529480,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "OPEN RESEARCH REPO"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 4830501,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "4F46E5",
+              "font": "Malgun Gothic",
+              "text": "github.com/ai-lab/edge-sllm"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5235397,
+          "cx": 4843028,
+          "cy": 281727,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2219,
+          "runs": [
+            {
+              "sz": 1479,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Malgun Gothic",
+              "text": "CORRESPONDING AUTHOR"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6953829,
+          "y": 5536418,
+          "cx": 4843028,
+          "cy": 348021,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2741,
+          "runs": [
+            {
+              "sz": 1827,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "334155",
+              "font": "Malgun Gothic",
+              "text": "lead-researcher@ailab.org"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

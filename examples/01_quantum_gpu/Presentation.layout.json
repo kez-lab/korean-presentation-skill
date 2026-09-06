@@ -1,0 +1,1873 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "050811",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 381030,
+          "cx": 11239530,
+          "cy": 482255,
+          "prst": "roundRect",
+          "adj": 15794,
+          "fill": "0E1626",
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 638160,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "EF4444",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 790590,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 943021,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1209660,
+          "y": 459029,
+          "cx": 8640714,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "root@quantum-hpc:~# ./launch_qgpu_cluster.sh --qubits 128 --nodes 64"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 996605,
+          "cx": 11239530,
+          "cy": 5480456,
+          "prst": "roundRect",
+          "adj": 1390,
+          "fill": "080D1A",
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 1193383,
+          "cx": 11643330,
+          "cy": 339791,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2675,
+          "runs": [
+            {
+              "sz": 1784,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "[INIT] QUANTUM ACCELERATOR v4.2 LOADED"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 1604132,
+          "cx": 10801350,
+          "cy": 1519276,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5981,
+          "runs": [
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -144,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "양자-GPU 하이브리드"
+            },
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -144,
+              "color": "00F0FF",
+              "font": "Malgun Gothic",
+              "text": "초고속 분산 연산 가속 엔진"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 3386023,
+          "cx": 11643330,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "물리 큐비트 노이즈를 텐서 코어 실시간 역전파로 보정하는 HPC 아키텍처"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 714421,
+          "y": 4754240,
+          "cx": 5787695,
+          "cy": 1522842,
+          "prst": "roundRect",
+          "adj": 3753,
+          "fill": "040711",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 838230,
+          "y": 4889297,
+          "cx": 5961156,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A78BFA",
+              "font": "Consolas",
+              "text": "// QUANTUM CIRCUIT PIPELINE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 838230,
+          "y": 5304892,
+          "cx": 908091,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "|q0⟩ ──"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1756562,
+          "y": 5283952,
+          "cx": 288859,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 13200,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1823314,
+          "y": 5304892,
+          "cx": 193670,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "H"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 2102663,
+          "y": 5304892,
+          "cx": 783184,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "──────"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2904866,
+          "y": 5283952,
+          "cx": 289408,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 13175,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2971526,
+          "y": 5304892,
+          "cx": 194127,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "●"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3251241,
+          "y": 5304892,
+          "cx": 783184,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "──────"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4053444,
+          "y": 5283952,
+          "cx": 288859,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 13200,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4120104,
+          "y": 5304892,
+          "cx": 193670,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "X"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4399544,
+          "y": 5304892,
+          "cx": 1034369,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "── [OUT]"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 838230,
+          "y": 5729813,
+          "cx": 1416954,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "|q1⟩ ──────"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2227844,
+          "y": 5709056,
+          "cx": 288859,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 13200,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2294504,
+          "y": 5729813,
+          "cx": 193670,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "X"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 2573853,
+          "y": 5729813,
+          "cx": 311902,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "──"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2904866,
+          "y": 5709056,
+          "cx": 406359,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 10363,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2971526,
+          "y": 5729813,
+          "cx": 311079,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "RZ"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 3368284,
+          "y": 5729813,
+          "cx": 311902,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "──"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3699297,
+          "y": 5709056,
+          "cx": 289408,
+          "cy": 367955,
+          "prst": "roundRect",
+          "adj": 13175,
+          "fill": "1E293B",
+          "line": {
+            "color": "00F0FF",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3765956,
+          "y": 5729813,
+          "cx": 194127,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Consolas",
+              "text": "●"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4045763,
+          "y": 5729813,
+          "cx": 1034369,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "── [OUT]"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 6654455,
+          "y": 4754240,
+          "cx": 4823094,
+          "cy": 1522842,
+          "prst": "roundRect",
+          "adj": 3753,
+          "fill": "0E1626",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 6768755,
+          "y": 4886188,
+          "cx": 4939955,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "BENCHMARK STATUS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6768755,
+          "y": 5300777,
+          "cx": 4939955,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "1,200x SPEEDUP"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6768755,
+          "y": 5972221,
+          "cx": 4939955,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Malgun Gothic",
+              "text": "Classical HPC Supercomputer 대비"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "050811",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 381030,
+          "cx": 11239530,
+          "cy": 482255,
+          "prst": "roundRect",
+          "adj": 15794,
+          "fill": "0E1626",
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 638160,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "EF4444",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 790590,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "F59E0B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 943021,
+          "y": 574426,
+          "cx": 95280,
+          "cy": 95280,
+          "prst": "roundRect",
+          "adj": 50000,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1209660,
+          "y": 459029,
+          "cx": 7499634,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "root@quantum-hpc:~# qgpu-bench --compare classical_baseline"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 476220,
+          "y": 996605,
+          "cx": 11239530,
+          "cy": 5480456,
+          "prst": "roundRect",
+          "adj": 1390,
+          "fill": "080D1A",
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 1193383,
+          "cx": 11643330,
+          "cy": 339791,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2675,
+          "runs": [
+            {
+              "sz": 1784,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "[ANALYSIS] HARDWARE REGISTER & PERFORMANCE TABLE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 1569750,
+          "cx": 11643330,
+          "cy": 285750,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2250,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "분산 양자 시뮬레이션 지표 비교표"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3240085,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3604199,
+          "cx": 5180716,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "00F0FF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3240085,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 804855,
+          "y": 3331982,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "38BDF8",
+              "font": "Consolas",
+              "text": "METRIC"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1885493,
+          "y": 3240085,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1971172,
+          "y": 3331982,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "94A3B8",
+              "font": "Consolas",
+              "text": "CLASSICAL HPC"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3051901,
+          "y": 3240085,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3137672,
+          "y": 3331982,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "A78BFA",
+              "font": "Consolas",
+              "text": "NISQ STANDALONE"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4218219,
+          "y": 3240085,
+          "cx": 1681673,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4303989,
+          "y": 3331982,
+          "cx": 1608887,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "Q-GPU HYBRID (OURS)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3623219,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3996751,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 3623219,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 804855,
+          "y": 3719779,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "Coherence Time"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1885493,
+          "y": 3623219,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1971172,
+          "y": 3719779,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "N/A (Simulated)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3051901,
+          "y": 3623219,
+          "cx": 1166317,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3137672,
+          "y": 3719779,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "120 μs (Drift)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4218219,
+          "y": 3623219,
+          "cx": 1681673,
+          "cy": 383134,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4303989,
+          "y": 3719779,
+          "cx": 1608887,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "Infinite (Corrected)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4006352,
+          "cx": 5180716,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": "0B1220",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4006352,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4375130,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E293B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4006352,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 804855,
+          "y": 4098158,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "Gate Error Rate"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1885493,
+          "y": 4006352,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1971172,
+          "y": 4098158,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "0.00%"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3051901,
+          "y": 4006352,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3137672,
+          "y": 4098158,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "0.35% (High)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4218219,
+          "y": 4006352,
+          "cx": 1681673,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4303989,
+          "y": 4098158,
+          "cx": 1608887,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "0.01% (Tensor Backprop)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4384639,
+          "cx": 5180716,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 719176,
+          "y": 4384639,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 804855,
+          "y": 4476445,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "128-Qubit Exec"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1885493,
+          "y": 4384639,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1971172,
+          "y": 4476445,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "48.2 Hours"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 3051901,
+          "y": 4384639,
+          "cx": 1166317,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 3137672,
+          "y": 4476445,
+          "cx": 1052383,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "E2E8F0",
+              "font": "Consolas",
+              "text": "Failed (Noise)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4218219,
+          "y": 4384639,
+          "cx": 1681673,
+          "cy": 378379,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "1E293B",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4303989,
+          "y": 4476445,
+          "cx": 1608887,
+          "cy": 178308,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "00F0FF",
+              "font": "Consolas",
+              "text": "2.4 Minutes (1,200x)"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 695310,
+          "y": 6111118,
+          "cx": 11643330,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "64748B",
+              "font": "Consolas",
+              "text": "* Tested on 64x NVIDIA H100 GPU Cluster with Quantum Tensor Backpropagation v4.2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

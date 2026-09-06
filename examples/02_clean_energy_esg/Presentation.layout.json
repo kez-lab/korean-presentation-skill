@@ -1,0 +1,819 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "0B1911",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 495330,
+          "cx": 2150486,
+          "cy": 393466,
+          "prst": "roundRect",
+          "adj": 48408,
+          "fill": "064E3B",
+          "line": {
+            "color": "10B981",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 541416,
+          "cx": 2074042,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "ESG ROADMAP 2030"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 956554,
+          "cx": 11087100,
+          "cy": 1519276,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5981,
+          "runs": [
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "ECFDF5",
+              "font": "Malgun Gothic",
+              "text": "지능형 재생에너지 전력망과"
+            },
+            {
+              "sz": 4785,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "2030 탄소중립 실현 로드맵"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 2738537,
+          "cx": 11951940,
+          "cy": 217170,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1710,
+          "runs": [
+            {
+              "sz": 1140,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "풍력·태양광의 간헐성을 AI 가상발전소(VPP)와 대용량 ESS로 능동 제어하는 친환경 에너지 전환"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 5625023,
+          "cx": 11048970,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "064E3B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 5818876,
+          "cx": 1782166,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "6EE7B7",
+              "font": "Malgun Gothic",
+              "text": "TARGET EMISSIONS"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 5983742,
+          "cx": 1782166,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "-48.5% GHG"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2508748,
+          "y": 5825002,
+          "cx": 9510,
+          "cy": 575798,
+          "prst": "rect",
+          "adj": null,
+          "fill": "064E3B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2804099,
+          "y": 5818876,
+          "cx": 1327526,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "6EE7B7",
+              "font": "Malgun Gothic",
+              "text": "GRID RELIABILITY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 2804099,
+          "y": 5983742,
+          "cx": 1327526,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "99.999%"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4339468,
+          "y": 5825002,
+          "cx": 9510,
+          "cy": 575798,
+          "prst": "rect",
+          "adj": null,
+          "fill": "064E3B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4634728,
+          "y": 5818876,
+          "cx": 1965228,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "6EE7B7",
+              "font": "Malgun Gothic",
+              "text": "RE100 COMPLIANCE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4634728,
+          "y": 5983742,
+          "cx": 1965228,
+          "cy": 411480,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3240,
+          "runs": [
+            {
+              "sz": 2160,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "100% MATCH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "0B1911",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 495330,
+          "cx": 2192091,
+          "cy": 393466,
+          "prst": "roundRect",
+          "adj": 48408,
+          "fill": "064E3B",
+          "line": {
+            "color": "10B981",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 676290,
+          "y": 541416,
+          "cx": 2119031,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "34D399",
+              "font": "Malgun Gothic",
+              "text": "3-PHASE EXECUTION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 552480,
+          "y": 936437,
+          "cx": 11951940,
+          "cy": 304770,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2400,
+          "runs": [
+            {
+              "sz": 1920,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "2026 ~ 2030 단계별 전력망 전환 타임라인"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 571500,
+          "y": 2366650,
+          "cx": 3530498,
+          "cy": 3200674,
+          "prst": "roundRect",
+          "adj": 3571,
+          "fill": "132E20",
+          "line": {
+            "color": "059669",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 771571,
+          "y": 2600005,
+          "cx": 400050,
+          "cy": 400050,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 2614452,
+          "cx": 476220,
+          "cy": 352227,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2773,
+          "runs": [
+            {
+              "sz": 1849,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "064E3B",
+              "font": "Malgun Gothic",
+              "text": "&apos;26"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3106400,
+          "cx": 3400014,
+          "cy": 435072,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3426,
+          "runs": [
+            {
+              "sz": 2284,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Phase 1: VPP 인프라 구축"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 752460,
+          "y": 3602736,
+          "cx": 3168579,
+          "cy": 994410,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2610,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• AI 기상 예측 모델링 도입"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 서해안 풍력 단지 100MW 실증"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 계통 연계 인허가 완료"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 4330598,
+          "y": 2366650,
+          "cx": 3530590,
+          "cy": 3200674,
+          "prst": "roundRect",
+          "adj": 3571,
+          "fill": "132E20",
+          "line": {
+            "color": "059669",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 4530669,
+          "y": 2600005,
+          "cx": 400050,
+          "cy": 400050,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "10B981",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 4511650,
+          "y": 2614452,
+          "cx": 476220,
+          "cy": 352227,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2773,
+          "runs": [
+            {
+              "sz": 1849,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "064E3B",
+              "font": "Malgun Gothic",
+              "text": "&apos;28"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4511650,
+          "y": 3106400,
+          "cx": 3168670,
+          "cy": 870143,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3426,
+          "runs": [
+            {
+              "sz": 2284,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Phase 2: 하이브리드 ESS 확장"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 4511650,
+          "y": 4037716,
+          "cx": 3168670,
+          "cy": 1325880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2610,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• LFP + 바나듐 레독스 500MWh 배치"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• P2P 분산 전력 거래 마켓 오픈"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 산업단지 RE100 직공급 개시"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 8089880,
+          "y": 2366650,
+          "cx": 3530498,
+          "cy": 3200674,
+          "prst": "roundRect",
+          "adj": 3571,
+          "fill": "1B3D2B",
+          "line": {
+            "color": "34D399",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 8289859,
+          "y": 2600005,
+          "cx": 400050,
+          "cy": 400050,
+          "prst": "roundRect",
+          "adj": 50011,
+          "fill": "34D399",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 8270839,
+          "y": 2614452,
+          "cx": 476220,
+          "cy": 352227,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2773,
+          "runs": [
+            {
+              "sz": 1849,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "064E3B",
+              "font": "Malgun Gothic",
+              "text": "&apos;30"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8270839,
+          "y": 3106400,
+          "cx": 3168579,
+          "cy": 870143,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 3426,
+          "runs": [
+            {
+              "sz": 2284,
+              "b": 1,
+              "i": 0,
+              "spc": -54,
+              "color": "FFFFFF",
+              "font": "Malgun Gothic",
+              "text": "Phase 3: 100% 탄소중립 그리드"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 8270839,
+          "y": 4037716,
+          "cx": 3168579,
+          "cy": 994410,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2610,
+          "runs": [
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 전국 17개 시도 통합 계통망 완성"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 신재생 출력 제어율 0% 달성"
+            },
+            {
+              "sz": 1740,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "A7F3D0",
+              "font": "Malgun Gothic",
+              "text": "• 연간 1,200만 톤 온실가스 감축"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -312450,
+          "y": 6229350,
+          "cx": 11951940,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "r",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -54,
+              "color": "6EE7B7",
+              "font": "Malgun Gothic",
+              "text": "* 국가 탄소중립녹색성장 기본계획 및 전력수급기본계획 연계"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

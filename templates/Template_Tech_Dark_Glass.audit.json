@@ -3,7 +3,7 @@
   "slideCount": 6,
   "counts": {
     "error": 0,
-    "warn": 17,
+    "warn": 1,
     "info": 6
   },
   "findings": [
@@ -12,13 +12,6 @@
       "level": "info",
       "rule": "gradient-approximated",
       "message": "Slide background gradient flattened to a solid fill in PPTX.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"동기 병목 극복부터\n프로덕션 튜닝까지 4단계\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
       "detail": null
     },
     {
@@ -33,90 +26,6 @@
       "level": "info",
       "rule": "gradient-approximated",
       "message": "Slide background gradient flattened to a solid fill in PPTX.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"주문 요청 접수\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"Outbox DB 적재\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"Debezium 캡처\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"Kafka 토픽 발행\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"단계별 상태 전이\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"결제/재고 이벤트\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"Idempotent 처리\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"최종 일관성 달성\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"✓ Transactional Outbox 패턴\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"로컬 트랜잭션 내에서 비즈니스 데이터와 이벤트 테이블을 동시 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"✓ 자동 보상 트랜잭션(Compensation)\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 4,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"중간 단계 실패 시 역순으로 롤백 이벤트를 발행하여 글로벌 락…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
       "detail": null
     },
     {
@@ -142,27 +51,6 @@
     },
     {
       "slide": 6,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"01. Transactional Outbox로 유실 방지\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 6,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"02. Saga 엔진 기반 분산 트랜잭션\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 6,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"03. OpenTelemetry 기반 분산 가시성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 6,
       "level": "info",
       "rule": "gradient-approximated",
       "message": "Slide background gradient flattened to a solid fill in PPTX.",
@@ -182,13 +70,6 @@
     "2": [
       {
         "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"동기 병목 극복부터\n프로덕션 튜닝까지 4단계\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
         "level": "info",
         "rule": "gradient-approximated",
         "message": "Slide background gradient flattened to a solid fill in PPTX.",
@@ -205,90 +86,6 @@
       }
     ],
     "4": [
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"주문 요청 접수\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"Outbox DB 적재\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"Debezium 캡처\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"Kafka 토픽 발행\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"단계별 상태 전이\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"결제/재고 이벤트\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"Idempotent 처리\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"최종 일관성 달성\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"✓ Transactional Outbox 패턴\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"로컬 트랜잭션 내에서 비즈니스 데이터와 이벤트 테이블을 동시 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"✓ 자동 보상 트랜잭션(Compensation)\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 4,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"중간 단계 실패 시 역순으로 롤백 이벤트를 발행하여 글로벌 락…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
-        "detail": null
-      },
       {
         "slide": 4,
         "level": "info",
@@ -314,27 +111,6 @@
       }
     ],
     "6": [
-      {
-        "slide": 6,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"01. Transactional Outbox로 유실 방지\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 6,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"02. Saga 엔진 기반 분산 트랜잭션\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 6,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"03. OpenTelemetry 기반 분산 가시성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
-        "detail": null
-      },
       {
         "slide": 6,
         "level": "info",

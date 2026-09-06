@@ -1,0 +1,1222 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "FAF9F6",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 806135,
+          "cx": 10972800,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 416143,
+          "cx": 3965844,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "NEURIPS 2026 ORAL PRESENTATION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 9068653,
+          "y": 416143,
+          "cx": 2713299,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "ARXIV: 2608.01248 [CS.LG]"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 1694566,
+          "cx": 11010930,
+          "cy": 1346637,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5302,
+          "runs": [
+            {
+              "sz": 4241,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "Malgun Gothic",
+              "text": "선형 시간 복잡도 어텐션을 통한"
+            },
+            {
+              "sz": 4241,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "Malgun Gothic",
+              "text": "O(N) 초경량 트랜스포머의 이론적 증명"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 3275289,
+          "cx": 11869644,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "STIX Two Text",
+              "text": "서울대학교 AI연구원 • 딥러닝 이론 연구실"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 3590483,
+          "cx": 10972800,
+          "cy": 1677741,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F1F0EA",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 3590483,
+          "cx": 38130,
+          "cy": 1677741,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 800100,
+          "y": 3695456,
+          "cx": 10629900,
+          "cy": 704362,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2773,
+          "runs": [
+            {
+              "sz": 1849,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "Theorem 1 (Linear Convergence)."
+            },
+            {
+              "sz": 1849,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": " Let \\( \\phi(x) \\) be the kernel feature map with Taylor expansion order \\( k \\). Then the attention matrix multiplication satisfies:"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 800100,
+          "y": 4792188,
+          "cx": 11458164,
+          "cy": 352227,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2773,
+          "runs": [
+            {
+              "sz": 1849,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "with zero loss on 1,000,000 token context retrieval."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": -28164,
+          "y": 4484583,
+          "cx": 12286518,
+          "cy": 240030,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1890,
+          "runs": [
+            {
+              "sz": 1260,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "\\( \\text{Time Complexity} = O(N \\cdot d^2) \\ll O(N^2 \\cdot d) \\)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 6188659,
+          "cx": 10972800,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D4D2C9",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 6268303,
+          "cx": 3460090,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "64748B",
+              "font": "STIX Two Text",
+              "text": "Keywords: Linear Attention, Kernel Approximation, Long-Context LLMs"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 10016155,
+          "y": 6268303,
+          "cx": 1690086,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "64748B",
+              "font": "STIX Two Text",
+              "text": "Correspondence: theory@snu.ac.kr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "FAF9F6",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 806135,
+          "cx": 10972800,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 416143,
+          "cx": 3343778,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "EXPERIMENTAL EVALUATION"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 6870802,
+          "y": 416143,
+          "cx": 5087082,
+          "cy": 310805,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2447,
+          "runs": [
+            {
+              "sz": 1631,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "TABLE 2: 1M CONTEXT RETRIEVAL ACCURACY"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 2266066,
+          "cx": 11869644,
+          "cy": 285750,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2250,
+          "runs": [
+            {
+              "sz": 1800,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "Malgun Gothic",
+              "text": "기존 방식 대비 연산 복잡도 및 메모리 비교"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 4004249,
+          "cx": 6446520,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 609630,
+          "y": 4952482,
+          "cx": 6446520,
+          "cy": 19020,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4028023,
+          "cx": 2976555,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4028023,
+          "cx": 2976555,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4325112,
+          "cx": 2976555,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4028023,
+          "cx": 871240,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 662026,
+          "y": 4089014,
+          "cx": 816011,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "MODEL"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1485626,
+          "y": 4028023,
+          "cx": 490027,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1495135,
+          "y": 4089014,
+          "cx": 471007,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "TIME"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1975653,
+          "y": 4028023,
+          "cx": 822594,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1985162,
+          "y": 4089014,
+          "cx": 803575,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "MEMORY"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2798247,
+          "y": 4028023,
+          "cx": 792693,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2807757,
+          "y": 4089014,
+          "cx": 773582,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "ACCURACY"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4334622,
+          "cx": 2976555,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": "FFFFFF",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4334622,
+          "cx": 2976555,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4631710,
+          "cx": 2976555,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E2E8F0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4334622,
+          "cx": 871240,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 662026,
+          "y": 4395612,
+          "cx": 816011,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "FlashAttn-3"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1485626,
+          "y": 4334622,
+          "cx": 490027,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1495135,
+          "y": 4395612,
+          "cx": 471007,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "O(N^2)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1975653,
+          "y": 4334622,
+          "cx": 822594,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1985162,
+          "y": 4395612,
+          "cx": 803575,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "48.2 GB"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2798247,
+          "y": 4334622,
+          "cx": 792693,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2807757,
+          "y": 4395612,
+          "cx": 773582,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "99.9%"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4641220,
+          "cx": 2976555,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F6F8FA",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4641220,
+          "cx": 2976555,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "D1D9E0",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 614385,
+          "y": 4641220,
+          "cx": 871240,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 662026,
+          "y": 4702211,
+          "cx": 816011,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "STIX Two Text",
+              "text": "Ours (Linear)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1485626,
+          "y": 4641220,
+          "cx": 490027,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1495135,
+          "y": 4702211,
+          "cx": 471007,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "STIX Two Text",
+              "text": "O(N)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 1975653,
+          "y": 4641220,
+          "cx": 822594,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 1985162,
+          "y": 4702211,
+          "cx": 803575,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "STIX Two Text",
+              "text": "1.2 GB (-97%)"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 2798247,
+          "y": 4641220,
+          "cx": 792693,
+          "cy": 306598,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": {
+            "color": "D1D9E0",
+            "w": 9525
+          },
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 2807757,
+          "y": 4702211,
+          "cx": 773582,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "ctr",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "4338CA",
+              "font": "STIX Two Text",
+              "text": "99.8%"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7284750,
+          "y": 4004249,
+          "cx": 4297680,
+          "cy": 1119774,
+          "prst": "rect",
+          "adj": null,
+          "fill": "F1F0EA",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "shape",
+          "x": 7284750,
+          "y": 4004249,
+          "cx": 38130,
+          "cy": 1119774,
+          "prst": "rect",
+          "adj": null,
+          "fill": "1E1B4B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7475220,
+          "y": 4110319,
+          "cx": 3954780,
+          "cy": 356616,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1404,
+          "runs": [
+            {
+              "sz": 936,
+              "b": 1,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": "Remark 2.1."
+            },
+            {
+              "sz": 936,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "1E1B4B",
+              "font": "STIX Two Text",
+              "text": " The memory reduction enables full fine-tuning of a 70B parameter model on a single 8x H100 node with sequence length \\( N = 10^6 \\)."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 590520,
+          "y": 6268303,
+          "cx": 11869644,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -22,
+              "color": "64748B",
+              "font": "STIX Two Text",
+              "text": "* Evaluated on synthetic Needle-In-A-Haystack benchmark with Llama-3 architecture."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

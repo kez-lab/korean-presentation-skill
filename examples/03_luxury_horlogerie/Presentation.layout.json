@@ -1,0 +1,439 @@
+{
+  "slideCount": 2,
+  "slides": [
+    {
+      "index": 1,
+      "background": "0D0D0E",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 474756,
+          "cx": 11746200,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": 313,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "GENÈVE • MAISON DE HAUTE HORLOGERIE"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 666780,
+          "y": 926836,
+          "cx": 10858500,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E5C07B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 1009040,
+          "cx": 10896630,
+          "cy": 2032986,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 8004,
+          "runs": [
+            {
+              "sz": 6960,
+              "b": 1,
+              "i": 0,
+              "spc": 139,
+              "color": "FFFFFF",
+              "font": "Georgia",
+              "text": "L’Art de la Précision"
+            },
+            {
+              "sz": 6960,
+              "b": 1,
+              "i": 0,
+              "spc": 139,
+              "color": "FFFFFF",
+              "font": "Georgia",
+              "text": " "
+            },
+            {
+              "sz": 3120,
+              "b": 1,
+              "i": 1,
+              "spc": 139,
+              "color": "E5C07B",
+              "font": "Georgia",
+              "text": "180 Years of Timeless Mastery"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 3534796,
+          "cx": 6705570,
+          "cy": 256032,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2016,
+          "runs": [
+            {
+              "sz": 1260,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "A1A1AA",
+              "font": "Malgun Gothic",
+              "text": "기계식 무브먼트의 영원한 장인정신과 디지털 시대의 헤리티지 보존"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 666780,
+          "y": 6025622,
+          "cx": 10858500,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E5C07B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 6205576,
+          "cx": 2414473,
+          "cy": 171450,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1350,
+          "runs": [
+            {
+              "sz": 900,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "71717A",
+              "font": "Malgun Gothic",
+              "text": "SWISS HANDMADE • LIMITED 500 PIECES / YEAR"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 10514868,
+          "y": 6185642,
+          "cx": 1089690,
+          "cy": 194310,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1530,
+          "runs": [
+            {
+              "sz": 1020,
+              "b": 1,
+              "i": 0,
+              "spc": -43,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "ESTABLISHED 1846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "background": "0D0D0E",
+      "pictures": 0,
+      "shapes": [
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 474756,
+          "cx": 11746200,
+          "cy": 298369,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 2349,
+          "runs": [
+            {
+              "sz": 1566,
+              "b": 1,
+              "i": 0,
+              "spc": 313,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "PHILOSOPHIE & SAVOIR-FAIRE"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 666780,
+          "y": 926836,
+          "cx": 10858500,
+          "cy": 9510,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E5C07B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 1754002,
+          "cx": 6278819,
+          "cy": 3449391,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "square",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 5432,
+          "runs": [
+            {
+              "sz": 4024,
+              "b": 0,
+              "i": 1,
+              "spc": -43,
+              "color": "F8F6F0",
+              "font": "Georgia",
+              "text": "“우리는 단순히 시간을 측정하는 도구를 만드는 것이 아니라, 세대를 넘어 이어질 예술적 영혼을 조각합니다.”"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 5356647,
+          "cx": 6758970,
+          "cy": 182880,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1440,
+          "runs": [
+            {
+              "sz": 960,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "— Master Watchmaker, Atelier Genève"
+            }
+          ]
+        },
+        {
+          "kind": "shape",
+          "x": 7364669,
+          "y": 3205704,
+          "cx": 9510,
+          "cy": 894466,
+          "prst": "rect",
+          "adj": null,
+          "fill": "E5C07B",
+          "line": null,
+          "wrap": null,
+          "anchor": null,
+          "align": null,
+          "lnSpc": null,
+          "runs": []
+        },
+        {
+          "kind": "text",
+          "x": 7659929,
+          "y": 3204423,
+          "cx": 4173047,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": 86,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "01. 100% HAND FINISHING"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7659929,
+          "y": 3381268,
+          "cx": 4173047,
+          "cy": 187452,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1476,
+          "runs": [
+            {
+              "sz": 984,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "D4D4D8",
+              "font": "Malgun Gothic",
+              "text": "모든 앵글라주와 꼬뜨 드 제네바 패턴을 장인이 수작업 가공"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7659929,
+          "y": 3727917,
+          "cx": 4173047,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 1,
+              "i": 0,
+              "spc": 86,
+              "color": "E5C07B",
+              "font": "Malgun Gothic",
+              "text": "02. ON-CHAIN CERTIFICATE"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 7659929,
+          "y": 3904671,
+          "cx": 4173047,
+          "cy": 187452,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1476,
+          "runs": [
+            {
+              "sz": 984,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "D4D4D8",
+              "font": "Malgun Gothic",
+              "text": "영구 소유권 및 오버홀 이력을 분산 원장에 암호화 보증"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 647670,
+          "y": 6215908,
+          "cx": 11746200,
+          "cy": 164592,
+          "prst": "rect",
+          "adj": null,
+          "fill": null,
+          "line": null,
+          "wrap": "none",
+          "anchor": "t",
+          "align": "l",
+          "lnSpc": 1296,
+          "runs": [
+            {
+              "sz": 864,
+              "b": 0,
+              "i": 0,
+              "spc": -43,
+              "color": "8B8B93",
+              "font": "Malgun Gothic",
+              "text": "CONFIDENTIAL • FOR PRIVATE VIP COLLECTORS ONLY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

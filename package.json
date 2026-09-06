@@ -1,6 +1,6 @@
 {
   "name": "korean-presentation-skill",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "HTML-first presentation engine for AI agents: renders Korean-typography-optimized decks to a reviewable HTML preview, audits the real laid-out geometry, then converts the approved layout into a native, fully editable .pptx",
   "main": "skills/korean-presentation-skill/scripts/build_deck.js",
   "bin": {
@@ -11,6 +11,8 @@
     "approve": "node skills/korean-presentation-skill/scripts/build_deck.js --approve --pdf --png",
     "build": "node skills/korean-presentation-skill/scripts/build_deck.js",
     "build:examples": "node scripts/build_examples.js",
+    "snapshot": "node scripts/snapshot_decks.js",
+    "snapshot:check": "node scripts/snapshot_decks.js --check",
     "create": "node scripts/create_presentation.js",
     "validate": "node skills/korean-presentation-skill/scripts/pptx_validator.js",
     "extract": "node skills/korean-presentation-skill/scripts/pptx_extractor.js",

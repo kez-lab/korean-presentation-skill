@@ -320,17 +320,44 @@ flowchart LR
 | `canvas-overflow` | error | 콘텐츠가 1280×720 밖으로 넘쳐 PPTX에서 잘림 |
 | `low-contrast` | error/warn | 실제로 뒤에 칠해진 배경 대비 WCAG AA 미달 |
 | `empty-slide` | error | 텍스트·이미지가 전혀 없는 슬라이드 |
+| `letter-spacing` | warn | **슬라이드 루트가 선언한** 자간이 -0.025em 기준에서 벗어남 |
+| `letter-spacing-extreme` | warn | 실제 렌더된 자간이 판독 한계(-0.08em ~ +0.05em)를 벗어남 |
+| `word-break-root` | warn | 슬라이드 루트에 `keep-all` 미선언 |
+| `word-break` | warn | 개별 한글 블록에 `keep-all` 미적용 |
 | `korean-orphan` | warn | 마지막 줄에 1~2글자 또는 조사만 홀로 남음 |
-| `letter-spacing` | warn | 한글 블록 자간이 -0.025em 기준에서 벗어남 |
-| `word-break` | warn | 한글 블록에 `keep-all` 미적용 |
 | `font-too-small` | warn | 11px 미만이라 투사 시 판독 불가 |
-| `unsafe-font` | warn | PowerPoint 기본 환경에 없는 웹폰트 |
+| `unsafe-font` | warn | PowerPoint 기본 환경에 없는 웹폰트 (`--safe-fonts`로 치환) |
 | `text-collision` | warn | 텍스트 블록끼리 30% 이상 겹침 |
 | `vertical-imbalance` | warn | 상·하 여백 차이가 캔버스의 28% 초과 |
-| `missing-notes` | warn | 스피커 노트 없음 |
+| `missing-notes` / `thin-notes` | warn / info | 스피커 노트 없음 / 너무 짧음 |
 | `gradient-approximated` | info | CSS 그라디언트가 PPTX 단색으로 근사됨 |
 
+> **자간 규칙이 두 층인 이유**: CSS는 `em` 자간을 **선언한 요소에서 한 번만 px로 확정**한 뒤 자식에게 그 px를 상속합니다. 따라서 자식의 실효 비율은 자기 font-size에 따라 달라지며, 이는 작성자의 실수가 아닙니다. 초기 구현은 이 값을 기준과 직접 비교해 **오탐 130건(전체 경고의 78%)**을 만들었습니다. 지금은 선언값을 루트에서 한 번 검사하고, 개별 블록은 판독 한계만 지킵니다.
+
 > 이 감사는 실제로 결함을 잡아냅니다. 도입 직후 기존 예제 덱 10종에서 **20건의 blocking 오류**가 발견됐고 (대표적으로 어두운 덱 위에 Marp 기본 흰색 테이블이 겹쳐 본문이 1.2:1 대비로 사실상 보이지 않던 문제), 전부 수정한 뒤 재빌드했습니다.
+>
+> 규칙이 조용한 것과 규칙이 죽은 것은 다릅니다. `tests/fixtures/governance_violations.md` 는 의도적으로 모든 규칙을 위반하는 합성 덱이고, `npm test` 는 **16개 규칙이 전부 발동하는지**를 확인합니다.
+
+### 레이아웃 회귀 방지
+
+감사는 *덱*을 지키고, 골든 스냅샷은 *변환기*를 지킵니다.
+
+`lib/extract.js` 와 `lib/pptx.js` 는 CSS 픽셀을 EMU·포인트·도형 adjust 비율로 옮깁니다. 이 사슬 어딘가에서 단위를 틀려도 **파일은 멀쩡히 열리고 모양만 무너지므로**, 스키마 검사로는 잡히지 않습니다. 그래서 생성된 `.pptx` 에서 기하를 다시 읽어 커밋된 골든과 비교합니다.
+
+```bash
+npm run snapshot         # 의도한 변경 후 골든 재기록
+npm run snapshot:check   # 골든과 비교 (npm test 에 포함됨)
+```
+
+도형 개수·텍스트 내용·색상·폰트 크기·wrap 모드·모서리 반경은 **정확히** 비교하고, 좌표는 폰트 메트릭 차이를 흡수하도록 2px 허용치를 둡니다. 실제로 잡히는 모습은 이렇습니다.
+
+```
+[DRIFT] 07_enterprise_cdp — 6 difference(s)
+    · slide 1 shape 0 (roundRect): corner adjust 49988 → 122070
+    · slide 2 shape 3 (roundRect): corner adjust 9163 → 8057
+```
+
+이 예시는 실제 회귀입니다. 개발 중 `rectRadius` 에 인치 대신 비율을 넘긴 버그를 재현한 것으로, 당시에는 pptxgenjs 소스를 직접 읽어서야 발견했습니다. 지금은 `npm test` 가 바로 잡아냅니다.
 
 ---
 

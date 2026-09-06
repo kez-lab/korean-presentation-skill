@@ -3,7 +3,7 @@
   "slideCount": 2,
   "counts": {
     "error": 0,
-    "warn": 7,
+    "warn": 4,
     "info": 0
   },
   "findings": [
@@ -19,27 +19,6 @@
       "level": "warn",
       "rule": "unsafe-font",
       "message": "Font \"Roboto Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"Solarflare 커널 바이패스\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"C++23 템플릿 메타 계산\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
-      "detail": null
-    },
-    {
-      "slide": 2,
-      "level": "warn",
-      "rule": "letter-spacing",
-      "message": "\"거래소 전용선 즉시 체결\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
       "detail": null
     },
     {
@@ -73,27 +52,6 @@
         "level": "warn",
         "rule": "unsafe-font",
         "message": "Font \"Roboto Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"Solarflare 커널 바이패스\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"C++23 템플릿 메타 계산\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
-        "detail": null
-      },
-      {
-        "slide": 2,
-        "level": "warn",
-        "rule": "letter-spacing",
-        "message": "\"거래소 전용선 즉시 체결\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
         "detail": null
       },
       {

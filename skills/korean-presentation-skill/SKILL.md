@@ -88,20 +88,25 @@ markdown ──▶ ① HTML 프리뷰 ──▶ ② 감사 게이트 ──▶ �
 | 텍스트 추출 / 접근성 | 불가 | 가능 |
 
 ### 감사 규칙
+
 | 규칙 | 수준 | 내용 |
 |------|------|------|
 | `canvas-overflow` | error | 콘텐츠가 1280×720 밖으로 넘쳐 PPTX에서 잘림 |
 | `low-contrast` | error/warn | 실제로 뒤에 칠해진 배경 대비 WCAG AA 미달 |
 | `empty-slide` | error | 텍스트·이미지가 전혀 없는 슬라이드 |
+| `letter-spacing` | warn | **슬라이드 루트가 선언한** 자간이 -0.025em 기준에서 벗어남 |
+| `letter-spacing-extreme` | warn | 실제 렌더된 자간이 판독 한계(-0.08em ~ +0.05em)를 벗어남 |
+| `word-break-root` | warn | 슬라이드 루트에 `keep-all` 미선언 |
+| `word-break` | warn | 개별 한글 블록에 `keep-all` 미적용 |
 | `korean-orphan` | warn | 마지막 줄에 1~2글자 또는 조사만 홀로 남음 |
-| `letter-spacing` | warn | 한글 블록의 자간이 -0.025em 기준에서 벗어남 |
-| `word-break` | warn | 한글 블록에 `keep-all` 미적용 |
 | `font-too-small` | warn | 11px 미만이라 투사 시 판독 불가 |
 | `unsafe-font` | warn | PowerPoint 기본 환경에 없는 웹폰트 (`--safe-fonts`로 치환) |
 | `text-collision` | warn | 텍스트 블록끼리 30% 이상 겹침 |
-| `vertical-imbalance` | warn | 상·하 여백 차이가 캔버스의 28% 초과 (Visual Center Equilibrium 위반) |
-| `missing-notes` | warn | 스피커 노트 없음 |
+| `vertical-imbalance` | warn | 상·하 여백 차이가 캔버스의 28% 초과 |
+| `missing-notes` / `thin-notes` | warn / info | 스피커 노트 없음 / 너무 짧음 |
 | `gradient-approximated` | info | CSS 그라디언트가 PPTX 단색으로 근사됨 |
+
+> **자간 규칙이 두 층인 이유**: CSS는 `em` 자간을 **선언한 요소에서 한 번만 px로 확정**한 뒤 자식에게 그 px를 상속합니다. 따라서 자식의 실효 비율은 자기 font-size에 따라 달라지며, 이는 작성자의 실수가 아닙니다. 초기 구현은 이 값을 기준과 직접 비교해 **오탐 130건(전체 경고의 78%)**을 만들었습니다. 지금은 선언값을 루트에서 한 번 검사하고, 개별 블록은 판독 한계만 지킵니다.
 
 ---
 
@@ -123,7 +128,8 @@ node skills/korean-presentation-skill/scripts/pptx_validator.js <input.pptx>
 
 # 전체 예제/템플릿 일괄 재빌드 · 무결성 테스트 · 웹 갤러리
 npm run build:examples
-npm test
+npm run snapshot          # 변환 결과 골든 재기록 (의도한 변경 후)
+npm test                  # 감사 + 골든 비교 + 규칙 발동 여부까지 검증
 npm run gallery
 ```
 
