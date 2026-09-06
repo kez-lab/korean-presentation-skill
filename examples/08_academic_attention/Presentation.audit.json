@@ -1,0 +1,75 @@
+{
+  "deck": "examples/08_academic_attention/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 3,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"STIX Two Text\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 39 characters; aim for a full spoken paragraph.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"STIX Two Text\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "missing-notes",
+      "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"STIX Two Text\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 39 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"STIX Two Text\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "missing-notes",
+        "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

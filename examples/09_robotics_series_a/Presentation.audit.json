@@ -1,0 +1,159 @@
+{
+  "deck": "examples/09_robotics_series_a/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 9,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"Montserrat\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"ROBOTICS-X INC. • CONFIDENTIAL\" has 4.22:1 contrast on #080808 (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"SERIES A $10M ROUND OPEN\" has 4.22:1 contrast on #080808 (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 38 characters; aim for a full spoken paragraph.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"Montserrat\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"THE OLD WAY: 수작업 & 단일 AGV\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"• 물류 피크타임 시 300% 병목 및 오배송 급증\n• 단일 …\" uses letter-spacing -0.064em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"THE ROBOTICS-X WAY: 자율 군집\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"• 1,000대 로봇 실시간 무충돌 자율 경로 생성\n• 2주 …\" uses letter-spacing -0.064em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "missing-notes",
+      "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"Montserrat\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"ROBOTICS-X INC. • CONFIDENTIAL\" has 4.22:1 contrast on #080808 (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"SERIES A $10M ROUND OPEN\" has 4.22:1 contrast on #080808 (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 38 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"Montserrat\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"THE OLD WAY: 수작업 & 단일 AGV\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"• 물류 피크타임 시 300% 병목 및 오배송 급증\n• 단일 …\" uses letter-spacing -0.064em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"THE ROBOTICS-X WAY: 자율 군집\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"• 1,000대 로봇 실시간 무충돌 자율 경로 생성\n• 2주 …\" uses letter-spacing -0.064em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "missing-notes",
+        "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

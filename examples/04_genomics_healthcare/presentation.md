@@ -114,7 +114,7 @@ style: |
   </tbody>
 </table>
 
-<div style="font-size: 0.72rem; color: #94A3B8;">
+<div style="font-size: 0.72rem; color: #475569;">
   * Multi-center Phase II trial prospective cohort (N=520, 2024-2026)
 </div>
 

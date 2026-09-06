@@ -1,0 +1,473 @@
+{
+  "deck": "templates/03_modern_light.md",
+  "slideCount": 6,
+  "counts": {
+    "error": 0,
+    "warn": 32,
+    "info": 0
+  },
+  "findings": [
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"연구 배경부터\n실험 벤치마크까지 4챕터\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"추론 지연시간 68% 단축\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"RAM 점유율 1.8GB 유지\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"한국어 문해력 94.2점\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"4-bit 가중치 양자화\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"정확도 손실 0.3% 미만\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"STEP 2: KV PRUNING\" has 4.1:1 contrast on #FFFFFF (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"동적 토큰 압축\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"컨텍스트 메모리 60% 절감\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"STEP 3: NPU RUNTIME\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"모바일 칩셋 가속\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"배터리 전력 소모 55% 개선\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 활성화 인식 양자화 (Activation-aware Wei…\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"중요 가중치 채널을 보존하여 4-bit 환경에서도 한국어 문맥…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ NPU 하드웨어 친화적 커널 퓨전 (Kernel Fusio…\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"✓ NPU 하드웨어 친화적 커널 퓨전 (Kernel Fusio…\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"메모리 I/O 병목을 제거하여 모바일 디바이스의 발열과 전력 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 추론 속도 및 반응성 (Latency & Throughpu…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"첫 토큰 생성(TTFT): 140ms ➔ 42ms (68% 단…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"초당 생성 토큰 수: 11.2 ➔ 38.5 tokens/s\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"최대 컨텍스트 길이: 8K 토큰 무손실 지원\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 자원 효율성 및 정확도 (Efficiency & Quali…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"✓ 자원 효율성 및 정확도 (Efficiency & Quali…\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"피크 메모리 사용량: 5.4GB ➔ 1.8GB (66% 절감)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"Ko-Harness 벤치마크: 88.4점 ➔ 94.2점 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"시간당 배터리 소모율: 4.2% 수준 극저치 유지\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"01. 4-bit AWQ + KV 캐시 프루닝 실증\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"정확도 저하 없이 메모리 66% 절감 및 모바일 RAM 1.8…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"02. 실시간 스트리밍 38.5 tok/s 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"첫 토큰 지연시간 42ms로 온디바이스 실시간 UX 완벽 지원\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"03. 오픈 연구 생태계 기여\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"사전 학습된 한국어 가중치 및 양자화 파이프라인 공개\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"연구 배경부터\n실험 벤치마크까지 4챕터\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+        "detail": null
+      }
+    ],
+    "3": [
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"추론 지연시간 68% 단축\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"RAM 점유율 1.8GB 유지\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"한국어 문해력 94.2점\" uses letter-spacing -0.046em; the Korean standard is -0.025em.",
+        "detail": null
+      }
+    ],
+    "4": [
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"4-bit 가중치 양자화\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"정확도 손실 0.3% 미만\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"STEP 2: KV PRUNING\" has 4.1:1 contrast on #FFFFFF (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"동적 토큰 압축\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"컨텍스트 메모리 60% 절감\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"STEP 3: NPU RUNTIME\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"모바일 칩셋 가속\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"배터리 전력 소모 55% 개선\" uses letter-spacing -0.063em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 활성화 인식 양자화 (Activation-aware Wei…\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"중요 가중치 채널을 보존하여 4-bit 환경에서도 한국어 문맥…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ NPU 하드웨어 친화적 커널 퓨전 (Kernel Fusio…\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"✓ NPU 하드웨어 친화적 커널 퓨전 (Kernel Fusio…\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"메모리 I/O 병목을 제거하여 모바일 디바이스의 발열과 전력 …\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      }
+    ],
+    "5": [
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 추론 속도 및 반응성 (Latency & Throughpu…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"첫 토큰 생성(TTFT): 140ms ➔ 42ms (68% 단…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"초당 생성 토큰 수: 11.2 ➔ 38.5 tokens/s\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"최대 컨텍스트 길이: 8K 토큰 무손실 지원\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 자원 효율성 및 정확도 (Efficiency & Quali…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"✓ 자원 효율성 및 정확도 (Efficiency & Quali…\" has 3.77:1 contrast on #FFFFFF (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"피크 메모리 사용량: 5.4GB ➔ 1.8GB (66% 절감)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"Ko-Harness 벤치마크: 88.4점 ➔ 94.2점 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"시간당 배터리 소모율: 4.2% 수준 극저치 유지\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      }
+    ],
+    "6": [
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"01. 4-bit AWQ + KV 캐시 프루닝 실증\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"정확도 저하 없이 메모리 66% 절감 및 모바일 RAM 1.8…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"02. 실시간 스트리밍 38.5 tok/s 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"첫 토큰 지연시간 42ms로 온디바이스 실시간 UX 완벽 지원\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"03. 오픈 연구 생태계 기여\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"사전 학습된 한국어 가중치 및 양자화 파이프라인 공개\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

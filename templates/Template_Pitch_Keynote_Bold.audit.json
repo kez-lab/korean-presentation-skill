@@ -1,0 +1,433 @@
+{
+  "deck": "templates/04_pitch_keynote_bold.md",
+  "slideCount": 6,
+  "counts": {
+    "error": 0,
+    "warn": 23,
+    "info": 6
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"시장 문제부터\n투자 제안까지 4챕터\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "korean-orphan",
+      "message": "\"• 시트당 구독료 + 토큰 하이브리드 BM\n• Series A…\" strands \"확장\" alone on its last line. Rebalance the break or widen the container.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"글로벌 테크 유니콘 및 스타트업 중심 유기적 유입\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"매월 24%의 복합 성장률(MoM) 기반 고속 스케일업 달성\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"2028년까지 연평균 26.5% 성장하는 초거대 시장 선점\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"개발자가 비즈니스 핵심 로직에만 집중할 수 있는 오토노머스 환…\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 코드 작성 속도 10x 가속\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ PR 리뷰 시간 80% 단축\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 회귀 버그 발생률 0% 수렴\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ B2B 엔터프라이즈 구독 (SaaS)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"시트당 월간 구독료: $49/월 (연간 계약 기준)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"온프레미스 격리 에디션: 계정당 연 $120K\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"계약 유지율(Gross Retention): 98.5% 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 사용량 기반 토큰 과금 (Usage-Based)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"고난도 리팩토링 및 CI 빌드 토큰 종량제\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"엔터프라이즈 월평균 추가 과금: 기본료의 1.8배\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"순매출 유지율(NRR): 155% (최상위 SaaS 지표)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"01. Series A $5M 펀딩 목표\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"R&D AI 연구진 20명 확보 및 북미 세일즈 거점 설립\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"02. 2027년 목표 ARR $20M 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"포춘 500 기업 15% 침투 및 글로벌 개발자 100만 명 …\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"03. 독보적인 기술 해자(Moat) 구축\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"자체 멀티에이전트 오케스트레이션 특허 8건 출원 완료\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"시장 문제부터\n투자 제안까지 4챕터\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "korean-orphan",
+        "message": "\"• 시트당 구독료 + 토큰 하이브리드 BM\n• Series A…\" strands \"확장\" alone on its last line. Rebalance the break or widen the container.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "3": [
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"글로벌 테크 유니콘 및 스타트업 중심 유기적 유입\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"매월 24%의 복합 성장률(MoM) 기반 고속 스케일업 달성\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"2028년까지 연평균 26.5% 성장하는 초거대 시장 선점\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "4": [
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"개발자가 비즈니스 핵심 로직에만 집중할 수 있는 오토노머스 환…\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 코드 작성 속도 10x 가속\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ PR 리뷰 시간 80% 단축\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 회귀 버그 발생률 0% 수렴\" uses letter-spacing -0.050em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 4,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "5": [
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ B2B 엔터프라이즈 구독 (SaaS)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"시트당 월간 구독료: $49/월 (연간 계약 기준)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"온프레미스 격리 에디션: 계정당 연 $120K\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"계약 유지율(Gross Retention): 98.5% 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 사용량 기반 토큰 과금 (Usage-Based)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"고난도 리팩토링 및 CI 빌드 토큰 종량제\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"엔터프라이즈 월평균 추가 과금: 기본료의 1.8배\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"순매출 유지율(NRR): 155% (최상위 SaaS 지표)\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "6": [
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"01. Series A $5M 펀딩 목표\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"R&D AI 연구진 20명 확보 및 북미 세일즈 거점 설립\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"02. 2027년 목표 ARR $20M 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"포춘 500 기업 15% 침투 및 글로벌 개발자 100만 명 …\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"03. 독보적인 기술 해자(Moat) 구축\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"자체 멀티에이전트 오케스트레이션 특허 8건 출원 완료\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

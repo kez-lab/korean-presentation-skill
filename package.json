@@ -1,20 +1,22 @@
 {
   "name": "korean-presentation-skill",
-  "version": "2.4.0",
-  "description": "Autonomous AI Agent Skill for generating Korean typography-optimized, consulting-grade presentations (.pptx), PDFs, and slide renders",
-  "main": "skills/korean-presentation-skill/scripts/marp_compiler.js",
+  "version": "3.0.0",
+  "description": "HTML-first presentation engine for AI agents: renders Korean-typography-optimized decks to a reviewable HTML preview, audits the real laid-out geometry, then converts the approved layout into a native, fully editable .pptx",
+  "main": "skills/korean-presentation-skill/scripts/build_deck.js",
   "bin": {
-    "korean-deck": "skills/korean-presentation-skill/scripts/marp_compiler.js"
+    "korean-deck": "skills/korean-presentation-skill/scripts/build_deck.js"
   },
   "scripts": {
-    "build": "node skills/korean-presentation-skill/scripts/marp_compiler.js",
-    "build:templates": "node scripts/compile_all_templates.js",
-    "build:example": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/afsm/afsm_presentation.md examples/afsm Afsm_Presentation",
+    "preview": "node skills/korean-presentation-skill/scripts/build_deck.js",
+    "approve": "node skills/korean-presentation-skill/scripts/build_deck.js --approve --pdf --png",
+    "build": "node skills/korean-presentation-skill/scripts/build_deck.js",
+    "build:examples": "node scripts/build_examples.js",
     "create": "node scripts/create_presentation.js",
+    "validate": "node skills/korean-presentation-skill/scripts/pptx_validator.js",
+    "extract": "node skills/korean-presentation-skill/scripts/pptx_extractor.js",
     "verify": "node scripts/verify_all.js",
     "test": "node scripts/verify_all.js",
-    "gallery": "node scripts/generate_gallery_viewer.js",
-    "build:agentic": "node skills/korean-presentation-skill/scripts/marp_compiler.js examples/agentic_workflow/agentic_workflow_presentation.md examples/agentic_workflow Agentic_Workflow_Presentation"
+    "gallery": "node scripts/generate_gallery_viewer.js"
   },
   "keywords": [
     "ai-agent",
@@ -25,12 +27,21 @@
     "korean-presentation",
     "pptx-generator",
     "marp-cli",
-    "ui-ux"
+    "ui-ux",
+    "html-to-pptx",
+    "pptx-native",
+    "slide-audit",
+    "accessibility",
+    "wcag"
   ],
   "author": "Kez <kejprogramer0909@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.0.0",
-    "pptxgenjs": "^4.0.1"
+    "@marp-team/marp-core": "^4.4.0",
+    "pptxgenjs": "^4.0.1",
+    "puppeteer-core": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

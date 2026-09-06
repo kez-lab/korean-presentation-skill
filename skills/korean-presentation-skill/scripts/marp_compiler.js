@@ -1,53 +1,39 @@
 #!/usr/bin/env node
+'use strict';
+
 /**
- * Korean Presentation Skill: Unified Marp Compiler
- * Compiles Markdown presentations into native PPTX, print-ready PDF (with speaker notes), and 1920x1080 slide PNGs.
+ * DEPRECATED — kept so existing commands keep working.
+ *
+ * The original implementation shelled out to marp-cli, whose PPTX export writes
+ * one flattened background image per slide with an empty shape tree: no
+ * editable text, no search, no screen-reader access, and ~7x the file size.
+ *
+ * This shim forwards to the HTML-first pipeline, which produces the same
+ * artifacts with native, editable PPTX text. Prefer calling build_deck.js
+ * directly so you get the review + audit stage.
+ *
  * Usage: node marp_compiler.js <input.md> [output_dir] [base_name]
  */
 
-const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 
-const inputMd = process.argv[2];
-const outputDir = process.argv[3] || process.cwd();
-const baseName = process.argv[4] || path.basename(inputMd, path.extname(inputMd));
+const [input, outDir, baseName] = process.argv.slice(2);
 
-if (!inputMd || !fs.existsSync(inputMd)) {
-  console.error("Usage: node marp_compiler.js <input.md> [output_dir] [base_name]");
+if (!input) {
+  console.error('Usage: node marp_compiler.js <input.md> [output_dir] [base_name]');
   process.exit(1);
 }
 
-fs.mkdirSync(outputDir, { recursive: true });
+console.warn(
+  '[deprecated] marp_compiler.js now delegates to build_deck.js.\n' +
+    '             Use:  node build_deck.js <deck.md> --out DIR            (review stage)\n' +
+    '                   node build_deck.js <deck.md> --out DIR --approve  (emit PPTX)\n'
+);
 
-const pptxPath = path.join(outputDir, `${baseName}.pptx`);
-const pdfPath = path.join(outputDir, `${baseName}.pdf`);
-const imgDir = path.join(outputDir, 'slides_preview');
-fs.mkdirSync(imgDir, { recursive: true });
+const args = [path.join(__dirname, 'build_deck.js'), input, '--approve', '--pdf', '--png', '--force'];
+if (outDir) args.push('--out', outDir);
+if (baseName) args.push('--name', baseName);
 
-// Check for custom themes directory
-const rootThemesDir = path.resolve(__dirname, '../../../themes');
-const localThemesDir = path.resolve(process.cwd(), 'themes');
-let themeArg = '';
-
-if (fs.existsSync(localThemesDir)) {
-  themeArg = `--theme-set "${localThemesDir}"`;
-} else if (fs.existsSync(rootThemesDir)) {
-  themeArg = `--theme-set "${rootThemesDir}"`;
-}
-
-console.log(`[KoreanPresentationSkill] Compiling ${inputMd}...`);
-
-// 1. Generate native PPTX
-execSync(`npx @marp-team/marp-cli --no-stdin "${inputMd}" -o "${pptxPath}" --allow-local-files ${themeArg}`, { stdio: ['ignore', 'inherit', 'inherit'] });
-
-// 2. Generate vector PDF (with notes enabled)
-execSync(`npx @marp-team/marp-cli --no-stdin "${inputMd}" -o "${pdfPath}" --allow-local-files ${themeArg}`, { stdio: ['ignore', 'inherit', 'inherit'] });
-
-// 3. Generate 1920x1080 slide PNG images
-execSync(`npx @marp-team/marp-cli --no-stdin "${inputMd}" --images png -o "${imgDir}/slide.png" --allow-local-files ${themeArg}`, { stdio: ['ignore', 'inherit', 'inherit'] });
-
-console.log(`\nBuild complete successfully!`);
-console.log(`- PPTX: ${pptxPath}`);
-console.log(`- PDF:  ${pdfPath}`);
-console.log(`- PNGs: ${imgDir}/slide.*.png`);
+const res = spawnSync(process.execPath, args, { stdio: 'inherit' });
+process.exit(res.status === null ? 1 : res.status);

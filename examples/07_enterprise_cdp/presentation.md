@@ -106,6 +106,6 @@ style: |
   </div>
 </div>
 
-<div style="font-size: 0.75rem; color: #94A3B8; text-align: center; margin-top: 16px;">
+<div style="font-size: 0.75rem; color: #475569; text-align: center; margin-top: 16px;">
   TRUSTED BY 80+ GLOBAL ENTERPRISES ACROSS FINTECH, COMMERCE, AND MOBILITY
 </div>

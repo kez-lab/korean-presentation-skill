@@ -1,0 +1,363 @@
+{
+  "deck": "templates/02_business_clean_navy.md",
+  "slideCount": 6,
+  "counts": {
+    "error": 0,
+    "warn": 18,
+    "info": 6
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"시장 진입부터\n수익성 가속화까지 4단계\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"북미 및 일본 엔터프라이즈 고객사 120개사 확보 목표\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"계정 확장(Upsell) 및 크로스셀을 통한 LTV 극대화\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"운영 자동화 파이프라인 도입을 통한 마진 구조 개선\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 3,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 4,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 고객 획득 및 회수 기간 (Payback)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"고객 획득 비용(CAC): $14.5K ➔ $7.9K (45%…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"CAC 투자금 회수 기간: 14개월 ➔ 6.5개월 단축\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"세일즈 리드 타임: 평균 45일 내 본 계약 체결\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"✓ 고객 생애 가치 (LTV / CAC Ratio)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"고객 생애 가치(LTV): 평균 $38,000 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"LTV / CAC 비율: 4.8x (SaaS 벤치마크 3.0x…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"연간 로고 이탈률(Churn): 1.8% 미만 극저치 유지\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 5,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"01. 글로벌 엔터프라이즈 GTM 선점\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"북미 및 일본 거점 120개 고객사 확보로 ARR 3.2배 견…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"02. 유닛 이코노믹스 고도화\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"CAC 45% 절감 및 LTV/CAC 4.8x 달성으로 영업이…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"03. 지속 가능한 NRR 142% 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"부서 단위 확장 및 크로스셀 파이프라인으로 장기 락인 효과 극…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 6,
+      "level": "info",
+      "rule": "gradient-approximated",
+      "message": "Slide background gradient flattened to a solid fill in PPTX.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"시장 진입부터\n수익성 가속화까지 4단계\" uses letter-spacing -0.051em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "3": [
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"북미 및 일본 엔터프라이즈 고객사 120개사 확보 목표\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"계정 확장(Upsell) 및 크로스셀을 통한 LTV 극대화\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"운영 자동화 파이프라인 도입을 통한 마진 구조 개선\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 3,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "4": [
+      {
+        "slide": 4,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "5": [
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 고객 획득 및 회수 기간 (Payback)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"고객 획득 비용(CAC): $14.5K ➔ $7.9K (45%…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"CAC 투자금 회수 기간: 14개월 ➔ 6.5개월 단축\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"세일즈 리드 타임: 평균 45일 내 본 계약 체결\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"✓ 고객 생애 가치 (LTV / CAC Ratio)\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"고객 생애 가치(LTV): 평균 $38,000 달성\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"LTV / CAC 비율: 4.8x (SaaS 벤치마크 3.0x…\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"연간 로고 이탈률(Churn): 1.8% 미만 극저치 유지\" uses letter-spacing -0.058em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 5,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ],
+    "6": [
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"01. 글로벌 엔터프라이즈 GTM 선점\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"북미 및 일본 거점 120개 고객사 확보로 ARR 3.2배 견…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"02. 유닛 이코노믹스 고도화\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"CAC 45% 절감 및 LTV/CAC 4.8x 달성으로 영업이…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"03. 지속 가능한 NRR 142% 달성\" uses letter-spacing -0.049em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"부서 단위 확장 및 크로스셀 파이프라인으로 장기 락인 효과 극…\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 6,
+        "level": "info",
+        "rule": "gradient-approximated",
+        "message": "Slide background gradient flattened to a solid fill in PPTX.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

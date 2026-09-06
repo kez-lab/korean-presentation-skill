@@ -7,6 +7,7 @@
  */
 
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const { execSync } = require('child_process');
 
@@ -19,11 +20,8 @@ if (!inputPptx || !fs.existsSync(inputPptx)) {
 
 console.log(`[PPTX Validator] Auditing ${inputPptx}...`);
 
-const tempDir = path.join(process.cwd(), '.temp_pptx_val');
-if (fs.existsSync(tempDir)) {
-  fs.rmSync(tempDir, { recursive: true, force: true });
-}
-fs.mkdirSync(tempDir, { recursive: true });
+// Unpack into the OS temp area, never into the user's working directory.
+const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'kps-pptx-val-'));
 
 let issues = [];
 
@@ -70,9 +68,23 @@ try {
   // 3. Scan slide XMLs for common corruption patterns
   if (fs.existsSync(slidesDir)) {
     const slideFiles = fs.readdirSync(slidesDir).filter(f => f.endsWith('.xml'));
-    
+    let rasterOnly = 0;
+
     slideFiles.forEach(sf => {
       const xml = fs.readFileSync(path.join(slidesDir, sf), 'utf-8');
+
+      // Editability: a slide whose whole content is a background image has no
+      // real text, so it cannot be edited, searched, translated, or read by a
+      // screen reader. This is the exact failure mode of image-export decks.
+      const textRuns = (xml.match(/<a:t>/g) || []).length;
+      const hasBgImage = /<p:bg>[\s\S]*?<a:blipFill/.test(xml);
+      if (textRuns === 0) {
+        rasterOnly++;
+        issues.push(
+          `ERROR in ${sf}: No text runs found` +
+            (hasBgImage ? ' — the slide is a flattened background image (not editable, not searchable, not accessible).' : ' — the slide has an empty shape tree.')
+        );
+      }
       
       // Check for illegal hash in hex colors (e.g. srgbClr val="#FF0000")
       if (/val="#[0-9A-Fa-f]{6}"/.test(xml)) {
@@ -89,6 +101,13 @@ try {
         });
       }
     });
+
+    if (rasterOnly && rasterOnly === slideFiles.length) {
+      issues.push(
+        `CRITICAL: All ${slideFiles.length} slides are raster-only. Rebuild with ` +
+          'build_deck.js --approve to produce a native, editable deck.'
+      );
+    }
   }
 
   console.log('----------------------------------------------------');

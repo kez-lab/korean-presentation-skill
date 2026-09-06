@@ -97,7 +97,7 @@ style: |
   </div>
 </div>
 
-<div style="font-size: 0.72rem; color: #52525B;">
+<div style="font-size: 0.72rem; color: #8B8B93;">
   CONFIDENTIAL • FOR PRIVATE VIP COLLECTORS ONLY
 </div>
 

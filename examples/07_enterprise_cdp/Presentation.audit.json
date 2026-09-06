@@ -1,0 +1,257 @@
+{
+  "deck": "examples/07_enterprise_cdp/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 16,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"01. 단일 고객 ID 실시간 매핑\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"결제, 웹로그, CS 상담 기록을 50ms 내 실시간 병합\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"02. AI 자동 세그먼트 생성\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"이탈 확률 80% 이상 VIP 고객 자동 선별 및 트리거 발송\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"03. 200+ 엔터프라이즈 커넥터\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"Salesforce, Snowflake, AWS와 노코드 즉시…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"80여 개 대기업 실증 완료\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 37 characters; aim for a full spoken paragraph.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"실시간 데이터 스트리밍\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"초당 50만 건의 트래픽을 지연 없이 처리하는 Apache F…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "korean-orphan",
+      "message": "\"초당 50만 건의 트래픽을 지연 없이 처리하는 Apache F…\" strands \"엔진\" alone on its last line. Rebalance the break or widen the container.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"AI 행동 예측 세그먼트\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"고객 생애 가치(LTV)와 이탈 확률을 실시간으로 추론하여 마…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"글로벌 보안 컴플라이언스\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"GDPR, SOC2 Type II, PIPA를 완벽히 준수하는…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "korean-orphan",
+      "message": "\"GDPR, SOC2 Type II, PIPA를 완벽히 준수하는…\" strands \"체계\" alone on its last line. Rebalance the break or widen the container.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "missing-notes",
+      "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"01. 단일 고객 ID 실시간 매핑\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"결제, 웹로그, CS 상담 기록을 50ms 내 실시간 병합\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"02. AI 자동 세그먼트 생성\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"이탈 확률 80% 이상 VIP 고객 자동 선별 및 트리거 발송\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"03. 200+ 엔터프라이즈 커넥터\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"Salesforce, Snowflake, AWS와 노코드 즉시…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"80여 개 대기업 실증 완료\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 37 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"실시간 데이터 스트리밍\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"초당 50만 건의 트래픽을 지연 없이 처리하는 Apache F…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "korean-orphan",
+        "message": "\"초당 50만 건의 트래픽을 지연 없이 처리하는 Apache F…\" strands \"엔진\" alone on its last line. Rebalance the break or widen the container.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"AI 행동 예측 세그먼트\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"고객 생애 가치(LTV)와 이탈 확률을 실시간으로 추론하여 마…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"글로벌 보안 컴플라이언스\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"GDPR, SOC2 Type II, PIPA를 완벽히 준수하는…\" uses letter-spacing -0.057em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "korean-orphan",
+        "message": "\"GDPR, SOC2 Type II, PIPA를 완벽히 준수하는…\" strands \"체계\" alone on its last line. Rebalance the break or widen the container.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "missing-notes",
+        "message": "No speaker notes. Add an HTML comment starting with \"note:\" to this slide.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

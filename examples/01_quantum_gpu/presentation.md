@@ -71,7 +71,15 @@ style: |
   }
   .circuit-line { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
   .gate { background: #1E293B; border: 1px solid #00F0FF; color: #FFF; padding: 2px 8px; border-radius: 4px; font-weight: 700; }
-  
+
+  /* Marp's default theme paints table cells white and zebra-stripes them with
+     #F6F8FA. On this dark canvas that rendered the light body text at ~1.2:1 —
+     effectively invisible. Force the table into the deck's own palette. */
+  table { background: transparent; border-collapse: collapse; }
+  thead tr, tbody tr, tr:nth-child(2n) { background: transparent !important; }
+  tbody tr:nth-child(2n) { background: #0B1220 !important; }
+  th, td { background: transparent !important; border-color: #1E293B !important; color: #E2E8F0; }
+
   footer { display: none; }
 ---
 

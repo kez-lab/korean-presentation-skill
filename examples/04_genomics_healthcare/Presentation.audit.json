@@ -1,0 +1,59 @@
+{
+  "deck": "examples/04_genomics_healthcare/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 2,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"불응성 고형암 환자 500례 대상 10x Genomics 단일…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"84.2%\" has 2.54:1 contrast on #FFFFFF (needs 3:1).",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 38 characters; aim for a full spoken paragraph.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"불응성 고형암 환자 500례 대상 10x Genomics 단일…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"84.2%\" has 2.54:1 contrast on #FFFFFF (needs 3:1).",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 38 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

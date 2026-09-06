@@ -1,0 +1,103 @@
+{
+  "deck": "examples/01_quantum_gpu/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 5,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"JetBrains Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"물리 큐비트 노이즈를 텐서 코어 실시간 역전파로 보정하는 HP…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "letter-spacing",
+      "message": "\"Classical HPC Supercomputer 대비\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 39 characters; aim for a full spoken paragraph.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"JetBrains Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"* Tested on 64x NVIDIA H100 GPU Cl…\" has 4.08:1 contrast on #080D1A (needs 4.5:1).",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"JetBrains Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"물리 큐비트 노이즈를 텐서 코어 실시간 역전파로 보정하는 HP…\" uses letter-spacing -0.048em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "letter-spacing",
+        "message": "\"Classical HPC Supercomputer 대비\" uses letter-spacing -0.060em; the Korean standard is -0.025em.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 39 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"JetBrains Mono\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"* Tested on 64x NVIDIA H100 GPU Cl…\" has 4.08:1 contrast on #080D1A (needs 4.5:1).",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}

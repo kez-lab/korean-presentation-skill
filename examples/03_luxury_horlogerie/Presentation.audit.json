@@ -1,0 +1,75 @@
+{
+  "deck": "examples/03_luxury_horlogerie/presentation.md",
+  "slideCount": 2,
+  "counts": {
+    "error": 0,
+    "warn": 3,
+    "info": 1
+  },
+  "findings": [
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"Cormorant Garamond\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "warn",
+      "rule": "low-contrast",
+      "message": "\"SWISS HANDMADE • LIMITED 500 PIECE…\" has 4.02:1 contrast on #0D0D0E (needs 4.5:1).",
+      "detail": null
+    },
+    {
+      "slide": 1,
+      "level": "info",
+      "rule": "thin-notes",
+      "message": "Speaker notes are only 35 characters; aim for a full spoken paragraph.",
+      "detail": null
+    },
+    {
+      "slide": 2,
+      "level": "warn",
+      "rule": "unsafe-font",
+      "message": "Font \"Cormorant Garamond\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+      "detail": null
+    }
+  ],
+  "findingsBySlide": {
+    "1": [
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"Cormorant Garamond\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "warn",
+        "rule": "low-contrast",
+        "message": "\"SWISS HANDMADE • LIMITED 500 PIECE…\" has 4.02:1 contrast on #0D0D0E (needs 4.5:1).",
+        "detail": null
+      },
+      {
+        "slide": 1,
+        "level": "info",
+        "rule": "thin-notes",
+        "message": "Speaker notes are only 35 characters; aim for a full spoken paragraph.",
+        "detail": null
+      }
+    ],
+    "2": [
+      {
+        "slide": 2,
+        "level": "warn",
+        "rule": "unsafe-font",
+        "message": "Font \"Cormorant Garamond\" is not installed on stock PowerPoint and will be substituted. Add a safe fallback.",
+        "detail": null
+      }
+    ]
+  },
+  "passed": true,
+  "strict": false
+}
